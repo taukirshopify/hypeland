@@ -1,0 +1,175 @@
+
+
+
+<div class="menu-scroll">
+  <div class="subscribe-wrap">
+      <p class="header-text">{{ section.settings.news }}</p>
+      <div class="klaviyo-form-YmN9K9 classA" ></div>
+      {% if shop.customer_accounts_enabled %}
+      <a href="{{ routes.account_url }}" id="sing_up" class="ot-btn btn-fw">Sign Up</a>
+    {% endif %}
+  </div>
+  <div class="ot-menu-inner">
+      <div class="ot-mobile-menu">
+          <h5 class="header-title">{{ section.settings.mobile1 }}</h5>
+          <ul>
+            {% assign footer_menu_4 = section.settings.main-menu %}
+            {% for link in linklists[footer_menu_4].links %}
+      
+      
+              {% assign child_list_handle = link.title | handleize %}
+                          
+              {% if linklists[child_list_handle].links != blank %}
+      
+      
+          
+              <li class="menu-item-hot-children">
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+      
+                 
+      
+      
+                  <ul class="sub-menu">
+                      {% for childlink in linklists[child_list_handle].links %}
+      
+                          {% assign grand_child_link_handle = childlink.title | handleize %}
+                            {% if linklists[grand_child_link_handle] and linklists[grand_child_link_handle].links.size > 0 %}
+      
+                              <li><a href="{{ childlink.url }}">{{ childlink.title }}</a>
+                                <ul>
+                                      {% for grand_child_link in linklists[grand_child_link_handle].links %}
+                                          <li class="tas"><a href="{{ grand_child_link.url }}">{{ grand_child_link.title }}/a></li>
+                                      {% endfor %}
+                                   </ul>
+                              <li>
+      
+                              {% else %}
+                                   <li><a href="{{ childlink.url }}">{{ childlink.title }}</a></li>
+                            {% endif %}
+                      {% endfor %}
+                  </ul>
+              </li>
+      
+      
+      
+              
+      
+              {% else %}
+      
+              <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+              {% endif %}
+            {%- endfor -%}
+          </ul>
+      </div>
+  </div>
+  <div class="ot-menu-inner">
+      <div class="ot-mobile-menu">
+          <h5 class="header-title">{{section.settings.mobile2}}</h5>
+          <ul>
+            {% assign footer_menu_5 = section.settings.main-menu2 %}
+            {% for link in linklists[footer_menu_5].links %}
+      
+      
+              {% assign child_list_handle = link.title | handleize %}
+                          
+              {% if linklists[child_list_handle].links != blank %}
+      
+      
+          
+              <li class="menu-item-hot-children">
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+      
+                 
+      
+      
+                  <ul class="sub-menu">
+                      {% for childlink in linklists[child_list_handle].links %}
+      
+                          {% assign grand_child_link_handle = childlink.title | handleize %}
+                            {% if linklists[grand_child_link_handle] and linklists[grand_child_link_handle].links.size > 0 %}
+      
+                              <li><a href="{{ childlink.url }}">{{ childlink.title }}</a>
+                                <ul>
+                                      {% for grand_child_link in linklists[grand_child_link_handle].links %}
+                                          <li class="tas"><a href="{{ grand_child_link.url }}">{{ grand_child_link.title }}/a></li>
+                                      {% endfor %}
+                                   </ul>
+                              <li>
+      
+                              {% else %}
+                                   <li><a href="{{ childlink.url }}">{{ childlink.title }}</a></li>
+                            {% endif %}
+                      {% endfor %}
+                  </ul>
+              </li>
+      
+      
+      
+              
+      
+              {% else %}
+      
+              <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+              {% endif %}
+            {%- endfor -%}
+          </ul>
+      </div>
+      <div class="social-box">
+          <span class="header-text">follow us</span>
+          <div class="header-social">
+              <div class="ot-social">
+                    {% if settings.facebook != blank %}
+                      <a target="_blank" href="{{settings.facebook}}">
+                        {% render 'facebook' %}
+                      </a>
+                    {% endif %}
+                    {% if settings.instagram != blank %}
+                  <a target="_blank" href="{{settings.instagram}}">
+
+                        {% render 'instagram' %}
+
+                  </a>
+                {% endif %}
+                {% if settings.twitter != blank %}
+                  <a target="_blank" href="https://twitter.com/">
+
+                    {% render 'twitter' %}
+                  
+                  
+              </a>
+            {% endif %}
+
+            {% if settings.ticktok != blank %}
+                  <a target="_blank" href="https://ticktok.com/">
+                    
+                 {% render 'tiktok' %}
+                
+                
+                </a>
+              {% endif %}
+                {% if settings.discord != blank %}
+                  <a target="_blank" href="{{ settings.discord}}">
+                  
+                  {% render 'discord' %}
+                  
+                  </a>
+                {% endif %}
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<script>
+
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    if (jQuery('.tes')) {
+       jQuery('.tas').parent('ul').addClass('mega-menu');
+     jQuery('.tas').parent('ul').parent().addClass('megamenuwrap');
+   jQuery('.tas').parent('ul').removeClass('sub-menu');
+    } 
+    });
+    
+</script>

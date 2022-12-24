@@ -1,0 +1,201 @@
+<section class="space-bottom">
+    <div class="container">
+       
+                
+        <div class="row align-items-center" >
+    
+          <div class="col-10" >
+            <h2 class="sec-title-2">{{ section.settings.title }}</h2>
+          </div>
+          <div class="col-2 " >
+            <div class="arrow-group d-flex align-items-center justify-content-end ">
+               <div id="nextr">
+                <i class="far fa-chevron-left"></i>
+               
+               </div>
+               <div id="prevr">
+                <i class="far fa-chevron-right"></i>
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="productSlide2">
+         
+        
+            <!-- single-product start -->
+            
+            {% for product in section.blocks %}
+            <div class="col-6">
+                <div class="recommend-product">
+                    <div class="product-img">
+                        {% render 'lazy' %}
+                        {% if product.settings.url01 != blank %}
+                                <a href="{{ product.settings.url01 }}">           
+           
+                                
+                                  <img data-lazy=" {{ product.settings.image |  img_url:'' }}" style="">
+                                
+                                
+                                </a>
+                                {% endif %}
+                                 {% if product.settings.url02 != blank %}
+                                    
+                              
+                            <a href="{{ product.settings.url02 }}">   
+                              
+                            <img data-lazy=" {{ product.settings.image |  img_url:'' }}" style="">
+                            </a>
+                        {% endif %}
+         
+                    </div>
+                    <h3 class="product-title style2">
+                        
+                        <a href="{{ product.settings.urlmain }}">{{ product.settings.title }}</a>
+                
+                </h3>
+
+                    <a href="{{ product.settings.urlmain }}" class="ot-btn style2">{{ product.settings.shoptext  }}</a>
+
+ 
+                </div>
+            </div>
+           {% endfor %}
+        </div>
+    </div>
+</section>
+{% schema %}
+    {
+        "name": "Recommended Collection",
+        "class": "Featured",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Section title",
+                "default": "recommended Collection",
+                "placeholder": "recommended Collection"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "collection",
+                "name": "Collection",
+                "settings": [
+                     {
+                        "type": "url",
+                        "id": "url01",
+                        "label": "First Image url"
+                     },
+                     {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "First Image"
+                     },
+                     {
+                        "type": "url",
+                        "id": "url02",
+                        "label": "First Image url"
+                     },
+                     {
+                        "type": "image_picker",
+                        "id": "image01",
+                        "label": "First Image"
+                     },
+                      {
+                        "type": "url",
+                        "id": "urlmain",
+                        "label": "Select your url"
+                      },
+                      {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Collection title",
+                        "default": "Hypland x dragon ball",
+                        "placeholder": "Hypland x dragon ball"
+                      },
+                      {
+                        "type": "text",
+                        "id": "shoptext",
+                        "label": "Shop text",
+                        "default": "shop now",
+                        "placeholder": "shop now"
+                      }
+                ]
+            }
+        ],
+        "presets": [
+            {
+              "name": "G RECOMMENDED Collection"
+            }
+            ]
+    }
+{% endschema %}
+
+<style>
+  .arrow-group{
+    font-size:25px;
+  }
+  div#nextr {
+    margin-right: 21px;
+}
+  .sec-title-2{
+   padding:25px 0;
+  }
+    @media (min-width: 300px) and (max-width: 1299px) { 
+    button.hello.slick-arrow {
+        display: none;
+    }
+ }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+        $('#productSlide2').slick({
+            dots: false,
+            arrows: false,
+            prevArrow: '<button class="hello prev-arrow"> <img src="https://cdn.shopify.com/s/files/1/0607/3997/7365/files/back_arrow_icon_44f690c0-e36b-49bf-a351-e635969d3dfd.png?v=1669535138" alt=""></button>',
+            nextArrow: '<button class="hello next-arrow"> <img src="https://cdn.shopify.com/s/files/1/0607/3997/7365/files/forward_arrow_icon_9e17320c-439c-435e-b511-0b1b4a9d4c57.png?v=1669535215" alt=""></button>',
+            infinite: true,
+            speed: 800,
+            lazyLoad: 'ondemand',
+            swipeToSlide: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            responsive: [
+              {
+                breakpoint: 1025,
+                settings: {
+                  slidesToShow: 2,
+                }
+              },
+              {
+                breakpoint: 992,
+                settings: {
+                  slidesToShow: 1,
+                }
+              }
+            ]
+          }).on('lazyLoaded', function(event, slick, image, imageSource) {
+            slick.resize();
+          });
+   
+
+          $('#nextr').click(function(){
+            $("#productSlide2").slick('slickNext');
+        }); // next button
+        
+        $('#prevr').click(function(){
+            $("#productSlide2").slick('slickPrev');
+        }); // previous button
+
+
+
+
+    });
+    $('img[data-lazy]').one('load', function(e) {
+        if (this.complete) {
+            $(this).parent().siblings('.ajax-loader').remove();
+        }
+      });
+</script>

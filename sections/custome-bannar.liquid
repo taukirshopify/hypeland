@@ -1,0 +1,235 @@
+
+
+<!--==============================
+    Featured Area
+============================== -->
+<section class="space-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="featured-slide-area">
+                    <div class="row gx-0" id="featuredSlide">
+                        {% for block in section.blocks %} 
+                              
+
+
+                        {% if block.type == 'video' %}
+
+                            <div class="">
+                                <div class="ot-video">
+                                    {% comment %} <video width="100%" height="100%" controls>
+                                        <source src="{{ block.settings.video }}" type="video/mp4">
+                                        Your browser does not support the video tag. {% endcomment %}
+                               
+                        
+                                        <video id='video' controls="controls" controls autoplay muted preload='none' width="100%" poster="{{block.settings.image | img_url:'' }}">
+                                          <source id='mp4' src="{{ block.settings.video }}" type='video/mp4' />
+                                        </video>
+                                </div>
+                            </div>
+
+                            {% elsif block.type == 'image' %}
+                            <div class="">
+                                
+                                <div class="d-flex">
+                                    
+                                    <div class="featured-img">
+                                        <img src="{{block.settings.image | img_url:'' }}" alt="product">
+                                    </div>
+                                    <div class="featured-img">
+                                        <img src="{{block.settings.image1 | img_url:'' }}" alt="product">
+                                    </div>
+    
+                                </div>
+                            </div>
+
+
+                        {% endif %}
+                    
+ 
+
+
+                       {% endfor %}
+
+                    </div>
+                    <div class="slider-nav-wrap d-none d-lg-block ">
+                        <div class="slider-nav">
+                            <button data-slick-prev="#featuredSlide" class="nav-btn slick-arrow default">
+                       
+                                <i class="far fa-chevron-left"></i>
+                            </button>
+                            <div class="custom-dots"></div>
+                            <button data-slick-next="#featuredSlide" class="nav-btn slick-arrow default">
+                                <i class="far fa-chevron-right"></i>
+                                
+                                
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 align-self-end">
+                <div class="featured-content">
+                    {% for c in section.blocks %} 
+                    <div>
+                        <h2 class="h3 featured-title">{{ c.settings.h1 }}</h2>
+                        <p class="featured-text">{{ c.settings.p }}</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a href="{{ c.settings.url }}" class="ot-btn otan-bannar">{{ c.settings.shop }}</a>
+                        <div class="slider-nav-wrap p-0 d-lg-none">
+                            <div class="slider-nav">
+                                <button data-slick-prev="#featuredSlide" class="nav-btn slick-arrow default">
+                           
+                                    <i class="far fa-chevron-left"></i>
+                                </button>
+                                <div class="custom-dots"></div>
+                                <button data-slick-next="#featuredSlide" class="nav-btn slick-arrow default">
+                                    <i class="far fa-chevron-right"></i>
+                                    
+                                    
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                   {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+        "name": "Home Banner",
+        "class": "blog Banner",
+        "settings": [
+
+        ],
+        "blocks": [
+            {
+              "name": "Slide Image",
+              "type": "image",
+              "settings": [
+                {
+                  "type": "image_picker",
+                  "id": "image",
+                  "label": "Image"
+                },
+                {
+                  "type": "image_picker",
+                  "id": "image1",
+                  "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "h1",
+                    "label": "Section title",
+          
+               
+                    "placeholder": "Full hypland x yu yu hakusho collection is now live"
+                 },
+                 {
+                    "type": "text",
+                    "id": "p",
+                    "label": "Section Sub title",
+          
+               
+                    "placeholder": "modeled by artist cochise"
+                 },
+                 {
+                    "type": "url",
+                    "id": "url",
+                    "label": "Please select your the link"
+                 },  {
+                    "type": "text",
+                    "id": "shop",
+                    "label": "Section Button title",
+               
+                    "placeholder": "modeled by artist cochise"
+                 }
+              ]
+            },
+            {
+              "name": "Slide Video",
+              "type": "video",
+              "settings": [
+                {
+                    "type": "text",
+                    "id": "video",
+                    "label": "Video url",
+                    "default":"http://media.w3.org/2010/05/sintel/trailer.mp4",
+                    "placeholder": "url"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+   
+                    "label": "Image"
+                  },
+                {
+                    "type": "text",
+                    "id": "h1",
+                    "label": "Section title",
+          
+               
+                    "placeholder": "Full hypland x yu yu hakusho collection is now live"
+                 },
+                 {
+                    "type": "text",
+                    "id": "p",
+                    "label": "Section Sub title",
+          
+               
+                    "placeholder": "modeled by artist cochise"
+                 },
+                 {
+                    "type": "url",
+                    "id": "url",
+                    "label": "Please select your the link"
+                 },  {
+                    "type": "text",
+                    "id": "shop",
+                    "label": "Section Button title",
+               
+                    "placeholder": "modeled by artist cochise"
+                 }
+              ]
+            }
+         ],
+        "presets": [
+            {
+              "name": "G Slideshow"}
+            ]
+    }
+{% endschema %}
+
+
+
+
+
+
+<style>
+
+
+
+    button.nav-btn.slick-arrow.default {
+        border: none !important;
+        background: transparent !important;
+        width: auto;
+    }
+    button.nav-btn.slick-arrow.default:hover{
+        border: none;
+        background: transparent;
+    }
+    .ot-video video {
+        aspect-ratio: 16 / 11.97;
+    }
+    .slick-arrow i {
+        font-size: 23px;
+        line-height: 40px;
+        color: #000;
+    }
+
+</style>

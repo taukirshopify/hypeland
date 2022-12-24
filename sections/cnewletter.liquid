@@ -1,0 +1,41 @@
+<section class="subscribe-sec">
+    <div class="container">
+        <div class="text-center">
+            {% comment %} <h2 class="h3 mt-n2 mb-35">{{section.settings.section_title}}</h2>
+            {% form 'customer' ,class: 'newsletter-form'%}
+              {{ form.errors | default_errors }}
+              {% if form.posted_successfully? %}
+                <p>{{ 'general.newsletter_form.confirmation' | t }}</p>
+              {% else %}
+              <input type="hidden" name="contact[tags]" value="newsletter">
+                <input class="form-control" placeholder="your email" required="" type="email"
+                  name="contact[email]"
+                  id="Email"
+                  value="{% if customer.email != blank %}{{ customer.email }}{% endif %}"
+                 
+                  autocorrect="off"
+                  autocapitalize="off">
+                <button   type="submit" name="commit" id="Subscribe"><i class="far fa-long-arrow-right"></i></button>
+              {% endif %}
+            {% endform %} {% endcomment %}
+            <div class="klaviyo-form-ViAdWj"></div>
+        </div>
+    </div>
+</section>
+{% schema %}
+  {
+    "name": "Newsletter",
+    "settings": [
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Heading",
+        "default": "Subscribe to our newsletter"
+      }
+    ],
+    "presets": [{
+      "name": "C Newsletter"
+    
+    }]
+  }
+{% endschema %}

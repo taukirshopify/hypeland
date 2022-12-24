@@ -1,0 +1,60 @@
+<section class="subscribe-sec">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="h3 mt-n2 mb-35">{{ section.settings.he }}</h2>
+            <div class="klaviyo-form-ViAdWj"></div>
+        </div>
+    </div>
+</section>
+
+
+<style>
+   #shopify-section-custome-suscribe form{
+        justify-content: center;
+    }
+  .needsclick{
+  width: auto !important;
+}
+    #email_55588352 {
+        max-width: 450px !important;
+        width: 400px !important;
+        border-top:1px solid transparent !important;
+        border-left:1px solid transparent !important;
+        border-right:1px solid transparent !important;
+        border-bottom:1px solid #000 !important;
+        box-shadow: none !important;
+    }
+
+
+    @media (min-width: 300px) and (max-width: 450px) { 
+        #email_55588352 {
+            max-width: 400px !important;
+            width: 270px !important;
+           
+        }
+    }
+</style>
+
+
+
+{% schema %}
+    {
+        "name": "NEWSLETTER",
+        "class": "Featured",
+        "settings": [
+       {
+        "type": "text",
+        "id": "he",
+        "label": "Section title",
+        "default": "DON’T MISS ANY UPDATE JOIN OUR NEWSLETTER",
+
+        "placeholder": "DON’T MISS ANY UPDATE JOIN OUR NEWSLETTER"
+       }
+        ],
+        "presets": [
+            {
+              "name": "NEWSLETTER"
+            }
+            ]
+    }
+{% endschema %}

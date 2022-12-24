@@ -1,0 +1,147 @@
+<div class="popup-search-box d-none d-lg-block">
+  <button class="searchClose border-theme text-theme"><i class="fal fa-times"></i></button>
+  {% comment %} //// {% endcomment %}
+
+<div class="all-serach-wrpper">
+  <predictive-search>
+    <form action="{{ routes.search_url }}" method="get" role="search" class="custome-serach-new">
+      <label for="Search">Search</label>
+      <input
+        id="Search"
+        type="search"
+        name="q"
+        value="{{ search.terms | escape }}"
+        {%- if settings.predictive_search_enabled -%}
+          role="combobox"
+          aria-expanded="false"
+          aria-owns="predictive-search-results-list"
+          aria-controls="predictive-search-results-list"
+          aria-haspopup="listbox"
+          aria-autocomplete="list"
+          autocorrect="off"
+          autocomplete="off"
+          autocapitalize="off"
+          spellcheck="false"
+        {%- endif -%}
+      >
+      <input name="options[prefix]" type="hidden" value="last">
+  
+      {%- if settings.predictive_search_enabled -%}
+        <div id="predictive-search" tabindex="-1"></div>
+      {%- endif -%}
+    </form>
+  </predictive-search>
+  
+  {%- if predictive_search.performed -%}
+    <div id="predictive-search-results">
+      {%- if predictive_search.resources.products.size > 0 -%}
+        <h3 id="predictive-search-products" class="predictive-search__heading">
+          Products
+        </h3>
+      {%- endif -%}
+      <ul id="predictive-search-results-list" class="predictive-search__results-list" role="listbox" aria-labelledby="predictive-search-products">
+        {%- for product in predictive_search.resources.products -%}
+          <li class="predictive-search__list-item" role="option">
+            <a href="{{ product.url }}" class="predictive-search__item" tabindex="-1">
+              {%- if product.featured_media != blank -%}
+                <img class="predictive-search__image"
+                  src="{{ product.featured_media | img_url: '150x' }}"
+                  alt="{{ product.featured_media.alt }}"
+                  width="50"
+                  height="{{ 50 | divided_by: product.featured_media.preview_image.aspect_ratio }}"
+                >
+              {%- endif -%}
+              <div class="predictive-search__item-content">
+                {%- if settings.predictive_search_show_vendor -%}
+                  <span class="visually-hidden">Vendor</span>
+                  <div class="predictive-search__item-vendor">{{ product.vendor }}</div>
+                {%- endif -%}
+                <span class="predictive-search__item-heading">{{ product.title }}</span>
+                {%- if settings.predictive_search_show_price -%}
+                  {% comment %}Render price{% endcomment %}
+                {%- endif -%}
+              </div>
+            </a>
+          </li>
+        {%- endfor -%}
+        <li class="predictive-search__list-item" role="option">
+          <button class="predictive-search__item" tabindex="-1">
+            More “{{ predictive_search.terms }}”
+          </button>
+        </li>
+      </ul>
+    </div>
+  {%- endif -%}
+  
+
+</div>
+{% comment %} //// {% endcomment %}
+</div>
+
+
+
+<script>
+  class PredictiveSearch extends HTMLElement {
+    constructor() {
+      super();
+  
+      this.input = this.querySelector('input[type="search"]');
+      this.predictiveSearchResults = this.querySelector('#predictive-search');
+  
+      this.input.addEventListener('input', this.debounce((event) => {
+        this.onChange(event);
+      }, 300).bind(this));
+    }
+  
+    onChange() {
+      const searchTerm = this.input.value.trim();
+  
+      if (!searchTerm.length) {
+        this.close();
+        return;
+      }
+  
+      this.getSearchResults(searchTerm);
+    }
+  
+    getSearchResults(searchTerm) {
+      fetch(`/search/suggest?q=${searchTerm}&resources[type]=product&resources[limit]=4&section_id=predictive-search`)
+        .then((response) => {
+          if (!response.ok) {
+            var error = new Error(response.status);
+            this.close();
+            throw error;
+          }
+  
+          return response.text();
+        })
+        .then((text) => {
+          const resultsMarkup = new DOMParser().parseFromString(text, 'text/html').querySelector('#shopify-section-predictive-search').innerHTML;
+          this.predictiveSearchResults.innerHTML = resultsMarkup;
+          this.open();
+        })
+        .catch((error) => {
+          this.close();
+          throw error;
+        });
+    }
+  
+    open() {
+      this.predictiveSearchResults.style.display = 'block';
+    }
+  
+    close() {
+      this.predictiveSearchResults.style.display = 'none';
+    }
+  
+    debounce(fn, wait) {
+      let t;
+      return (...args) => {
+        clearTimeout(t);
+        t = setTimeout(() => fn.apply(this, args), wait);
+      };
+    }
+  }
+  customElements.define('predictive-search', PredictiveSearch);
+</script>
+

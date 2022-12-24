@@ -1,0 +1,71 @@
+<section class="bg-smoke">
+    <div class="container">
+        <div class="page-top space">
+            <h1 class="page-title">
+                {% if section.settings.h1 != blank %}
+                    {{ section.settings.h1 }}
+                {% endif %}
+               
+            
+            </h1>
+            <h2 class="h4 mb-5">
+                
+                {% if section.settings.h2 != blank %}
+                {{ section.settings.h2 }}
+                {% endif %}
+            </h2>
+            <form class="newsletter-form">
+                <input class="form-control" type="email" placeholder="your email" required="">
+                <button type="submit"><i class="far fa-long-arrow-right"></i></button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!--==============================
+Faq Area
+============================== -->
+
+{% schema %}
+    {
+        "name": "Faq",
+        "class": "faq",
+        "settings": [
+           {
+            "type": "text",
+            "id": "h1",
+            "label": "Section title",
+            "default": "FREQUENTLY ASCKED QUESTION",
+
+            "placeholder": "FREQUENTLY ASCKED QUESTION"
+           },
+           {
+            "type": "text",
+            "id": "h2",
+            "label": "Section sub title",
+            "default": "HAVE QUESTIONS? WE’RE HERE TO HELP",
+
+            "placeholder": "HAVE QUESTIONS? WE’RE HERE TO HELP"
+           }
+
+        ],
+        
+        
+        "presets": [
+            {
+              "name": "G Faq Bannar"
+            }
+            ]
+    }
+{% endschema %}
+
+
+
+<style>
+    .accordion-card p {
+        margin-bottom: 0;
+        font-size: 18px;
+        line-height: 31px;
+        text-transform: uppercase;
+    }
+</style>

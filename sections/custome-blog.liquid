@@ -1,0 +1,210 @@
+<section class="space-bottom overflow-hidden">
+    <div class="container">
+        <div class="border-bottom">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto">
+                    <h2 class="sec-title">{{ section.settings.h1 }}</h2>
+                </div>
+   
+            </div>
+        </div>
+        <div class="row mt-30 mt-lg-5 align-items-center justify-content-between">
+            <div class="col-auto">
+                <div class="sec-btn">
+                    <div class="nav blog-filter" role="tablist">
+
+
+                        {% for item in section.blocks %} 
+
+                        {% if forloop.index == 1 %}
+                                    
+                               
+                            <button class="tab-btn active" id="nav-one-tab-{{ forloop.index }}-{{section.id}}" data-bs-toggle="tab" data-bs-target="#nav-one-{{ forloop.index }}-{{section.id}}" type="button" role="tab" aria-controls="nav-one-{{ forloop.index }}-{{section.id}}" aria-selected="true">{{ item.settings.h1 }}</button>
+                        
+                            {% else %}
+                            <button class="tab-btn" id="nav-two-tab-{{ forloop.index }}-{{section.id}}" data-bs-toggle="tab" data-bs-target="#nav-two-{{ forloop.index }}-{{section.id}}" type="button" role="tab" aria-controls="nav-two-{{ forloop.index }}-{{section.id}}" aria-selected="false">{{ item.settings.h1 }}</button>
+                        {% endif %}
+
+                        {% endfor %}
+
+
+                          
+                         
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="tab-content blog-tab-area">
+            {% for item in section.blocks %} 
+
+            {% if forloop.index == 1 %}
+                        
+            <!-- Single item -->
+            <div class="tab-pane fade show active" id="nav-one-{{ forloop.index }}-{{section.id}}" role="tabpanel" aria-labelledby="nav-one-tab-{{ forloop.index }}-{{section.id}}">
+                <div class="row gy-40">
+                    {% assign blogs = blogs[item.settings.blog] %}
+                    
+                    {% for article in blogs.articles %} 
+    
+                     
+
+                        <div class="col-6 col-lg-4">
+                            <div class="blog-card">
+                                <div class="blog-img">
+                                 <a href="{{ article.url }}">
+                                    <img
+                                        srcset="{% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
+                                          {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
+                                          {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
+                                          {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
+                                          {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
+                                          {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
+                                          {{ article.image | image_url }} {{ article.image.width }}w"
+                                        sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                                        src="{{ article.image | image_url: width: 1100 }}"
+                                        loading="eager"
+                                        width="{{ article.image.width }}"
+                                        height="{{ article.image.height }}"
+                                        alt="{{ article.image.alt | escape }}">
+                                </a>
+                                    <a href="{{ article.url }}" class="category ot-btn">{% for tag in article.tags limit: 1 %}
+                                        {{ tag }}
+                                      {% endfor %}</a>
+                                </div>
+                                <div class="blog-content">
+                                    <h3 class="blog-title"><a href="{{ article.url }}">{{ article.title }}</a></h3>
+                                    <p class="blog-text">{{  article.content | truncate: 80 }}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                  {% endfor %}
+                </div>
+                <div class="text-center space-extra-top">
+                    <a href="shop.html" class="ot-btn">View More</a>
+                </div>
+            </div>
+            {% else %}
+            <!-- Single item -->
+            <div class="tab-pane fade" id="nav-two-{{ forloop.index }}-{{section.id}}" role="tabpanel-{{ forloop.index }}-{{section.id}}" aria-labelledby="nav-two-tab-{{ forloop.index }}-{{section.id}}">
+                <div class="row gy-40">
+
+                    {% assign blogs = blogs[item.settings.blog] %}
+                    
+                    {% for article in blogs.articles %} 
+    
+                     
+
+                        <div class="col-6 col-lg-4">
+                            <div class="blog-card">
+                                <div class="blog-img">
+                                 <a href="{{ article.url }}">
+                                    <img
+                                        srcset="{% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
+                                          {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
+                                          {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
+                                          {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
+                                          {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
+                                          {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
+                                          {{ article.image | image_url }} {{ article.image.width }}w"
+                                        sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                                        src="{{ article.image | image_url: width: 1100 }}"
+                                        loading="eager"
+                                        width="{{ article.image.width }}"
+                                        height="{{ article.image.height }}"
+                                        alt="{{ article.image.alt | escape }}">
+                                </a>
+                                    <a href="{{ article.url }}" class="category ot-btn">{% for tag in article.tags limit: 1 %}
+                                        {{ tag }}
+                                      {% endfor %}</a>
+                                </div>
+                                <div class="blog-content">
+                                    <h3 class="blog-title"><a href="{{ article.url }}">{{ article.title }}</a></h3>
+                                    <p class="blog-text">{{  article.content | truncate: 80 }}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                  {% endfor %}
+
+
+
+
+
+
+
+
+                </div>
+                <div class="text-center space-extra-top">
+                    <a href="{{ section.settings.blogurl }}" class="ot-btn">{{ section.settings.button }} </a>
+                </div>
+            </div>
+            {% endif %}
+
+        {% endfor %}
+        </div> <!-- / Tab Content -->
+    </div>
+</section>
+
+
+
+ {% schema %}
+    {
+        "name": " blog with Tabs",
+        "class": "blog",
+        "settings": [
+            
+        {
+            "type": "text",
+            "id": "h1",
+            "label": "Title",
+            "default": "SEARCH ANYTHING ABOUT BLOG",
+
+            "placeholder": "SEARCH ANYTHING ABOUT BLOG"
+        }
+        ],
+        "blocks": [
+            {
+                "type": "blog",
+                "name": "blog",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "h1",
+                        "label": "FIlter title",
+                        "default": "ALL",
+                
+                        "placeholder": "ALL"
+                    },
+                     {
+                        "type": "blog",
+                        "id": "blog",
+                        "label": "Please shear you blog"
+                     },
+                     {
+                        "type": "text",
+                        "id": "button",
+                        "label": "View More",
+                        "default": "View More",
+                   
+                        "placeholder": "View More"
+                     },
+                     {
+                        "type": "url",
+                        "id": "blogurl",
+                        "label": "Blog"
+                     }
+                ]
+            }
+        ],
+        "presets": [
+            {
+              "name": "G Blog with tabs"
+            }
+            ]
+        
+    }
+ {% endschema %}
+ 

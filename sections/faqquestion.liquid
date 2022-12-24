@@ -1,0 +1,124 @@
+
+
+<!--==============================
+Faq Area
+============================== -->
+<section class="space">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-11">
+
+
+
+                {% if section.settings.h3 != blank %}
+                    <h2 class="sec-title mb-10">
+                    
+                    
+                        {{ section.settings.h3 }}
+                    
+                    
+                    </h2>
+                {% endif %}
+                <div class="accordion-area accordion" id="faqAccordion-{{ section.id }}">
+
+   {% for item in section.blocks %}
+    
+    {% if forloop.index == 1 %}
+                    <div class="accordion-card active">
+                        <div class="accordion-header" id="collapse-item-{{forloop.index }}-{{ section.id }}">
+                            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{forloop.index}}-{{ section.id }}" aria-expanded="true" aria-controls="collapse-{{forloop.index}}-{{ section.id }}">  {{item.settings.question}}</button>
+                        </div>
+                        <div id="collapse-{{forloop.index}}-{{ section.id }}" class="accordion-collapse collapse show" aria-labelledby="collapse-item-{{forloop.index }}-{{ section.id }}" data-bs-parent="#faqAccordion-{{ section.id }}">
+                            <div class="accordion-body">
+                                {{item.settings.ans}}
+                            </div>
+                        </div>
+                    </div>
+{% else %}
+
+                    <div class="accordion-card ">
+                        <div class="accordion-header" id="collapse-item-2-{{forloop.index}}-{{ section.id }}">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2-{{forloop.index}}-{{ section.id }}" aria-expanded="false" aria-controls="collapse-2-{{forloop.index}}-{{ section.id }}">{{item.settings.question}}</button>
+                        </div>
+                        <div id="collapse-2-{{forloop.index}}-{{ section.id }}" class="accordion-collapse collapse " aria-labelledby="collapse-item-2-{{forloop.index}}-{{ section.id }}" data-bs-parent="#faqAccordion-{{ section.id }}">
+                            <div class="accordion-body">
+                                {{item.settings.ans}}
+                            </div>
+                        </div>
+                    </div>
+{% endif %}
+
+                {% endfor %}
+         
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+{% schema %}
+    {
+        "name": "Faq Question",
+        "class": "faqQuestion",
+        "settings": [
+    
+           {
+            "type": "text",
+            "id": "h3",
+            "label": " Faq Section  title",
+            "default": "OUR BASIC HELPS!",
+
+            "placeholder": "OUR BASIC HELPS!"
+           }
+        ],
+        "blocks": [
+            {
+                "type": "faq",
+                "name": "Faq Blocks",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "question",
+                        "label": "Faq Title",
+                        "default": "CAN I CHANGE PLANS LATER ON?",
+
+                        "placeholder": "CAN I CHANGE PLANS LATER ON?"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "ans",
+           
+                        "label": "Faq Ans",
+                        "default": "<p>this is the first item’s accordion body. it is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. these classes control theoverall appearance, as well as the showing and hiding via css transitions. you can modify any of this with custom css or overring our default variales. it’s also worth nothing that just aout any html can go within the. <a href='#'>accordion-body</a>, though the transition does limit overflow.</p>"
+                    }
+                ]
+            }
+        ],
+        
+        "presets": [
+            {
+              "name": "G Faq Question"
+            }
+            ]
+    }
+{% endschema %}
+
+
+
+<style>
+    .accordion-card p {
+        margin-bottom: 0;
+        font-size: 18px;
+        line-height: 31px;
+        text-transform: uppercase;
+    }
+    section.space {
+        padding: 80px 0;
+    }
+</style>

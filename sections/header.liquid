@@ -1,0 +1,426 @@
+
+<link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" media="print" onload="this.media='all'">
+
+{%- if settings.cart_type == "drawer" -%}
+  {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
+  {{ 'component-cart.css' | asset_url | stylesheet_tag }}
+  {{ 'component-totals.css' | asset_url | stylesheet_tag }}
+  {{ 'component-price.css' | asset_url | stylesheet_tag }}
+  {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
+  {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{%- endif -%}
+
+<noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
+
+<style>
+  header-drawer {
+    justify-self: start;
+    margin-left: -1.2rem;
+  }
+
+  .header__heading-logo {
+    max-width: {{ section.settings.logo_width }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    header-drawer {
+      display: none;
+    }
+  }
+
+  .menu-drawer-container {
+    display: flex;
+  }
+
+  .list-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .list-menu--inline {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  summary.list-menu__item {
+    padding-right: 2.7rem;
+  }
+
+  .list-menu__item {
+    display: flex;
+    align-items: center;
+    line-height: calc(1 + 0.3 / var(--font-body-scale));
+  }
+
+  .list-menu__item--link {
+    text-decoration: none;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    line-height: calc(1 + 0.8 / var(--font-body-scale));
+  }
+
+  @media screen and (min-width: 750px) {
+    .list-menu__item--link {
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem;
+    }
+  }
+</style>
+
+
+
+<script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
+{%- if settings.cart_type == "drawer" -%}
+  <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+
+
+{%- if settings.cart_type == "notification" -%}
+  {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
+{%- endif -%}
+
+
+
+  {% comment %} custome header start header {% endcomment %}
+
+
+ {% include 'custome-lsearch' %} 
+      <!--==============================
+    Mobile Menu
+============================== -->
+<div class="ot-menu-wrapper">
+  <div class="ot-menu-area">
+      <button class="ot-menu-toggle"><i class="far fa-times"></i></button>
+      <div class="mobile-logo">
+        <a href="/">
+          <img src="{{ section.settings.logo | img_url:'' }}" alt="{{ section.settings.logoalt}}">
+      </a>
+      </div>
+     
+       {% include 'mobilemenu' %}
+
+
+
+
+  </div>
+</div>
+<!--==============================
+Header Area
+==============================-->
+<header class="ot-header">
+  <!--header-top-wrapper start-->
+  <div class="header-top">
+      <div class="notice-scroll-wrap">
+          <div class="notice-scroll">
+
+            {% for item in section.blocks %}
+              <p class="offer-notice"><a href="{{item.setttings.url}}">{{ item.settings.text }}</a></p>
+            {% endfor %}
+              
+             
+          </div>
+      </div>
+  </div>
+  <!--header-top-wrapper end-->
+  <div class="sticky-wrapper">
+      <div class="sticky-active">
+          <!-- Main Menu Area -->
+          <div class="menu-area">
+              <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                      <div class="col-auto">
+                          <div class="logo-wrap">
+                              <button type="button" class="simple-icon ot-menu-toggle d-none d-md-inline-block">
+                                  <i class="far fa-bars-staggered"></i>
+                              </button>
+                              <div class="header-logo">
+                                  <a href="/">
+                                      <img src="{{ section.settings.logo | img_url:'' }}" alt="{{ section.settings.logoalt}}">
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-auto hideandshow">
+                                 {% render 'mainmenu' %}
+                      </div>
+                      <div class="col-auto d-none d-md-block">
+                          <div class="header-button">
+                            <button type="button" class="simple-icon searchBoxToggler"><i class="far fa-search"></i></button>
+                              <button type="button" class="simple-icon cart-icon">
+                                
+                                <a href="{{ routes.cart_url }}"  id="cart-icon-bubble">
+                                  <i class="far fa-cart-shopping"></i>
+
+                                  <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
+                                  {%- if cart != empty -%}
+                                    <div class="cart-count-bubble">
+                                      {%- if cart.item_count < 100 -%}
+                                        <span aria-hidden="true">{{ cart.item_count }}</span>
+                                      {%- endif -%}
+                                      <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
+                                    </div>
+                                  {%- endif -%}
+                                 
+                                </a>
+                                
+
+                            
+
+
+
+
+                              </button>
+                     
+
+                                  {% include 'custome-localization' %}
+                             
+                          </div>
+                      </div>
+                      <div class="col-auto d-block d-md-none">
+                          <button type="button" class="simple-icon ot-menu-toggle">
+                              <i class="far fa-bars-staggered"></i>
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</header>
+
+<style>
+  @media only screen and (max-width: 1200px) {
+.hideandshow{
+   display:none;
+}
+}
+  @media only screen and (max-width: 45500px)  and (min-width: 1201px){
+.hideandshow{
+   display:block;
+}
+}
+
+
+
+@media only screen and (max-width: 1300px) and (min-width: 1200px)  {
+
+  .logo-wrap {
+    gap: 20px;
+}
+
+.disclosure button {
+
+  margin-left: 0;
+
+}
+
+.main-menu>ul>li {
+  margin: 0 5px;
+}
+
+}
+</style>
+
+
+{% schema %}
+  {
+    "name": "Header",
+    "class": "header",
+    "settings": [
+      {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "PLease Select your logo"
+    },
+    {
+      "type": "link_list",
+      "id": "main-menu",
+      "label": "Select your Main menu"
+    },
+    {
+      "type": "link_list",
+      "id": "main-menu2",
+      "label": "Select your Mobile  menu"
+    },
+    {
+      "type": "color",
+      "id": "color",
+      "default": "#3e0000",
+      "label": "Select your menu Hover color"
+      
+    },
+    {
+      "type": "color",
+      "id": "a",
+      "label": "Icon color",
+      "default": "#000"
+   },
+   {
+      "type": "color",
+      "id": "a1",
+      "label": "Icon Hover color",
+      "default": "#f0f"
+   
+    },
+    {
+      "type": "text",
+      "id": "news",
+      "label": "subscribe to our newsletter",
+      "default": "subscribe to our newsletter",
+
+      "placeholder": "subscribe to our newsletter"
+    },
+    {
+      "type": "text",
+      "id": "mobile1",
+      "label": "Mobile menu title",
+      "default": "section",
+      "info": "section",
+      "placeholder": "section"
+    },
+    {
+      "type": "text",
+      "id": "mobile2",
+      "label": "Mobile menu title 2",
+      "default": "MORE",
+      "info": "MORE",
+      "placeholder": "MORE"
+    },
+   {
+      "type": "color",
+      "id": "s1",
+      "label": "Search box close button color",
+      "default": "#f0f"
+   }
+    ],
+    "blocks": [
+      {
+        "type": "Announce",
+        "name": "Announcement bar",
+        "settings": [
+          {
+            "type": "link_list",
+            "id": "url",
+            "label": "Please like to tha page"
+
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Please put your Announcement",
+            "default": "Announcement",
+            "placeholder": "Announcement"
+          }
+        ]
+      }
+    ]
+    
+  }
+{% endschema %}
+
+
+<style>
+  .disclosure__list  li {
+    background: #fff;
+    padding: 5px 16px!important;
+    text-align: center;
+    color: #000;
+    list-style: none;
+}
+  .cart-icon {
+    position: relative;
+}
+.cart-count-bubble {
+
+  bottom: 1.6rem;
+  left: 1.2rem;
+}
+
+.ot-social a:hover {
+  fill: var(--theme-color);
+}
+
+.main-menu ul li:hover > a{
+  color:{{  section.settings.color }}
+}
+.ot-mobile-menu ul li:hover > a{
+  color:{{  section.settings.color }}
+}
+.main-menu ul.sub-menu li > a:hover{
+  color:{{  section.settings.color }}
+}
+.menu-item-hot-children.ot-item-hot-children.ot-active > a{
+  color:{{  section.settings.color }}
+}
+button.simple-icon.cart-icon i {
+  color: #000;
+}
+.main-menu ul.mega-menu, .main-menu ul.sub-menu{
+  border-bottom: 3px solid {{  section.settings.color }};
+}
+
+.ot-social a svg {
+  fill: {{ section.settings.a }};
+  font-size: 18px;
+}
+.ot-social a:hover svg {
+  fill: {{ section.settings.a1 }};
+  font-size: 18px;
+}
+ul#CountryList {
+  border: 1px solid;
+  border-color: var(--border-color);
+  margin: 8px  0 0 30px;
+}
+.disclosure button svg {
+  width: 16px;
+  margin-left: 1px;
+}
+
+.cart-drawer__empty-content a.button:hover{
+  color:#fff;
+}
+
+.predictive-search__item--term .icon-arrow {
+  width: 21px;
+  height: calc(var(--font-heading-scale) * 1.4rem);
+  flex-shrink: 0;
+  margin-left: calc(var(--font-heading-scale) * 2rem);
+  color: rgb(var(--color-link));
+}
+
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    $('#featuredSlide').slick({
+      arrows: false,
+      infinite: true,
+      speed: 1000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+  
+      dots: true,
+      appendDots: $('.slider-nav-wrap').find('.custom-dots'),
+      asNavFor: '.featured-content',
+    });
+    $('.featured-content').slick({
+      arrows: false,
+      infinite: true,
+      speed: 1000,
+      slidesToShow: 1,
+  
+      slidesToScroll: 1,
+      dots: false,
+      fade: true,
+    });
+  });
+
+
+</script>

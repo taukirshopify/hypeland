@@ -1,0 +1,116 @@
+{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+
+  {% comment %} <div class="main-blog page-width section-{{ section.id }}-padding">
+    <h1 class="title--primary">{{ blog.title | escape }}</h1>
+
+    <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+      {%- for article in blog.articles -%}
+        <div class="blog-articles__article article">
+
+          {%- render 'article-card',
+            article: article,
+            media_height: section.settings.image_height,
+            media_aspect_ratio: article.image.aspect_ratio,
+            show_image: section.settings.show_image,
+            show_date: section.settings.show_date,
+            show_author: section.settings.show_author,
+            show_excerpt: true 
+          -%}
+        </div>
+      {%- endfor -%}
+    </div>
+
+    {%- if paginate.pages > 1 -%}
+      {%- render 'pagination', paginate: paginate -%}
+    {%- endif -%}
+  </div> {% endcomment %}
+
+  <section class="space overflow-hidden">
+    <div class="container ot-container">
+      {% if section.settings.title != blank %}
+        <h2 class="page-title">{{ section.settings.title }}</h2>
+      {% endif %}
+
+        {% if section.settings.p != blank %}
+        <h3 class="h5 sec-title">{{ section.settings.p }}</h3>
+
+      {% endif %}
+        <div class="row" id="blogFeatured">
+          {%- for article in blog.articles -%}
+            <div class="col-6">
+                <div class="blog-featured">
+                  <a href="{{ article.url }}">
+                    <div class="blog-img">
+
+                      <img
+                        srcset="{% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
+                          {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
+                          {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
+                          {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
+                          {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
+                          {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
+                          {{ article.image | image_url }} {{ article.image.width }}w"
+                        sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                        src="{{ article.image | image_url: width: 1100 }}"
+                        loading="eager"
+                        width="{{ article.image.width }}"
+                        height="{{ article.image.height }}"
+                        alt="{{ article.image.alt | escape }}">
+                    </div>
+                  </a>
+                    <h3 class="blog-title"><a href="{{ article.url }}">{{ article.title }}</a></h3>
+                    <p class="blog-text">{{ article.content | truncate: 80 }}</p>
+                </div>
+            </div>
+          {%- endfor -%}
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+{% schema %}
+{
+  "name": "t:sections.main-blog.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section title",
+      "default": "OUR BASIC HELPS!",
+      "placeholder": "OUR BASIC HELPS!"
+    },
+    {
+      "type": "text",
+      "id": "p",
+      "label": "Section sub title",
+      "default": "WITH OVER 2,000+ APP AVAILABLE IN THE BLOG.",
+
+      "placeholder": "WITH OVER 2,000+ APP AVAILABLE IN THE BLOG."
+    }
+  ]
+}
+{% endschema %}
