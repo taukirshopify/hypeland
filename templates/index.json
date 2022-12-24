@@ -137,6 +137,7 @@
           "type": "collection",
           "settings": {
             "url01": "#",
+            "image": "shopify:\/\/shop_images\/PIC2.jpg",
             "url02": "#",
             "urlmain": "shopify:\/\/collections\/yugioh",
             "title": "Hypland x dragon ball",
