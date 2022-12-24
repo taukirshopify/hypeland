@@ -1,1 +1,183 @@
-{"sections":{"2fdd0726-7bf4-47d5-81e1-78501880b667":{"type":"custome-bannar","blocks":{"5a977a40-c2d6-4d6d-8f23-97bdaefdafa3":{"type":"image","settings":{"h1":"FULL HYPLAND X YU YU HAKUSHO COLLECTION IS NOW LIVE","p":"MODELED BY ARTIST COCHISE","url":"shopify:\/\/products\/akatsuki-cloud-rug","shop":"shop"}},"f6bf38bd-c9e5-4ca4-913c-0a0f79eb85f2":{"type":"video","settings":{"video":"http:\/\/media.w3.org\/2010\/05\/sintel\/trailer.mp4","h1":"MODELED BY ARTIST COCHISE","p":"MODELED BY ARTIST COCHISE","url":"shopify:\/\/products\/akatsuki-cloud-rug","shop":"shop"}}},"block_order":["5a977a40-c2d6-4d6d-8f23-97bdaefdafa3","f6bf38bd-c9e5-4ca4-913c-0a0f79eb85f2"],"settings":{}},"38615cea-3178-4ea7-a828-497cf440c43f":{"type":"custome-feturedproduct","disabled":true,"settings":{"h1":"Coming Soon","image":"coming-soon","p_limit":"12","check":true}},"94ed0ebe-23ee-4e6c-95b6-8e2ee78ddf52":{"type":"custome-feturedproduct","settings":{"h1":"FEATURED","image":"all-products","p_limit":"12","check":true}},"3e74d226-7ade-4391-9f3d-aa2e25c090fb":{"type":"custome-shop","blocks":{"927fba5a-769f-4e69-be8f-422f231ba947":{"type":"slide","settings":{"collectionname":"ACCESSORIES","collection":"shirts","p_limit":"12","shop":"Show More"}},"11d6248f-fc9f-4e31-88f4-b6c543649e42":{"type":"slide","settings":{"collectionname":"All","collection":"all-products","p_limit":"12","shop":"Show More"}},"e2fa9155-19e4-4530-acca-e815317bacd4":{"type":"slide","settings":{"collectionname":"ACCESSORIES","collection":"bleach","p_limit":"12","shop":"Show More"}},"f6391cef-a94d-44a6-a0d5-58b575945ba0":{"type":"slide","settings":{"collectionname":"BLEACH","collection":"yugioh","p_limit":"12","shop":"Show More"}},"f8fb0bba-9cba-4a32-8a94-c04d0ab317f3":{"type":"slide","settings":{"collectionname":"ACCESSORIES","collection":"hello-kitty","p_limit":"12","shop":"Show More"}},"c834831c-781a-4215-981c-398ea6d2ad8e":{"type":"slide","settings":{"collectionname":"SHIRTS","collection":"shirts","p_limit":"12","shop":"Show More"}},"9aea4620-e1f7-43cf-84ee-42c2b6bc500c":{"type":"slide","settings":{"collectionname":"YU YU","collection":"yu-yu-hakasho","p_limit":"12","shop":"Show More"}}},"block_order":["927fba5a-769f-4e69-be8f-422f231ba947","11d6248f-fc9f-4e31-88f4-b6c543649e42","e2fa9155-19e4-4530-acca-e815317bacd4","f6391cef-a94d-44a6-a0d5-58b575945ba0","f8fb0bba-9cba-4a32-8a94-c04d0ab317f3","c834831c-781a-4215-981c-398ea6d2ad8e","9aea4620-e1f7-43cf-84ee-42c2b6bc500c"],"settings":{"title":"shop"}},"64e0a219-6ea4-4d7d-a7f1-0f5518cfd6eb":{"type":"custome-recommendaedcollection","blocks":{"ccadf667-68f1-4361-90df-127fd3526c59":{"type":"collection","settings":{"url01":"#","url02":"#","urlmain":"shopify:\/\/collections\/yugioh","title":"Hypland x dragon ball","shoptext":"shop now"}},"9c29844f-43d9-4ab4-9696-59a8258a9829":{"type":"collection","settings":{"url01":"#","url02":"#","urlmain":"#","title":"Hypland x dragon ball","shoptext":"shop now"}},"f6c4aced-ef12-4dc3-99f5-24b1ed3bcc84":{"type":"collection","settings":{"url01":"#","url02":"#","urlmain":"","title":"Hypland x dragon ball","shoptext":"shop now"}}},"block_order":["ccadf667-68f1-4361-90df-127fd3526c59","9c29844f-43d9-4ab4-9696-59a8258a9829","f6c4aced-ef12-4dc3-99f5-24b1ed3bcc84"],"settings":{"title":"recommended Collection"}}},"order":["2fdd0726-7bf4-47d5-81e1-78501880b667","38615cea-3178-4ea7-a828-497cf440c43f","94ed0ebe-23ee-4e6c-95b6-8e2ee78ddf52","3e74d226-7ade-4391-9f3d-aa2e25c090fb","64e0a219-6ea4-4d7d-a7f1-0f5518cfd6eb"]}
+{
+  "sections": {
+    "2fdd0726-7bf4-47d5-81e1-78501880b667": {
+      "type": "custome-bannar",
+      "blocks": {
+        "5a977a40-c2d6-4d6d-8f23-97bdaefdafa3": {
+          "type": "image",
+          "settings": {
+            "h1": "FULL HYPLAND X YU YU HAKUSHO COLLECTION IS NOW LIVE",
+            "p": "MODELED BY ARTIST COCHISE",
+            "url": "shopify:\/\/products\/akatsuki-cloud-rug",
+            "shop": "shop"
+          }
+        },
+        "f6bf38bd-c9e5-4ca4-913c-0a0f79eb85f2": {
+          "type": "video",
+          "settings": {
+            "video": "http:\/\/media.w3.org\/2010\/05\/sintel\/trailer.mp4",
+            "h1": "MODELED BY ARTIST COCHISE",
+            "p": "MODELED BY ARTIST COCHISE",
+            "url": "shopify:\/\/products\/akatsuki-cloud-rug",
+            "shop": "shop"
+          }
+        }
+      },
+      "block_order": [
+        "5a977a40-c2d6-4d6d-8f23-97bdaefdafa3",
+        "f6bf38bd-c9e5-4ca4-913c-0a0f79eb85f2"
+      ],
+      "settings": {
+      }
+    },
+    "38615cea-3178-4ea7-a828-497cf440c43f": {
+      "type": "custome-feturedproduct",
+      "disabled": true,
+      "settings": {
+        "h1": "Coming Soon",
+        "image": "coming-soon",
+        "p_limit": "12",
+        "check": true
+      }
+    },
+    "94ed0ebe-23ee-4e6c-95b6-8e2ee78ddf52": {
+      "type": "custome-feturedproduct",
+      "settings": {
+        "h1": "FEATURED",
+        "image": "all-products",
+        "p_limit": "12",
+        "check": true
+      }
+    },
+    "3e74d226-7ade-4391-9f3d-aa2e25c090fb": {
+      "type": "custome-shop",
+      "blocks": {
+        "927fba5a-769f-4e69-be8f-422f231ba947": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "ACCESSORIES",
+            "collection": "a-b-inuyasha",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        },
+        "11d6248f-fc9f-4e31-88f4-b6c543649e42": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "All",
+            "collection": "all-products",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        },
+        "e2fa9155-19e4-4530-acca-e815317bacd4": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "ACCESSORIES",
+            "collection": "bleach",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        },
+        "f6391cef-a94d-44a6-a0d5-58b575945ba0": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "BLEACH",
+            "collection": "yugioh",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        },
+        "f8fb0bba-9cba-4a32-8a94-c04d0ab317f3": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "ACCESSORIES",
+            "collection": "hello-kitty",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        },
+        "c834831c-781a-4215-981c-398ea6d2ad8e": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "SHIRTS",
+            "collection": "shirts",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        },
+        "9aea4620-e1f7-43cf-84ee-42c2b6bc500c": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "YU YU",
+            "collection": "yu-yu-hakasho",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        }
+      },
+      "block_order": [
+        "927fba5a-769f-4e69-be8f-422f231ba947",
+        "11d6248f-fc9f-4e31-88f4-b6c543649e42",
+        "e2fa9155-19e4-4530-acca-e815317bacd4",
+        "f6391cef-a94d-44a6-a0d5-58b575945ba0",
+        "f8fb0bba-9cba-4a32-8a94-c04d0ab317f3",
+        "c834831c-781a-4215-981c-398ea6d2ad8e",
+        "9aea4620-e1f7-43cf-84ee-42c2b6bc500c"
+      ],
+      "settings": {
+        "title": "shop"
+      }
+    },
+    "64e0a219-6ea4-4d7d-a7f1-0f5518cfd6eb": {
+      "type": "custome-recommendaedcollection",
+      "blocks": {
+        "ccadf667-68f1-4361-90df-127fd3526c59": {
+          "type": "collection",
+          "settings": {
+            "url01": "#",
+            "url02": "#",
+            "urlmain": "shopify:\/\/collections\/yugioh",
+            "title": "Hypland x dragon ball",
+            "shoptext": "shop now"
+          }
+        },
+        "9c29844f-43d9-4ab4-9696-59a8258a9829": {
+          "type": "collection",
+          "settings": {
+            "url01": "#",
+            "url02": "#",
+            "urlmain": "#",
+            "title": "Hypland x dragon ball",
+            "shoptext": "shop now"
+          }
+        },
+        "f6c4aced-ef12-4dc3-99f5-24b1ed3bcc84": {
+          "type": "collection",
+          "settings": {
+            "url01": "#",
+            "url02": "#",
+            "urlmain": "",
+            "title": "Hypland x dragon ball",
+            "shoptext": "shop now"
+          }
+        }
+      },
+      "block_order": [
+        "ccadf667-68f1-4361-90df-127fd3526c59",
+        "9c29844f-43d9-4ab4-9696-59a8258a9829",
+        "f6c4aced-ef12-4dc3-99f5-24b1ed3bcc84"
+      ],
+      "settings": {
+        "title": "recommended Collection"
+      }
+    }
+  },
+  "order": [
+    "2fdd0726-7bf4-47d5-81e1-78501880b667",
+    "38615cea-3178-4ea7-a828-497cf440c43f",
+    "94ed0ebe-23ee-4e6c-95b6-8e2ee78ddf52",
+    "3e74d226-7ade-4391-9f3d-aa2e25c090fb",
+    "64e0a219-6ea4-4d7d-a7f1-0f5518cfd6eb"
+  ]
+}
