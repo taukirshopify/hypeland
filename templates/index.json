@@ -52,20 +52,20 @@
     "3e74d226-7ade-4391-9f3d-aa2e25c090fb": {
       "type": "custome-shop",
       "blocks": {
-        "927fba5a-769f-4e69-be8f-422f231ba947": {
-          "type": "slide",
-          "settings": {
-            "collectionname": "ACCESSORIES",
-            "collection": "a-b-inuyasha",
-            "p_limit": "12",
-            "shop": "Show More"
-          }
-        },
         "11d6248f-fc9f-4e31-88f4-b6c543649e42": {
           "type": "slide",
           "settings": {
             "collectionname": "All",
             "collection": "all-products",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        },
+        "927fba5a-769f-4e69-be8f-422f231ba947": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "ACCESSORIES",
+            "collection": "a-b-inuyasha",
             "p_limit": "12",
             "shop": "Show More"
           }
@@ -117,8 +117,8 @@
         }
       },
       "block_order": [
-        "927fba5a-769f-4e69-be8f-422f231ba947",
         "11d6248f-fc9f-4e31-88f4-b6c543649e42",
+        "927fba5a-769f-4e69-be8f-422f231ba947",
         "e2fa9155-19e4-4530-acca-e815317bacd4",
         "f6391cef-a94d-44a6-a0d5-58b575945ba0",
         "f8fb0bba-9cba-4a32-8a94-c04d0ab317f3",
