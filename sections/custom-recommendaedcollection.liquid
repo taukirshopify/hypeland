@@ -8,14 +8,19 @@
             <h2 class="sec-title-2">{{ section.settings.title }}</h2>
           </div>
           <div class="col-2 " >
+            
             <div class="arrow-group d-flex align-items-center justify-content-end ">
-               <div id="nextr">
+
+              <div id="prevr">
                 <i class="far fa-chevron-left"></i>
+                
+               </div>
+
+               <div id="nextr">
+                <i class="far fa-chevron-right"></i>
                
                </div>
-               <div id="prevr">
-                <i class="far fa-chevron-right"></i>
-               </div>
+           
             </div>
           </div>
         </div>
@@ -135,17 +140,26 @@
   .arrow-group{
     font-size:25px;
   }
-  div#nextr {
+  div#prevr {
     margin-right: 21px;
 }
   .sec-title-2{
    padding:25px 0;
   }
 
+  select#cars:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
 
   {% if product.settings.url02 != blank %}
-
-
+    .recommend-product .product-img {
+    display: flex;
+    }
+    .recommend-product {
+      margin: 0 10px;
+  
+  }
   {% endif %}
     @media (min-width: 300px) and (max-width: 1299px) { 
     button.hello.slick-arrow {
