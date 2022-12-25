@@ -52,9 +52,16 @@
       ],
       "settings": {
       }
+    },
+    "2ae0f858-269f-427e-a038-ae7647e65555": {
+      "type": "custom-recommendaedcollection",
+      "settings": {
+        "title": "recommended Collection"
+      }
     }
   },
   "order": [
-    "ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245"
+    "ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245",
+    "2ae0f858-269f-427e-a038-ae7647e65555"
   ]
 }
