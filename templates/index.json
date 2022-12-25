@@ -2,6 +2,21 @@
   "sections": {
     "ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245": {
       "type": "custom-bannar",
+      "blocks": {
+        "0c2f350f-4608-45b7-a894-4a3493eb1d0b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yyh10.jpg",
+            "h1": "",
+            "p": "",
+            "url": "",
+            "shop": ""
+          }
+        }
+      },
+      "block_order": [
+        "0c2f350f-4608-45b7-a894-4a3493eb1d0b"
+      ],
       "settings": {
       }
     }
