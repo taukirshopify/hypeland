@@ -32,12 +32,23 @@
             "url": "",
             "shop": "shop now"
           }
+        },
+        "ec0c63f4-3a07-497d-b767-8d1a9544a78d": {
+          "type": "video",
+          "settings": {
+            "video": "http:\/\/media.w3.org\/2010\/05\/sintel\/trailer.mp4",
+            "h1": "FULL HYPLAND X YU YU HAKUSHO COLLECTION NOW AVAILABLE",
+            "p": "",
+            "url": "",
+            "shop": "shop now"
+          }
         }
       },
       "block_order": [
         "0c2f350f-4608-45b7-a894-4a3493eb1d0b",
         "8699bf90-86ce-4414-adaa-83c27674a8f3",
-        "63064412-3937-4675-9535-e74953bfe564"
+        "63064412-3937-4675-9535-e74953bfe564",
+        "ec0c63f4-3a07-497d-b767-8d1a9544a78d"
       ],
       "settings": {
       }
