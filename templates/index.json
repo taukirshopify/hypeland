@@ -137,12 +137,22 @@
             "p_limit": "12",
             "shop": "Show More"
           }
+        },
+        "e0db3852-f6f8-47cc-9921-5d0bbcd738ea": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "ACCESSORIES",
+            "collection": "accessories-1",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
         }
       },
       "block_order": [
         "7c58ec12-8abe-4d28-b523-c41501a2be2c",
         "7a2686f6-64dd-4f12-8d38-b25260159f22",
-        "b1dc0d78-4c35-4084-9f6e-2ce267220327"
+        "b1dc0d78-4c35-4084-9f6e-2ce267220327",
+        "e0db3852-f6f8-47cc-9921-5d0bbcd738ea"
       ],
       "settings": {
         "title": "shop"
