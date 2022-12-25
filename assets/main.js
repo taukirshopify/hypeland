@@ -19,7 +19,13 @@
     07. Blog Favourite
     08. Quantity Plus Minus
   */
-
+    const appHeight = () => {
+      const doc = document.documentElement
+      doc.style.setProperty('--app-height', `${window.innerHeight}px`)
+  }
+  window.addEventListener('resize', appHeight)
+  appHeight()
+  
   /*---------- 01. Mobile Menu Active ----------*/
   $.fn.otmobilemenu = function (options) {
     var opt = $.extend({
