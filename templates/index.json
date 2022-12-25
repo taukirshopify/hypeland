@@ -107,11 +107,32 @@
         "p_limit": "20",
         "check": true
       }
+    },
+    "adc9f98d-48a4-4de9-9879-a60a05ae00e6": {
+      "type": "custom-shop",
+      "blocks": {
+        "7c58ec12-8abe-4d28-b523-c41501a2be2c": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "BEST SELLERS",
+            "collection": "a-b-best-sellers",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        }
+      },
+      "block_order": [
+        "7c58ec12-8abe-4d28-b523-c41501a2be2c"
+      ],
+      "settings": {
+        "title": "shop"
+      }
     }
   },
   "order": [
     "ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245",
     "2ae0f858-269f-427e-a038-ae7647e65555",
-    "8e8a8626-9ab6-44c3-9b3e-5abe62f7d095"
+    "8e8a8626-9ab6-44c3-9b3e-5abe62f7d095",
+    "adc9f98d-48a4-4de9-9879-a60a05ae00e6"
   ]
 }
