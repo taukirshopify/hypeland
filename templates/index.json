@@ -119,10 +119,20 @@
             "p_limit": "12",
             "shop": "Show More"
           }
+        },
+        "7a2686f6-64dd-4f12-8d38-b25260159f22": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "BLEACH",
+            "collection": "a-b-bleach",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
         }
       },
       "block_order": [
-        "7c58ec12-8abe-4d28-b523-c41501a2be2c"
+        "7c58ec12-8abe-4d28-b523-c41501a2be2c",
+        "7a2686f6-64dd-4f12-8d38-b25260159f22"
       ],
       "settings": {
         "title": "shop"
