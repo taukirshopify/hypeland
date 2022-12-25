@@ -12,10 +12,32 @@
             "url": "shopify:\/\/collections",
             "shop": "SHOP NOW"
           }
+        },
+        "8699bf90-86ce-4414-adaa-83c27674a8f3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NS8.jpg",
+            "h1": "",
+            "p": "",
+            "url": "",
+            "shop": ""
+          }
+        },
+        "63064412-3937-4675-9535-e74953bfe564": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/za13.jpg",
+            "h1": "",
+            "p": "FULL COLLECTION NOW AVAILABLE!",
+            "url": "",
+            "shop": "shop now"
+          }
         }
       },
       "block_order": [
-        "0c2f350f-4608-45b7-a894-4a3493eb1d0b"
+        "0c2f350f-4608-45b7-a894-4a3493eb1d0b",
+        "8699bf90-86ce-4414-adaa-83c27674a8f3",
+        "63064412-3937-4675-9535-e74953bfe564"
       ],
       "settings": {
       }
