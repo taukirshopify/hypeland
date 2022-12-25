@@ -66,10 +66,22 @@
             "title": "Hypland x dragon ball",
             "shoptext": "shop now"
           }
+        },
+        "07f1291e-b3d6-4c66-8c54-db63676f5857": {
+          "type": "collection",
+          "settings": {
+            "url01": "#",
+            "image": "shopify:\/\/shop_images\/NS6.jpg",
+            "url02": "",
+            "urlmain": "",
+            "title": "Hypland x dragon ball",
+            "shoptext": "shop now"
+          }
         }
       },
       "block_order": [
-        "545c4af7-5894-4822-837e-66403dce1ec1"
+        "545c4af7-5894-4822-837e-66403dce1ec1",
+        "07f1291e-b3d6-4c66-8c54-db63676f5857"
       ],
       "settings": {
         "title": "recommended Collection"
