@@ -41,7 +41,7 @@
                                  {% if product.settings.url02 != blank %}
                                     
                               
-                            <a href="{{ product.settings.url02 }}">   
+                               <a href="{{ product.settings.url02 }}">   
                               
                             <img data-lazy=" {{ product.settings.image |  img_url:'' }}" style="">
                             </a>
@@ -141,6 +141,12 @@
   .sec-title-2{
    padding:25px 0;
   }
+
+
+  {% if product.settings.url02 != blank %}
+
+
+  {% endif %}
     @media (min-width: 300px) and (max-width: 1299px) { 
     button.hello.slick-arrow {
         display: none;

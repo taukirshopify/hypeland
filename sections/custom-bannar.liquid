@@ -31,14 +31,17 @@
                             {% elsif block.type == 'image' %}
                             <div class="">
                                 
-                                <div class="d-flex">
+                                <div class="    {% if block.settings.image1 != blank %} d-flex      {% endif %}">
                                     
                                     <div class="featured-img">
                                         <img src="{{block.settings.image | img_url:'' }}" alt="product">
                                     </div>
-                                    <div class="featured-img">
-                                        <img src="{{block.settings.image1 | img_url:'' }}" alt="product">
-                                    </div>
+                                    {% if block.settings.image1 != blank %}
+                                        <div class="featured-img">
+                                            <img src="{{block.settings.image1 | img_url:'' }}" alt="product">
+                                        </div>
+                                    {% endif %}
+               
     
                                 </div>
                             </div>
