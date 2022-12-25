@@ -19,6 +19,7 @@
 .drawer__inner {
   height: -webkit-fill-available;
   height: 100vh;
+  height: calc(100vh - env(safe-area-inset-bottom));
   width: 40rem;
   max-width: calc(100vw - 3rem);
   padding: 0 1.5rem;
