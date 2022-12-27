@@ -1,1 +1,45 @@
-{"sections":{"main":{"type":"main-blog","settings":{"title":"","p":""}},"fd151e36-7fd6-4b86-9f5e-f419c53f0897":{"type":"custome-blog","blocks":{"685671ef-46ff-45f9-9426-be0cadab4b25":{"type":"blog","settings":{"h1":"ALL","blog":"news","button":"View More","blogurl":""}}},"block_order":["685671ef-46ff-45f9-9426-be0cadab4b25"],"settings":{"h1":"SEARCH ANYTHING ABOUT BLOG"}}},"order":["main","fd151e36-7fd6-4b86-9f5e-f419c53f0897"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "title": "",
+        "p": ""
+      }
+    },
+    "7aa0fa55-2e4d-482b-8497-d2c64ca1dd77": {
+      "type": "custom-blog",
+      "blocks": {
+        "91a00e81-4496-45cf-a577-c341d8d933d7": {
+          "type": "blog",
+          "settings": {
+            "h1": "ALL",
+            "blog": "news",
+            "button": "View More",
+            "blogurl": ""
+          }
+        },
+        "5e25a046-201a-48e0-968c-ed40da78321a": {
+          "type": "blog",
+          "settings": {
+            "h1": "testing",
+            "blog": "news",
+            "button": "View More",
+            "blogurl": "shopify:\/\/blogs\/news"
+          }
+        }
+      },
+      "block_order": [
+        "91a00e81-4496-45cf-a577-c341d8d933d7",
+        "5e25a046-201a-48e0-968c-ed40da78321a"
+      ],
+      "settings": {
+        "h1": "ANYTHING ABOUT BLOG"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7aa0fa55-2e4d-482b-8497-d2c64ca1dd77"
+  ]
+}
