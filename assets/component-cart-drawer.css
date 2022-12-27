@@ -19,7 +19,8 @@
 }
 
 .drawer__inner {
-  height: calc(100vh - env(safe-area-inset-bottom));
+  /* height: calc(100vh - env(safe-area-inset-bottom)); */
+  height: 100svh;
   width: 40rem;
   max-width: calc(100vw - 3rem);
   padding: 0 1.5rem;
