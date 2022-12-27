@@ -199,6 +199,11 @@
 .facets__disclosure {
   margin-right: 3.5rem;
 }
+@media screen and (max-width: 825px) {
+  .facets__disclosure {
+    margin-right: 1.5rem;
+  }
+}
 
 .facets__summary {
   color: rgba(var(--color-foreground), 0.75);

@@ -69,7 +69,7 @@ class CartDrawer extends HTMLElement {
       sectionElement.innerHTML =
           this.getSectionInnerHTML(parsedState.sections[section.id], section.selector);
           if (section.id == 'cart-icon-bubble'){
-            console.log(section.id);
+           
             sectionElement.innerHTML +=
             "<i class='far fa-cart-shopping'></i>";
           }

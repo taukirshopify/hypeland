@@ -59,12 +59,18 @@ class CartItems extends HTMLElement {
   updateQuantity(line, quantity, name) {
     this.enableLoading(line);
 
+    console.log("this is called");
+
     const body = JSON.stringify({
       line,
       quantity,
       sections: this.getSectionsToRender().map((section) => section.section),
       sections_url: window.location.pathname
     });
+ 
+           
+
+    
 
     fetch(`${routes.cart_change_url}`, { ...fetchConfig(), ...{ body } })
       .then((response) => {
@@ -96,6 +102,8 @@ class CartItems extends HTMLElement {
           trapFocus(cartDrawerWrapper, document.querySelector('.cart-item__name'))
         }
         this.disableLoading();
+        document.getElementById("cart-icon-bubble").innerHTML +=
+        "<i class='far fa-cart-shopping'></i>";
       }).catch(() => {
         this.querySelectorAll('.loading-overlay').forEach((overlay) => overlay.classList.add('hidden'));
         const errors = document.getElementById('cart-errors') || document.getElementById('CartDrawer-CartErrors');

@@ -71,21 +71,21 @@
 
                                 {% for image in product.images limit:2 %}
                                     {% if forloop.index  == 1 %}
-                                        <a href="{{product.url }}">               {{ image | image_url: width: 3840 | image_tag:
+                                        <a href="{{product.url }}">               {{ image | image_url: width: 750 | image_tag:
                                             loading:"lazy",
                                             height: height,
-                                            sizes: "100vw",
-                                            widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                                            sizes: "10vw",
+                                            widths: '375, 550, 750'
                                         }} </a>
                                 
                                 {% else %}
                                     <a href="{{product.url }}" class="img_swap {% if product.metafields.custom.coming_soon_product == true %}d-none {% endif %}">   
                                     
-                                    {{ image | image_url: width: 3840 | image_tag:
+                                    {{ image | image_url: width: 750 | image_tag:
                                         loading:"lazy",
                                         height: height,
-                                        sizes: "100vw",
-                                        widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                                        sizes: "10vw",
+                                        widths: '375, 550, 750'
                                     }} 
                                     </a>
                                     {% endif %}

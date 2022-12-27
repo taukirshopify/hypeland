@@ -1333,12 +1333,13 @@ button.shopify-payment-button__button--unbranded {
   font: inherit;
   font-size: 1.5rem;
   text-decoration: none;
-  color: var(--white-color);
+  color: rgb(var(--color-button-text));
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
 }
+
 
 .button:before,
 .shopify-challenge__button:before,
@@ -1398,6 +1399,9 @@ button.shopify-payment-button__button--unbranded {
   box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
     0 0 0 0.5rem rgba(var(--color-foreground), 0.5),
     0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+}
+.drawer__inner #CartDrawer-Checkout{
+  color: var(--white-color);;
 }
 
 .button:focus:not(:focus-visible):not(.focused),
