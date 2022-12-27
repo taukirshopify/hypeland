@@ -187,7 +187,7 @@
           "a": "#000000",
           "a1": "#ff00ff",
           "news": "subscribe to our newsletter",
-          "klavio": "klavio",
+          "klavio": "klaviyo-form-YmN9K9",
           "mobile1": "Collections",
           "mobile2": "MORE",
           "s1": "#ff00ff"
@@ -256,8 +256,8 @@
         "type": "custom-footer",
         "settings": {
           "img": "shopify:\/\/shop_images\/hypland-logo-hires-white.png",
-          "a": "#fff",
-          "a1": "#f0f",
+          "a": "#ffffff",
+          "a1": "#ff00ff",
           "menu02": "footer",
           "copy": "hypland 2022 all rights reserved"
         }
