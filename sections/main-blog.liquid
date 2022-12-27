@@ -33,7 +33,7 @@
           {%- for article in blog.articles -%}
             <div class="col-6">
                 <div class="blog-featured">
-                  <a href="{{ article.url }}">
+                  {% comment %} <a href="{{ article.url }}">
                     <div class="blog-img">
 
                       <img
@@ -51,7 +51,7 @@
                         height="{{ article.image.height }}"
                         alt="{{ article.image.alt | escape }}">
                     </div>
-                  </a>
+                  </a> {% endcomment %}
                     <h3 class="blog-title"><a href="{{ article.url }}">{{ article.title }}</a></h3>
                     <p class="blog-text">{{ article.content | truncate: 80 }}</p>
                 </div>
