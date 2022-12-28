@@ -5,9 +5,11 @@
   <div class="subscribe-wrap">
       <p class="header-text">{{ section.settings.news }}</p>
       <div class="{{ section.settings.klavio }} classA" ></div>
-      {% if shop.customer_accounts_enabled %}
+      
       <a href="{{ routes.account_url }}" id="sing_up" class="ot-btn btn-fw">Sign Up</a>
-    {% endif %}
+      {% comment %} {% if shop.customer_accounts_enabled %}
+      <a href="{{ routes.account_url }}" id="sing_up" class="ot-btn btn-fw">Sign Up</a>
+    {% endif %} {% endcomment %}
   </div>
   <div class="ot-menu-inner">
       <div class="ot-mobile-menu">
