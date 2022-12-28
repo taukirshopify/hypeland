@@ -8,14 +8,14 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="featured-slide-area">
-                    <div class="row gx-0" id="featuredSlide">
+                    <div class="row gx-0 intro" id="featuredSlide">
                         {% for block in section.blocks %} 
                               
 
 
                         {% if block.type == 'video' %}
 
-                            <div class="">
+                            <div class=" bfeaturedSlide">
                                 <div class="ot-video">
                                     {% comment %} <video width="100%" height="100%" controls>
                                         <source src="{{ block.settings.video }}" type="video/mp4">
@@ -29,7 +29,7 @@
                             </div>
 
                             {% elsif block.type == 'image' %}
-                            <div class="">
+                            <div class=" bfeaturedSlide">
                                 
                                 <div class="    {% if block.settings.image1 != blank %} d-flex      {% endif %}">
                                     
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div class="col-lg-4 align-self-end">
-                <div class="featured-content">
+                <div class="featured-content  intro">
                     {% for c in section.blocks %} 
                     <div>
                         <h2 class="h3 featured-title">{{ c.settings.h1 }}</h2>
@@ -216,7 +216,9 @@
 
 
 <style>
-
+  .intro{
+  opacity: 0;
+}
 
 
     button.nav-btn.slick-arrow.default {
@@ -238,3 +240,41 @@
     }
 
 </style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+
+
+      $('#featuredSlide').slick({
+        arrows: false,
+        infinite: true,
+        touchMove:true,
+        speed: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        dots: true,
+        appendDots: $('.slider-nav-wrap').find('.custom-dots'),
+        asNavFor: '.featured-content',
+      });
+      $('.featured-content').slick({
+        arrows: false,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 1,
+    
+        slidesToScroll: 1,
+        dots: false,
+        fade: true,
+      });
+
+      if(jQuery(".bfeaturedSlide").hasClass("slick-active")){
+        $("#featuredSlide").removeClass("intro");
+        $(".featured-content").removeClass("intro");
+      }
+    });
+  
+
+
+  </script>

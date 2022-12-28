@@ -406,30 +406,3 @@ ul#CountryList {
 
 </style>
 
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    $('#featuredSlide').slick({
-      arrows: false,
-      infinite: true,
-      speed: 1000,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      adaptiveHeight: true,
-      dots: true,
-      appendDots: $('.slider-nav-wrap').find('.custom-dots'),
-      asNavFor: '.featured-content',
-    });
-    $('.featured-content').slick({
-      arrows: false,
-      infinite: true,
-      speed: 1000,
-      slidesToShow: 1,
-  
-      slidesToScroll: 1,
-      dots: false,
-      fade: true,
-    });
-  });
-
-
-</script>
