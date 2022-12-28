@@ -149,9 +149,10 @@ Header Area
                       <div class="col-auto hideandshow">
                                  {% render 'mainmenu' %}
                       </div>
-                      <div class="col-auto d-none d-md-block">
+                      <div class="col-auto ">
                           <div class="header-button">
-                            <button type="button" class="simple-icon searchBoxToggler"><i class="far fa-search"></i></button>
+                            <button type="button" class="simple-icon searchBoxToggler d-none d-md-block"><i class="far fa-search"></i></button>
+                            <a href="/search" class="d-md-none simple-icon"> <i class="far fa-search"></i> </a>
                               <button type="button" class="simple-icon cart-icon">
                                 
                                 <a href="{{ routes.cart_url }}"  id="cart-icon-bubble">
@@ -176,17 +177,16 @@ Header Area
 
 
                               </button>
-                     
+                        
+                              <button type="button" class="simple-icon ot-menu-toggle d-block d-md-none">
+                                <i class="far fa-bars-staggered"></i>
+                            </button>
 
                                   {% include 'custome-localization' %}
                              
                           </div>
                       </div>
-                      <div class="col-auto d-block d-md-none">
-                          <button type="button" class="simple-icon ot-menu-toggle">
-                              <i class="far fa-bars-staggered"></i>
-                          </button>
-                      </div>
+       
                   </div>
               </div>
           </div>
