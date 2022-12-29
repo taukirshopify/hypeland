@@ -68,20 +68,54 @@
         </div>
       </div>
       <div class="field">
-        <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
-        <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+
+        <select id="ContactFormReason" name="contact[reason]" aria-required="true">
+          <option>EXCHANGES/RETURNS</option>
+          <option>DELIVERY/ORDER TRACKING</option>
+          <option>ORDER CANCELLATION</option>
+          <option>MISTAKE ON ORDER</option>
+          <option>OTHER</option>
+        </select>
       </div>
-      <div class="field">
+
+      <div class="contact__fields">
+        <div class="fielda">
+         <p> <label for="ContactForm-ORDER-NUMBER" class="">Order Number (<span id="chars2">8</span> characters remaining)</label></p>
+          <div class="singel-fild">
+          <input class="field__input" autocomplete="name" type="text"  maxlength="8" id="ContactForm-ORDER-NUMBER" name="contact[ORDER NUMBER]">
+          
+         </div>
+        </div>
+        <div class="fielda">
+         <p> <label for="ContactForm-ORDER-SUBJECT" class="">Subject (<span id="chars3">50</span> characters remaining)</label></p>
+          <div class="singel-fild">
+            <input class="field__input" autocomplete="name" maxlength="50" type="text" id="ContactForm-ORDER-SUBJECT" name="contact[ SUBJECT]" >
+            
+          </div>
+        </div>
+        
+      </div>
+
+
+
+
+
+
+
+      <p> <label class="" for="ContactForm-bodya">MESSAGE (<span id="chars">500</span> characters remaining)</label></p>
+      <div class="field"> 
+       
         <textarea
-          rows="10"
-          id="ContactForm-body"
+          rows="18"
+          maxlength="500"
+          id="ContactForm-bodya"
           class="text-area field__input"
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
-          placeholder="{{ 'templates.contact.form.comment' | t }}"
+          placeholder="MESSAGE"
         >
           {{- form.body -}}
         </textarea>
-        <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }}</label>
+       
       </div>
       <div class="contact__button">
         <button type="submit" class="button">
@@ -91,6 +125,7 @@
     {%- endform -%}
   </div>
 </div>
+
 
 {% schema %}
 {
@@ -184,3 +219,90 @@
   ]
 }
 {% endschema %}
+
+
+<script>
+  var maxLength = 500;
+  var maxLengthOrderNo = 8;
+  var maxLengthSubject = 50;
+    
+  $('#ContactForm-bodya').keyup(function() {
+    var length = $(this).val().length;
+    var length = maxLength-length;
+    $('#chars').text(length);
+  });
+    
+  $('#ContactForm-ORDER-NUMBER').keyup(function() {
+    var length = $(this).val().length;
+    var length = maxLengthOrderNo-length;
+    $('#chars2').text(length);
+  });
+    
+  $('#ContactForm-ORDER-SUBJECT').keyup(function() {
+    var length = $(this).val().length;
+    var length = maxLengthSubject-length;
+    $('#chars3').text(length);
+  });
+    
+    
+  $('#ContactFormReason').change(function() {
+    var userOption = $(this).val();
+      $(this).parent().find("#ContactFormSubject").prop('required',false);
+      $(this).parent().find("#ContactFormOrderNumber").prop('required',true);
+      console.log(userOption);
+      //console.log(userOption);
+      if (userOption == "OTHER"){
+        $(this).parent().find("#ContactFormSubject").prop('required',true);
+        $(this).parent().find("#ContactFormOrderNumber").prop('required',false);
+      }
+    
+    return false;
+  });
+</script>
+
+
+<style>
+  h1.main-page-title.page-title.h0 {
+    text-align: center;
+}
+  select#ContactFormReason {
+    padding: 1.50rem;
+    width: 100%;
+}
+   p{ 
+    margin: 0 0 5px 0;
+  }
+  .fielda input {
+     padding:1.5rem !important;
+    border: 1px solid #000;
+}
+
+.contact__fields{
+  margin-bottom: 2rem;
+}
+*:focus-visible{
+  outline:none;
+  border:none;
+  box-shadow: none;
+}
+.contact__button {
+  color: #fff;
+}
+
+#chars2 {
+  color: red;
+}
+ #chars3{
+  color: red;
+}
+ #chars{
+  color: red;
+}
+.contact label{
+      text-transform: uppercase;
+      font-weight:bold;
+  }
+
+
+
+</style>
