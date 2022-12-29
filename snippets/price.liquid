@@ -20,15 +20,16 @@
   assign compare_at_price = target.compare_at_price
   assign price = target.price | default: 1999
   assign available = target.available | default: false
-  assign money_price = price | money
-  if settings.currency_code_enabled
-    assign money_price = price | money_with_currency
-  endif
+  assign money_price = price | money_without_trailing_zeros
 
-  if target == product and product.price_varies
-    assign money_price = 'products.product.price.from_price_html' | t: price: money_price
-  endif
 -%}
+{% comment %} if settings.currency_code_enabled
+assign money_price = price | money_with_currency
+endif
+
+if target == product and product.price_varies
+assign money_price = 'products.product.price.from_price_html' | t: price: money_price
+endif {% endcomment %}
 
 <div class="price 
   {%- if price_class %} {{ price_class }}{% endif -%}
@@ -45,7 +46,7 @@
     <div class="price__regular">
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
       <span class="price-item price-item--regular">
-        {{ money_price }}
+        {{ money_price  }}
       </span>
     </div>
     <div class="price__sale">
@@ -53,17 +54,18 @@
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span>
           <s class="price-item price-item--regular">
-            {% if settings.currency_code_enabled %}
+            {% comment %} {% if settings.currency_code_enabled %}
               {{ compare_at_price | money_with_currency }}
             {% else %}
               {{ compare_at_price | money }}
-            {% endif %}
+            {% endif %} {% endcomment %}
+            {{ compare_at_price | money }}
           </s>
         </span>
       {%- endunless -%}
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
       <span class="price-item price-item--sale price-item--last">
-        {{ money_price }}
+        {{ money_price  }}
       </span>
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">

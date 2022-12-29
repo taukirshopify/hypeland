@@ -168,6 +168,8 @@
         >
           {{- 'products.product.sold_out' | t -}}
         </span>
+        {% elsif card_product.compare_at_price > card_product.price  %}
+          <span class="badge__text tag ot-btn badge__text badge tagtwo">on Sale</span>
         {% endif %}
 
 
