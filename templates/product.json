@@ -76,7 +76,7 @@
     "c8f521a5-b416-4705-8543-e57dd8dac061": {
       "type": "custom-feturedproduct",
       "settings": {
-        "h1": "Featured proudct",
+        "h1": "Featured proudcts",
         "image": "a-b-best-sellers",
         "p_limit": "20",
         "check": true
