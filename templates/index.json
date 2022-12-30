@@ -57,7 +57,7 @@
       "type": "custom-feturedproduct",
       "settings": {
         "h1": "Featured proudct",
-        "image": "a-b-hunter-x-hunter",
+        "image": "a-b-inuyasha",
         "p_limit": "20",
         "check": true
       }
