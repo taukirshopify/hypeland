@@ -57,7 +57,7 @@
       "type": "custom-feturedproduct",
       "settings": {
         "h1": "Featured proudct",
-        "image": "a-b-best-sellers",
+        "image": "a-b-bleach",
         "p_limit": "20",
         "check": true
       }
