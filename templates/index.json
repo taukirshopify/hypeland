@@ -57,7 +57,7 @@
       "type": "custom-feturedproduct",
       "settings": {
         "h1": "Featured proudct",
-        "image": "a-b-bleach",
+        "image": "a-b-hello-kitty",
         "p_limit": "20",
         "check": true
       }
