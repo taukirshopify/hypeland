@@ -52,7 +52,7 @@
       >
         {%- if card_product.featured_media -%}
           <div class="card__media">
-            <div class="media media--transparent media--hover-effect">
+            <div class="media media--transparent media--hover-effect {% if  card_product.metafields.custom.coming_soon_product == true %} nupcomingimg  {% endif %}">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
               lazy
@@ -79,7 +79,7 @@
               >
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
 
-              {%- if card_product.media[1] != nil and show_secondary_image -%}
+              {%- if card_product.media[1] != nil and show_secondary_image and  card_product.metafields.custom.coming_soon_product != true -%}
                 <img
               lazy
                   srcset="
