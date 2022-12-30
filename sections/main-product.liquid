@@ -301,10 +301,24 @@
         {%- endif -%}
       </media-gallery>
     </div>
-    <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
+
+    <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}   ">
+
+    {% if product.metafields.custom.coming_soon_product == true and product.metafields.custom.klaviyo_form_name != blank %}
+      <h3>{{ product.title | escape }}</h3>
+       
+           {% comment %} <div class="text-center" style="color: #000;"><h4 style="margin: 25px 0 0 0; padding: 0;">WE'RE SORRY THIS PRODUCT IS CURRENTLY UNAVAILABLE. PLEASE ENTER YOUR EMAIL BELOW TO BE NOTIFIED WHEN THIS ITEM IS BACK IN STOCK.</h4>
+          
+          {% endcomment %}
+          
+           <div class="{{ product.metafields.custom.klaviyo_form_name }}"></div> 
+
+     {% endif %}
+
+
       <div
         id="ProductInfo-{{ section.id }}"
-        class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}"
+        class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}  {% if product.metafields.custom.coming_soon_product == true and product.metafields.custom.klaviyo_form_name != blank %} d-none {% endif %}"
       >
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
@@ -790,6 +804,15 @@
         </a>
       </div>
     </div>
+   
+ 
+
+
+
+
+
+
+
     {%- if section.settings.media_position == 'right' -%}
       <div class="grid__item product__media-wrapper small-hide">
         <media-gallery
