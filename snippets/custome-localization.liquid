@@ -10,13 +10,13 @@
         </button>
 
         <ul id="CountryList" role="list" class="disclosure__list"             hidden>
-          {% comment %} {% for country in localization.available_countries %}
+         {% for country in localization.available_countries %}
             <li class="disclosure__item" tabindex="-1">
               <a href="#"{% if country.iso_code == localization.country.iso_code %} aria-current="true"{% endif %} data-value="{{ country.iso_code }}">
                     {{ country.currency.iso_code }}
               </a>
             </li>
-          {% endfor %} {% endcomment %}
+          {% endfor %}
         </ul>
 
         <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
@@ -24,6 +24,46 @@
     {% endform %}
   </localization-form>
 
+  <script>
+    function removeDuplicates(arr) {
+const result = [];
+
+for (let i = 0; i < arr.length; i++) {
+let duplicate = false;
+for (let j = 0; j < result.length; j++) {
+ if (arr[i][0] === result[j][0]) {
+   duplicate = true;
+   break;
+ }
+}
+if (!duplicate) {
+ result.push(arr[i]);
+}
+}
+
+return result;
+}
+const originalArray = [     {% for country in localization.available_countries %}
+ 
+
+["{{ country.currency.iso_code }}","{{ country.iso_code }}"]
+
+     
+{% unless forloop.last %} , {% endunless -%}
+
+{% endfor %}      ];
+const uniqueArray = removeDuplicates(originalArray);
+const element = document.getElementById('CountryList');
+uniqueArray.forEach((item)=>{
+element.innerHTML +=  ` <li class="disclosure__item" tabindex="-1">
+<a href="#" data-value="${item[1]}">
+${item[0]}
+</a>
+</li>`
+
+});
+
+</script>
 
 <script>
     class LocalizationForm extends HTMLElement {
@@ -83,46 +123,7 @@
      
 
 
-          <script>
-            function removeDuplicates(arr) {
-     const result = [];
-   
-     for (let i = 0; i < arr.length; i++) {
-       let duplicate = false;
-       for (let j = 0; j < result.length; j++) {
-         if (arr[i][0] === result[j][0]) {
-           duplicate = true;
-           break;
-         }
-       }
-       if (!duplicate) {
-         result.push(arr[i]);
-       }
-     }
-   
-     return result;
-   }
-   const originalArray = [     {% for country in localization.available_countries %}
-         
-    
-    ["{{ country.currency.iso_code }}","{{ country.iso_code }}"]
-    
-             
-    {% unless forloop.last %} , {% endunless -%}
-       
-      {% endfor %}      ];
-   const uniqueArray = removeDuplicates(originalArray);
-   const element = document.getElementById('CountryList');
-   uniqueArray.forEach((item)=>{
-    element.innerHTML +=  ` <li class="disclosure__item" tabindex="-1">
-      <a href="#" data-value="${item[1]}">
-        ${item[0]}
-      </a>
-    </li>`
 
-  });
-   
-       </script>
 
 
 <style>
