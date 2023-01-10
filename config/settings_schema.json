@@ -1333,7 +1333,6 @@
       }
     ]
   },
-
   {
     "name": "t:settings_schema.search_input.name",
     "settings": [
@@ -1462,22 +1461,22 @@
       {
         "type": "url",
         "id": "instagram",
-        "label": "Facebook link"
+        "label": "Instagram link"
       },
       {
         "type": "url",
         "id": "twitter",
-        "label": "Facebook link"
+        "label": "Twitter link"
       },
       {
         "type": "url",
         "id": "ticktok",
-        "label": "Facebook link"
+        "label": "Ticktok link"
       },
       {
         "type": "url",
         "id": "discord",
-        "label": "Facebook link"
+        "label": "Discord link"
       }
     ]
   }
