@@ -21,9 +21,32 @@
 
   <section class="space overflow-hidden">
     <div class="container ot-container">
-      {% if section.settings.title != blank %}
-        <h2 class="page-title">{{ section.settings.title }}</h2>
-      {% endif %}
+          <div class="row align-items-center" >
+    
+          <div class="col-10" >
+                {% if section.settings.title != blank %}
+                  <h2 class="page-title">{{ section.settings.title }}</h2>
+                {% endif %}
+          </div>
+          <div class="col-2 page-title" >
+            
+            <div class="arrow-group d-flex align-items-center justify-content-end ">
+
+              <div id="prevr">
+                <i class="far fa-chevron-left"></i>
+                
+               </div>
+
+               <div id="nextr">
+                <i class="far fa-chevron-right"></i>
+               
+               </div>
+           
+            </div>
+            
+          </div>
+        </div>
+  
 
         {% if section.settings.p != blank %}
         <h3 class="h5 sec-title">{{ section.settings.p }}</h3>
@@ -64,7 +87,37 @@
 
 
 
+<script>
 
+    $('#blogFeatured').slick({
+    dots: false,
+    arrows: false,
+    infinite: true,
+    cssEase: 'ease-in-out',
+   autoplay: false,
+    autoplaySpeed: 0,
+   
+    speed: 200,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  });
+
+    $('#nextr').click(function(){
+            $("#blogFeatured").slick('slickNext');
+        }); // next button
+        
+        $('#prevr').click(function(){
+            $("#blogFeatured").slick('slickPrev');
+        }); // previous button
+</script>
 
 {% schema %}
 {
@@ -77,8 +130,8 @@
       "type": "text",
       "id": "title",
       "label": "Section title",
-      "default": "OUR BASIC HELPS!",
-      "placeholder": "OUR BASIC HELPS!"
+      "default": "Aka NEWS",
+      "placeholder": "Aka NEWS"
     },
     {
       "type": "text",
@@ -91,3 +144,13 @@
   ]
 }
 {% endschema %}
+
+<style>
+.arrow-group {
+    font-size: 25px;
+}
+
+  div#nextr {
+    margin-right: 21px;
+}
+</style>

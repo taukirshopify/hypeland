@@ -137,9 +137,12 @@
 
 
                 </div>
+               {% if  section.settings.blogurl != blank %}
                 <div class="text-center space-extra-top">
                     <a href="{{ section.settings.blogurl }}" class="ot-btn">{{ section.settings.button }} </a>
                 </div>
+                 {%  endif %}
+              
             </div>
             {% endif %}
 
@@ -160,9 +163,9 @@
             "type": "text",
             "id": "h1",
             "label": "Title",
-            "default": "SEARCH ANYTHING ABOUT BLOG",
+            "default": "Aka NEWS",
 
-            "placeholder": "SEARCH ANYTHING ABOUT BLOG"
+            "placeholder": "Aka NEWS"
         }
         ],
         "blocks": [
