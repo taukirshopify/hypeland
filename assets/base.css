@@ -3014,3 +3014,13 @@ td.cart-item__details a {
 
   color: #000 !important;
 }
+
+.price--on-sale .price-item--regular span{
+
+  color: red !important;
+}
+.price-item--sale span{
+
+  color: #000 !important;
+}
+
