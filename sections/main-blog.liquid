@@ -24,9 +24,9 @@
           <div class="row align-items-center" >
     
           <div class="col-10" >
-                {% if section.settings.title != blank %}
-                  <h2 class="page-title">{{ section.settings.title }}</h2>
-                {% endif %}
+     
+                  <h2 class="page-title">{{ blog.title }}</h2>
+     
           </div>
           <div class="col-2 page-title" >
             
@@ -56,7 +56,7 @@
           {%- for article in blog.articles -%}
             <div class="col-6">
                 <div class="blog-featured">
-                  {% comment %} <a href="{{ article.url }}">
+ <a href="{{ article.url }}">
                     <div class="blog-img">
 
                       <img
@@ -74,7 +74,7 @@
                         height="{{ article.image.height }}"
                         alt="{{ article.image.alt | escape }}">
                     </div>
-                  </a> {% endcomment %}
+                  </a>
                     <h3 class="blog-title"><a href="{{ article.url }}">{{ article.title }}</a></h3>
                     <p class="blog-text">{{ article.content | truncate: 80 }}</p>
                 </div>
@@ -150,7 +150,14 @@
     font-size: 25px;
 }
 
-  div#nextr {
+  div#prevr {
     margin-right: 21px;
 }
+    @media only screen and (max-width: 600px)  {
+
+.space{
+    padding: 25px 0 !important;
+}
+    
+  }
 </style>

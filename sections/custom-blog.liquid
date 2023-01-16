@@ -1,14 +1,7 @@
 <section class="space-bottom overflow-hidden">
     <div class="container">
-        <div class="border-bottom">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-auto">
-                    <h2 class="sec-title">{{ section.settings.h1 }}</h2>
-                </div>
-   
-            </div>
-        </div>
-        <div class="row mt-30 mt-lg-5 align-items-center justify-content-between">
+
+        <div class="row  mt-lg-5 align-items-center justify-content-between">
             <div class="col-auto">
                 <div class="sec-btn">
                     <div class="nav blog-filter" role="tablist">
@@ -43,7 +36,7 @@
                         
             <!-- Single item -->
             <div class="tab-pane fade show active" id="nav-one-{{ forloop.index }}-{{section.id}}" role="tabpanel" aria-labelledby="nav-one-tab-{{ forloop.index }}-{{section.id}}">
-                <div class="row gy-40">
+                <div class="row ">
                     {% assign blogs = blogs[item.settings.blog] %}
                     
                     {% for article in blogs.articles %} 
@@ -82,12 +75,12 @@
 
                   {% endfor %}
                 </div>
-              
+   
             </div>
             {% else %}
             <!-- Single item -->
             <div class="tab-pane fade" id="nav-two-{{ forloop.index }}-{{section.id}}" role="tabpanel-{{ forloop.index }}-{{section.id}}" aria-labelledby="nav-two-tab-{{ forloop.index }}-{{section.id}}">
-                <div class="row gy-40">
+                <div class="row ">
 
                     {% assign blogs = blogs[item.settings.blog] %}
                     

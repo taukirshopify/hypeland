@@ -1,14 +1,1 @@
-{
-  "sections": {
-    "main": {
-      "type": "main-blog",
-      "settings": {
-        "title": "Our service",
-        "p": ""
-      }
-    }
-  },
-  "order": [
-    "main"
-  ]
-}
+{"sections":{"main":{"type":"main-blog","settings":{"title":"Aka blog","p":""}},"b148702b-23d8-4b28-adaf-de86afab19c2":{"type":"custom-blog","blocks":{"cdf18f68-79eb-4301-859b-0a65fb2fe8a3":{"type":"blog","settings":{"h1":"ALL","blog":"news","button":"View More","blogurl":""}}},"block_order":["cdf18f68-79eb-4301-859b-0a65fb2fe8a3"],"settings":{"h1":"ABOUT BLOG"}}},"order":["main","b148702b-23d8-4b28-adaf-de86afab19c2"]}

@@ -12,11 +12,12 @@
     
 
  
-              <a href="#">{{ article.published_at | time_tag: format: 'date' }}</a>
+            
 
              
           </div>
-          <h2 class="blog-title"> <h2 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h2></h2>
+      <h2 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h2>
+          <a href="#" class="space-bottom">{{ article.published_at | time_tag: format: 'date' }}</a>
           <div class="blog-img">
             <img
               srcset="{% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
@@ -254,10 +255,17 @@
   position: relative;
   display: inline-block;
 }
+  .space-bottom{
+    
+  }
 #blogdetails .container{
 max-width:1000px;
 
 }
 
-/***
+time {
+    margin-bottom: 4px;
+    display: block;
+}
+
 </style>

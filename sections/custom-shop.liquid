@@ -124,7 +124,9 @@
                                             <div class="product-content">
                                                 <h3 class="product-title"><a href="{{ product.url}} ">{{ product.title }}</a></h3>
                                                 <div class="pricw-rapper d-flex justify-content-center">
+                                     {% if  product.compare_at_price > product.price %}
                                                     <span class="price del">  {{ product.compare_at_price_min  | money_without_trailing_zeros }}</span>
+                                       {% endif %}
                                                     <span class="price2 price">{{ product.price  | money_without_trailing_zeros }}</span>
                                                     
                                                 
