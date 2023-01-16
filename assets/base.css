@@ -2999,3 +2999,13 @@ td.cart-item__details a {
 
 
 
+
+.price , .price  span{
+  color: red !important;
+
+}
+
+.price2, .price2 span{
+  color: #000 !important;
+
+}
