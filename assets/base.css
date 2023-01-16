@@ -3009,3 +3009,8 @@ td.cart-item__details a {
   color: #000 !important;
 
 }
+
+.price__regular span{
+
+  color: #000;
+}
