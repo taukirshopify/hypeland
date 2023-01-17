@@ -13,6 +13,14 @@
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
   {%- style -%}
+  @media screen and (max-width: 992px) {
+.sec-title{
+  font-size:17px;
+}
+}
+  .price__badge-sale.color-accent-2 {
+    color: #fff !important;
+}
 .product__info-container {
     padding:  0 0 30px 0;
 }
