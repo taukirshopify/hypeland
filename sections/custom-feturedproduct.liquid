@@ -1,6 +1,6 @@
 <section class="space-bottom">
     <div class="container splide" id="image-carousel-{{section.id}}">
-        <div class="row align-items-center">
+        <div class="row align-items-centera">
             <div class="col-8">
                 <h2 class="sec-title">{{  section.settings.h1 }}</h2>
             </div>
@@ -187,6 +187,14 @@
     }
     button.splide__arrow.splide__arrow--prev {
         margin-right: 14px;
+    }
+    .align-items-centera{
+     
+            -webkit-box-align: center!important; 
+            -webkit-align-items: center!important; 
+            -ms-flex-align: center!important;
+            align-items: center!important;
+        
     }
 </style>
 {% schema %}
