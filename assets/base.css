@@ -1437,7 +1437,12 @@ button.shopify-payment-button__button--unbranded {
 }
 
 /* Button - other */
-
+.svg-arrow {
+  font-size: 22px;
+}
+.svg-arrow-right {
+  font-size: 22px;
+}
 .button:disabled,
 .button[aria-disabled='true'],
 .button.disabled,
