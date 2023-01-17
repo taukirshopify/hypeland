@@ -1443,6 +1443,12 @@ button.shopify-payment-button__button--unbranded {
 .svg-arrow-right {
   font-size: 22px;
 }
+@media only screen and (max-width: 600px) {
+button.splide__arrow.splide__arrow--prev {
+  margin-right: 0px;
+}
+}
+
 .button:disabled,
 .button[aria-disabled='true'],
 .button.disabled,
