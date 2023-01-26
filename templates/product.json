@@ -1,1 +1,128 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"text","disabled":true,"settings":{"text":"{{ product.vendor }}","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"caption":{"type":"text","settings":{"text":"{{ product.metafields.descriptors.subtitle.value }}","text_style":"subtitle"}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true}},"description":{"type":"description","settings":{}},"cd6f78db-69d1-44ec-a16f-a77847b88051":{"type":"collapsible_tab","settings":{"heading":"Shipping","icon":"box","content":"<p>ALL ORDERS ARE PROCESSED AND SHIPPED WITHIN 7-10 BUSINESS DAYS UNLESS THE SPECIFIC PRODUCT DESCRIPTION STATES OTHERWISE. THE CUSTOMER IS EMAILED A TRACKING NUMBER WHEN THE ORDER SHIPS. DOMESTIC ORDERS TYPICALLY ARRIVE WITHIN 1-5 BUSINESS DAYS AFTER THE ORDER HAS SHIPPED, EXCLUDING SUNDAYS, FEDERAL HOLIDAYS, AND UNANTICIPATED SHIPPING DELAYS. TIMELINES FOR ARRIVAL DEPEND ON DOMESTIC LOCATION. DELIVERY DELAYS ARE NOT COMMON BUT CAN OCCUR AND ARE NOT CONTROLLED BY HYPLAND. PLEASE NOTE, SOME DOMESTIC ORDERS OVER $100.00 MAY REQUIRE A SIGNATURE FOR DELIVERY. IF AN ATTEMPTED DELIVERY NOTICE IS LEFT BY THE SHIPPING COURIER, PLEASE FOLLOW UP FOR REDELIVERY OR PICKUP INSTRUCTIONS. HYPLAND CANNOT SCHEDULE REDELIVERY ATTEMPTS.<br\/><br\/>INTERNATIONAL DELIVERY CAN TAKE UP TO 5-21 DAYS AFTER IT IS SHIPPED. THESE TIMELINES DEPEND ON YOUR COUNTRY'S PROCESSING, CUSTOMS, AND DELIVERY PROTOCOLS.<\/p>","page":""}},"de5f5479-3544-48cf-8962-591b7ab25ba6":{"type":"collapsible_tab","settings":{"heading":"Returns","icon":"return","content":"<p>HYPLAND WILL GLADLY OFFER AN EXCHANGE\/ITEM RETURN IN THE FORM OF STORE CREDIT, ONLY. <br\/><br\/>EXCHANGE\/ITEM RETURNS ARE AVAILABLE WITHIN 5 DAYS OF DELIVERY. CUSTOMER MUST CONTACT US HERE- WITHIN THIS TIME FRAME TO MAKE THE REQUEST. PLEASE INCLUDE THE ORDER NUMBER AND REASON FOR THE REQUEST. ITEMS MUST BE IN NEW AND UNWORN CONDITION WITH TAGS ATTACHED. CUSTOMER IS RESPONSIBLE FOR ALL SHIPPING COSTS TO RETURN ITEM(S) TO HYPLAND. DUE TO HEALTH AND SAFETY REASONS, WE DO NOT OFFER EXCHANGES OR RETURNS ON SHOES, SOCKS, HEADWEAR, MASKS, RUGS, OR UNDER GARMENTS. WE DO NOT HOLD ITEMS FOR PURCHASE. ALL PURCHASES ARE ON A FIRST COME BASIS. PLEASE ALLOW 3 BUSINESS DAYS TO PROCESS PACKAGES RECEIVED. AFTER PROCESSING, THE STORE CREDIT CODE WILL BE EMAILED TO THE CUSTOMER. THE STORE CREDIT WILL ONLY INCLUDE THE COST OF THE ITEM(S) AND ANY APPLICABLE TAXES PAID (CALIFORNIA RESIDENTS). INITIAL SHIPPING CHARGES ARE NOT CREDITED. STORE CREDIT DOES NOT EXPIRE AND CAN BE USED TOWARDS ANY FUTURE PURCHASE.<\/p>","page":""}}},"block_order":["vendor","title","caption","price","variant_picker","quantity_selector","buy_buttons","description","cd6f78db-69d1-44ec-a16f-a77847b88051","de5f5479-3544-48cf-8962-591b7ab25ba6"],"settings":{"enable_sticky_info":true,"media_position":"left","gallery_layout":"stacked","media_size":"large","mobile_thumbnails":"hide","hide_variants":true,"enable_video_looping":false,"padding_top":36,"padding_bottom":12}},"c8f521a5-b416-4705-8543-e57dd8dac061":{"type":"custom-feturedproduct","settings":{"h1":"Featured proudcts","image":"a-b-best-sellers","p_limit":"20","check":true}},"product-recommendations":{"type":"product-recommendations","settings":{"heading":"EXPLORE THE COLLECTION","heading_size":"h2","products_to_show":10,"columns_desktop":5,"color_scheme":"background-1","image_ratio":"square","show_secondary_image":true,"show_vendor":false,"show_rating":false,"columns_mobile":"2","padding_top":36,"padding_bottom":28}}},"order":["main","c8f521a5-b416-4705-8543-e57dd8dac061","product-recommendations"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "cd6f78db-69d1-44ec-a16f-a77847b88051": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "box",
+            "content": "<p><strong>ALL ORDERS ARE PROCESSED AND SHIPPED WITHIN 7-10 BUSINESS DAYS UNLESS THE SPECIFIC PRODUCT DESCRIPTION STATES OTHERWISE. THE CUSTOMER IS EMAILED A TRACKING NUMBER WHEN THE ORDER SHIPS. DOMESTIC ORDERS TYPICALLY ARRIVE WITHIN 1-5 BUSINESS DAYS AFTER THE ORDER HAS SHIPPED, EXCLUDING SUNDAYS, FEDERAL HOLIDAYS, AND UNANTICIPATED SHIPPING DELAYS. TIMELINES FOR ARRIVAL DEPEND ON DOMESTIC LOCATION. DELIVERY DELAYS ARE NOT COMMON BUT CAN OCCUR AND ARE NOT CONTROLLED BY HYPLAND. PLEASE NOTE, SOME DOMESTIC ORDERS OVER $100.00 MAY REQUIRE A SIGNATURE FOR DELIVERY. IF AN ATTEMPTED DELIVERY NOTICE IS LEFT BY THE SHIPPING COURIER, PLEASE FOLLOW UP FOR REDELIVERY OR PICKUP INSTRUCTIONS. HYPLAND CANNOT SCHEDULE REDELIVERY ATTEMPTS.<br\/><\/strong><br\/>INTERNATIONAL DELIVERY CAN TAKE UP TO 5-21 DAYS AFTER IT IS SHIPPED. THESE TIMELINES DEPEND ON YOUR COUNTRY'S PROCESSING, CUSTOMS, AND DELIVERY PROTOCOLS.<\/p>",
+            "page": ""
+          }
+        },
+        "de5f5479-3544-48cf-8962-591b7ab25ba6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Returns",
+            "icon": "return",
+            "content": "<p><strong>HYPLAND WILL GLADLY OFFER AN EXCHANGE\/ITEM RETURN IN THE FORM OF STORE CREDIT, ONLY. <br\/><br\/>EXCHANGE\/ITEM RETURNS ARE AVAILABLE WITHIN 5 DAYS OF DELIVERY. CUSTOMER MUST CONTACT US HERE- WITHIN THIS TIME FRAME TO MAKE THE REQUEST. PLEASE INCLUDE THE ORDER NUMBER AND REASON FOR THE REQUEST. ITEMS MUST BE IN NEW AND UNWORN CONDITION WITH TAGS ATTACHED. CUSTOMER IS RESPONSIBLE FOR ALL SHIPPING COSTS TO RETURN ITEM(S) TO HYPLAND. DUE TO HEALTH AND SAFETY REASONS, WE DO NOT OFFER EXCHANGES OR RETURNS ON SHOES, SOCKS, HEADWEAR, MASKS, RUGS, OR UNDER GARMENTS. WE DO NOT HOLD ITEMS FOR PURCHASE. ALL PURCHASES ARE ON A FIRST COME BASIS. PLEASE ALLOW 3 BUSINESS DAYS TO PROCESS PACKAGES RECEIVED. AFTER PROCESSING, THE STORE CREDIT CODE WILL BE EMAILED TO THE CUSTOMER. THE STORE CREDIT WILL ONLY INCLUDE THE COST OF THE ITEM(S) AND ANY APPLICABLE TAXES PAID (CALIFORNIA RESIDENTS). INITIAL SHIPPING CHARGES ARE NOT CREDITED. STORE CREDIT DOES NOT EXPIRE AND CAN BE USED TOWARDS ANY FUTURE PURCHASE.<\/strong><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "cd6f78db-69d1-44ec-a16f-a77847b88051",
+        "de5f5479-3544-48cf-8962-591b7ab25ba6"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "c8f521a5-b416-4705-8543-e57dd8dac061": {
+      "type": "custom-feturedproduct",
+      "settings": {
+        "h1": "Featured proudcts",
+        "image": "a-b-best-sellers",
+        "p_limit": "20",
+        "check": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "EXPLORE THE COLLECTION",
+        "heading_size": "h2",
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c8f521a5-b416-4705-8543-e57dd8dac061",
+    "product-recommendations"
+  ]
+}
