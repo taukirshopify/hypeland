@@ -1,1 +1,168 @@
-{"sections":{"ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245":{"type":"custom-bannar","blocks":{"0c2f350f-4608-45b7-a894-4a3493eb1d0b":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/yyh10.jpg","h1":"HYPLAND X HELLO KITTY COLLABORATION","p":"","url":"shopify:\/\/collections","shop":"SHOP NOW"}},"8699bf90-86ce-4414-adaa-83c27674a8f3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/NS8.jpg","h1":"HYPLAND X YUGIOH IS NOW AVAILABLE","p":"","url":"","shop":""}},"63064412-3937-4675-9535-e74953bfe564":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/za13.jpg","h1":"","p":"FULL COLLECTION NOW AVAILABLE!","url":"","shop":"shop now"}},"ec0c63f4-3a07-497d-b767-8d1a9544a78d":{"type":"video","settings":{"video":"http:\/\/media.w3.org\/2010\/05\/sintel\/trailer.mp4","h1":"FULL HYPLAND X YU YU HAKUSHO COLLECTION NOW AVAILABLE","p":"","url":"","shop":"shop now"}}},"block_order":["0c2f350f-4608-45b7-a894-4a3493eb1d0b","8699bf90-86ce-4414-adaa-83c27674a8f3","63064412-3937-4675-9535-e74953bfe564","ec0c63f4-3a07-497d-b767-8d1a9544a78d"],"settings":{}},"8e8a8626-9ab6-44c3-9b3e-5abe62f7d095":{"type":"custom-feturedproduct","settings":{"h1":"Featured proudct","image":"all","p_limit":"20","check":true}},"2ae0f858-269f-427e-a038-ae7647e65555":{"type":"custom-recommendaedcollection","blocks":{"545c4af7-5894-4822-837e-66403dce1ec1":{"type":"collection","settings":{"url01":"","image":"shopify:\/\/shop_images\/PIC2.jpg","url02":"#","urlmain":"","title":"Hypland x dragon ball","shoptext":"shop now"}},"07f1291e-b3d6-4c66-8c54-db63676f5857":{"type":"collection","settings":{"url01":"#","image":"shopify:\/\/shop_images\/NS6.jpg","url02":"","urlmain":"","title":"Hypland x dragon ball","shoptext":"shop now"}},"4cffadf7-1af6-4d91-9090-37fb8bad13b5":{"type":"collection","settings":{"url01":"#","image":"shopify:\/\/shop_images\/NS4.jpg","url02":"","urlmain":"","title":"Hypland x dragon ball","shoptext":"shop now"}}},"block_order":["545c4af7-5894-4822-837e-66403dce1ec1","07f1291e-b3d6-4c66-8c54-db63676f5857","4cffadf7-1af6-4d91-9090-37fb8bad13b5"],"settings":{"title":"recommended Collection"}},"adc9f98d-48a4-4de9-9879-a60a05ae00e6":{"type":"custom-shop","blocks":{"7c58ec12-8abe-4d28-b523-c41501a2be2c":{"type":"slide","settings":{"collectionname":"BEST SELLERS","collection":"a-b-best-sellers","p_limit":"12","shop":"Show More"}},"7a2686f6-64dd-4f12-8d38-b25260159f22":{"type":"slide","settings":{"collectionname":"BLEACH","collection":"a-b-bleach","p_limit":"12","shop":"Show More"}},"b1dc0d78-4c35-4084-9f6e-2ce267220327":{"type":"slide","settings":{"collectionname":"HELLO KITTY","collection":"a-b-hello-kitty","p_limit":"12","shop":"Show More"}},"96786eca-c88e-4827-a5a0-8b0b4bd9dd87":{"type":"slide","settings":{"collectionname":"all","collection":"all","p_limit":"12","shop":"Show More"}}},"block_order":["7c58ec12-8abe-4d28-b523-c41501a2be2c","7a2686f6-64dd-4f12-8d38-b25260159f22","b1dc0d78-4c35-4084-9f6e-2ce267220327","96786eca-c88e-4827-a5a0-8b0b4bd9dd87"],"settings":{"title":"shop"}}},"order":["ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245","8e8a8626-9ab6-44c3-9b3e-5abe62f7d095","2ae0f858-269f-427e-a038-ae7647e65555","adc9f98d-48a4-4de9-9879-a60a05ae00e6"]}
+{
+  "sections": {
+    "ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245": {
+      "type": "custom-bannar",
+      "blocks": {
+        "0c2f350f-4608-45b7-a894-4a3493eb1d0b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yyh10.jpg",
+            "h1": "HYPLAND X HELLO KITTY COLLABORATION",
+            "p": "",
+            "url": "shopify:\/\/collections",
+            "shop": "SHOP NOW"
+          }
+        },
+        "8699bf90-86ce-4414-adaa-83c27674a8f3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NS8.jpg",
+            "h1": "HYPLAND X YUGIOH IS NOW AVAILABLE",
+            "p": "",
+            "url": "",
+            "shop": ""
+          }
+        },
+        "63064412-3937-4675-9535-e74953bfe564": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/za13.jpg",
+            "h1": "",
+            "p": "FULL COLLECTION NOW AVAILABLE!",
+            "url": "",
+            "shop": "shop now"
+          }
+        },
+        "ec0c63f4-3a07-497d-b767-8d1a9544a78d": {
+          "type": "video",
+          "settings": {
+            "video": "http:\/\/media.w3.org\/2010\/05\/sintel\/trailer.mp4",
+            "h1": "FULL HYPLAND X YU YU HAKUSHO COLLECTION NOW AVAILABLE",
+            "p": "",
+            "url": "",
+            "shop": "shop now"
+          }
+        }
+      },
+      "block_order": [
+        "0c2f350f-4608-45b7-a894-4a3493eb1d0b",
+        "8699bf90-86ce-4414-adaa-83c27674a8f3",
+        "63064412-3937-4675-9535-e74953bfe564",
+        "ec0c63f4-3a07-497d-b767-8d1a9544a78d"
+      ],
+      "settings": {
+      }
+    },
+    "8e8a8626-9ab6-44c3-9b3e-5abe62f7d095": {
+      "type": "custom-feturedproduct",
+      "settings": {
+        "h1": "Featured proudct",
+        "image": "all",
+        "p_limit": "20",
+        "check": true
+      }
+    },
+    "2ae0f858-269f-427e-a038-ae7647e65555": {
+      "type": "custom-recommendaedcollection",
+      "blocks": {
+        "545c4af7-5894-4822-837e-66403dce1ec1": {
+          "type": "collection",
+          "settings": {
+            "url01": "",
+            "image": "shopify:\/\/shop_images\/PIC2.jpg",
+            "url02": "#",
+            "urlmain": "",
+            "title": "Hypland x dragon ball",
+            "shoptext": "shop now"
+          }
+        },
+        "07f1291e-b3d6-4c66-8c54-db63676f5857": {
+          "type": "collection",
+          "settings": {
+            "url01": "#",
+            "image": "shopify:\/\/shop_images\/NS6.jpg",
+            "url02": "",
+            "urlmain": "",
+            "title": "Hypland x dragon ball",
+            "shoptext": "shop now"
+          }
+        },
+        "4cffadf7-1af6-4d91-9090-37fb8bad13b5": {
+          "type": "collection",
+          "settings": {
+            "url01": "#",
+            "image": "shopify:\/\/shop_images\/NS4.jpg",
+            "url02": "",
+            "urlmain": "",
+            "title": "Hypland x dragon ball",
+            "shoptext": "shop now"
+          }
+        }
+      },
+      "block_order": [
+        "545c4af7-5894-4822-837e-66403dce1ec1",
+        "07f1291e-b3d6-4c66-8c54-db63676f5857",
+        "4cffadf7-1af6-4d91-9090-37fb8bad13b5"
+      ],
+      "settings": {
+        "title": "recommended Collection"
+      }
+    },
+    "adc9f98d-48a4-4de9-9879-a60a05ae00e6": {
+      "type": "custom-shop",
+      "blocks": {
+        "7c58ec12-8abe-4d28-b523-c41501a2be2c": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "BEST SELLERS",
+            "collection": "a-b-best-sellers",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        },
+        "7a2686f6-64dd-4f12-8d38-b25260159f22": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "SALE",
+            "collection": "sale",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        },
+        "b1dc0d78-4c35-4084-9f6e-2ce267220327": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "HELLO KITTY",
+            "collection": "a-b-hello-kitty",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        },
+        "96786eca-c88e-4827-a5a0-8b0b4bd9dd87": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "all",
+            "collection": "all",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        }
+      },
+      "block_order": [
+        "7c58ec12-8abe-4d28-b523-c41501a2be2c",
+        "7a2686f6-64dd-4f12-8d38-b25260159f22",
+        "b1dc0d78-4c35-4084-9f6e-2ce267220327",
+        "96786eca-c88e-4827-a5a0-8b0b4bd9dd87"
+      ],
+      "settings": {
+        "title": "shop"
+      }
+    }
+  },
+  "order": [
+    "ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245",
+    "8e8a8626-9ab6-44c3-9b3e-5abe62f7d095",
+    "2ae0f858-269f-427e-a038-ae7647e65555",
+    "adc9f98d-48a4-4de9-9879-a60a05ae00e6"
+  ]
+}
