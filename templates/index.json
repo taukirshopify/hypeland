@@ -56,7 +56,7 @@
     "8e8a8626-9ab6-44c3-9b3e-5abe62f7d095": {
       "type": "custom-feturedproduct",
       "settings": {
-        "h1": "Featured proudct",
+        "h1": "New Products",
         "image": "all",
         "p_limit": "20",
         "check": true
