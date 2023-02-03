@@ -5,7 +5,7 @@
                 <h2 class="sec-title">{{  section.settings.h1 }}</h2>
             </div>
             <div class="col-4">
-
+                {%- if section.settings.Arrows == 'top' -%}
                 <div class="splide__arrows splide__arrows--ltr d-flex justify-content-end position-relative slick-arrow-reset">
                     <button
                     class="splide__arrow splide__arrow--prev"
@@ -29,6 +29,8 @@
                     </div>
                     </button>
                 </div>
+            {% endif %}
+
             </div>
         </div>
       
@@ -106,7 +108,42 @@
             </div>
 
         </div>
+        <div class="row ">
+            {%- if section.settings.Arrows == 'bottom' -%}
+            <div class="splide__arrows arrows-bottom  d-flex justify-content-between align-items-center ">
+                <button
+                class=" arrow-bottom splide__arrow--prev"
+                type="button"
+                aria-label="Previous slide"
+                aria-controls="splide01-track"
+                >
+                <div class="svg-arrow">
+                    <i class="far fa-chevron-left"></i>
+                </div>
 
+                </button>
+
+
+                <ul class="splide__pagination bottom-pagination"></ul>
+
+                <button
+                class=" arrow-bottom splide__arrow--next "
+                type="button"
+                aria-label="Next slide"
+                aria-controls="splide01-track"
+                >
+                    <div class="svg-arrow-right">
+                        <i class="far fa-chevron-right"></i>
+                </div>
+                </button>
+            </div>
+
+
+          {% endif %}
+
+
+
+        </div>
 
 
     </div>
@@ -117,14 +154,15 @@
  Website.foo(); 
 
  let splide = new Splide( '#image-carousel-{{section.id}}', {
-            pagination : false,
-            paginationKeyboard:false,
+            pagination : true,
+            paginationKeyboard:true,
             type   : 'loop',
             drag   : 'free',
             perPage: 4,
             perMove: 3,
             rewindSpeed: 100,
             rewindByDrag:true,
+
             breakpoints: {
                 1020: {
                     perPage: 3,
@@ -136,7 +174,17 @@
                 }
               }
           } );
+
+          splide.on( 'pagination:mounted', function ( data ) {
+            // You can add your class to the UL element
+            data.list.classList.add( 'splide__pagination--custom' );
           
+            // `items` contains all dot items
+            data.items.forEach( function ( item ) {
+              item.button.textContent = String( item.page + 1 );
+            } );
+          } );
+
           splide.mount(); 
 
 
@@ -183,6 +231,20 @@
         margin-right: 14px;
     }
 
+
+
+     {% comment %} arrow  bottom css  {% endcomment %}
+     button.splide__arrow.arrow-bottom {
+        width: 100%;
+    }
+    button.arrow-bottom {
+        border: none;
+        background: transparent;
+    }
+    .image-carousel-{{section.id}}  .bottom-pagination{
+         position: unset;
+    }
+     {% comment %} arrow  bottom css  {% endcomment %}
 </style>
 {% schema %}
     {
@@ -214,6 +276,25 @@
         "id": "check",
         "label": "Slider active",
         "default": true
+     },
+
+     {
+        "type": "select",
+        "id": "Arrows",
+        "label": "Arrow position",
+        "options": [
+            {
+              "value": "top",
+              "label": "Top"
+            },
+            {
+              "value": "bottom",
+              "label": "Bottom"
+            }
+          ],
+          "default": "bottom"
+
+
      }
         ],
         "presets": [
