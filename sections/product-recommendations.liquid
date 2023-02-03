@@ -33,7 +33,7 @@
                   <h2 class="sec-title">{{ section.settings.heading | escape }} {{ collection.title }}</h2>
               </div>
               <div class="col-4">
-    
+                {%- if section.settings.Arrows == 'top' -%}
                   <div class="splide__arrows splide__arrows--ltr d-flex justify-content-end position-relative slick-arrow-reset">
                       <button
                       class="splide__arrow splide__arrow--prev"
@@ -42,9 +42,9 @@
                       aria-controls="splide01-track"
                       >
                       <div class="svg-arrow">
-                        <i class="far fa-chevron-left"></i>
+                          <i class="far fa-chevron-left"></i>
                       </div>
-    
+  
                       </button>
                       <button
                       class="splide__arrow splide__arrow--next "
@@ -53,10 +53,13 @@
                       aria-controls="splide01-track"
                       >
                           <div class="svg-arrow-right">
-                            <i class="far fa-chevron-right"></i>
+                              <i class="far fa-chevron-right"></i>
                       </div>
                       </button>
                   </div>
+              {% endif %}
+
+
               </div>
           </div>
         
@@ -135,7 +138,42 @@
     
           </div>
     
-    
+          <div class="row remomended-pagination-space ">
+            {%- if section.settings.Arrows == 'bottom' -%}
+            <div class="splide__arrows arrows-bottom  d-flex justify-content-between align-items-center ">
+                <button
+                class=" arrow-bottom splide__arrow--prev"
+                type="button"
+                aria-label="Previous slide"
+                aria-controls="splide01-track"
+                >
+                <div class="svg-arrow">
+                    <i class="far fa-chevron-left"></i>
+                </div>
+
+                </button>
+
+
+                <ul class="splide__pagination position-static"></ul>
+
+                <button
+                class=" arrow-bottom splide__arrow--next "
+                type="button"
+                aria-label="Next slide"
+                aria-controls="splide01-track"
+                >
+                    <div class="svg-arrow-right">
+                        <i class="far fa-chevron-right"></i>
+                </div>
+                </button>
+            </div>
+
+
+          {% endif %}
+
+
+
+        </div>
     
       </div>
     </section>
@@ -190,8 +228,8 @@
               this.classList.add('product-recommendations--loaded');
             }
             let splide = new Splide( '#image-carousel-{{section.id}}', {
-              pagination : false,
-              paginationKeyboard:false,
+  pagination :   {%- if section.settings.Arrows == 'bottom' -%} true {%- else -%}  false {%- endif -%},
+            paginationKeyboard:{%- if section.settings.Arrows == 'bottom' -%} true {%- else -%}  false {%- endif -%},
               type   : 'loop',
               drag   : 'free',
               perPage: 4,
@@ -298,7 +336,29 @@ Website.foo();
   }
  
 
- 
+      {% comment %} arrow  bottom css  {% endcomment %}
+      .remomended-pagination-space{
+        padding: 30px 0 10px 0;
+     }
+     button.splide__arrow.arrow-bottom {
+        width: 100%;
+    }
+    button.splide__pagination__page.is-active {
+        background: #000;
+    }
+    button.arrow-bottom {
+        border: none;
+        background: transparent;
+    }
+    .image-carousel-{{section.id}}  .bottom-pagination{
+         position: unset;
+    }
+    .splide__pagination__page {
+        background: transparent;
+        border: 1px solid #000;
+        transform: scale(1.4);
+      
+    }
 
 </style>
 {% comment %} end  {% endcomment %}
@@ -488,6 +548,26 @@ Website.foo();
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
     }
+    ,
+
+     {
+        "type": "select",
+        "id": "Arrows",
+        "label": "Arrow position",
+        "options": [
+            {
+              "value": "top",
+              "label": "Top"
+            },
+            {
+              "value": "bottom",
+              "label": "Bottom"
+            }
+          ],
+          "default": "bottom"
+
+
+     }
   ]
 }
 {% endschema %}
