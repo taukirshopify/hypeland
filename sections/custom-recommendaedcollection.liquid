@@ -7,8 +7,9 @@
           <div class="col-10" >
             <h2 class="sec-title-2">{{ section.settings.title }}</h2>
           </div>
+
           <div class="col-2 " >
-            
+            {%- if section.settings.Arrows == 'top' -%}
             <div class="arrow-group d-flex align-items-center justify-content-end ">
 
               <div id="prevr">
@@ -22,7 +23,9 @@
                </div>
            
             </div>
+          {% endif %}
           </div>
+
         </div>
         <div class="row" id="productSlide2">
          
@@ -124,6 +127,26 @@
                         "label": "Shop text",
                         "default": "shop now",
                         "placeholder": "shop now"
+                      }
+                      ,
+
+                      {
+                         "type": "select",
+                         "id": "Arrows",
+                         "label": "Arrow position",
+                         "options": [
+                             {
+                               "value": "top",
+                               "label": "Top"
+                             },
+                             {
+                               "value": "bottom",
+                               "label": "Bottom"
+                             }
+                           ],
+                           "default": "bottom"
+                 
+                 
                       }
                 ]
             }

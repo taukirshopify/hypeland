@@ -703,7 +703,7 @@ h6 {
 	border-bottom: none
 }
 
-.ot-mobile-menu ul .ot-item-hot-children>a .ot-mean-expand {
+.ot-mobile-menu ul .ot-item-has-children>a .ot-mean-expand {
 	position: absolute;
 	right: 0;
 	top: 50%;
@@ -717,7 +717,7 @@ h6 {
 	border-radius: 50%
 }
 
-.ot-mobile-menu ul .ot-item-hot-children>a .ot-mean-expand:before {
+.ot-mobile-menu ul .ot-item-has-children>a .ot-mean-expand:before {
 	content: "\f105";
 	font-family: var(--icon-font);
 	-webkit-transition: .3s;
@@ -726,7 +726,7 @@ h6 {
 	display: inline-block
 }
 
-.ot-mobile-menu ul .ot-item-hot-children.ot-active>a .ot-mean-expand:before {
+.ot-mobile-menu ul .ot-item-has-children.ot-active>a .ot-mean-expand:before {
 	-webkit-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
 	transform: rotate(90deg);
@@ -1717,7 +1717,7 @@ a.text-body:hover {
 	transform: translateY(-17%)
 }
 
-.menu-item-hot-children.ot-item-hot-children.ot-active ul {
+.menu-item-hot-children.ot-item-has-children.ot-active ul {
 	margin-left: 10px
 }
 
@@ -4349,4 +4349,9 @@ a.img_swap img {
 	object-fit: cover
 }
 
-/*# sourceMappingURL=style.css.map */
+.svg-arrow-right i {
+    color: #000;
+}
+.svg-arrow i {
+    color: #000;
+}
