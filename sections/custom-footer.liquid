@@ -30,19 +30,14 @@
                       {% endif %}
           
                       {% if settings.ticktok != blank %}
-                            <a target="_blank" href="{{settings.ticktok}}">
-                              
-                           {% render 'tiktok' %}
-                          
-                          
+                          <a target="_blank" href="{{settings.ticktok}}"> 
+                            {% render 'tiktok' %}
                           </a>
                         {% endif %}
                           {% if settings.discord != blank %}
-                            <a target="_blank" href="{{ settings.discord}}">
-                            
+                          <a target="_blank" href="{{ settings.discord}}">
                             {% render 'discord' %}
-                            
-                            </a>
+                          </a>
                           {% endif %}
                         </div>
                     </div>
