@@ -17,8 +17,10 @@
     }
   }
 {%- endstyle -%}
+<div class="contace-page-title">
 
-<div class="page-width page-width--narrow section-{{ section.id }}-padding">
+
+<div class="page-width page-width--narrow section-{{ section.id }}-padding   ">
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
   </h1>
@@ -27,6 +29,7 @@
   </div>
 </div>
 
+</div>
 {% schema %}
 {
   "name": "t:sections.main-page.name",
@@ -67,3 +70,23 @@
   ]
 }
 {% endschema %}
+
+
+<style>
+  .rte {
+    text-align: center;
+}
+.contace-page-title{
+  background: #000;
+
+}
+
+.contace-page-title h1{
+   color:#fff;
+}
+.contace-page-title .rte{
+  color:#fff;
+}
+
+
+</style>
