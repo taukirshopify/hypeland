@@ -2634,7 +2634,7 @@ h2#predictive-search-products {
 
 .featured-slide-area .slider-nav-wrap {
 	position: absolute;
-	bottom: -52px;
+	bottom: -45px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
@@ -2655,9 +2655,7 @@ h2#predictive-search-products {
 	}
 }
 
-.slider-nav-wrap {
-	padding: 17px 0
-}
+
 
 .slider-nav {
 	display: -webkit-box;
