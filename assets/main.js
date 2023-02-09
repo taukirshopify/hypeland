@@ -75,11 +75,11 @@
       }
 
       // Submenu toggle Button
-      var subMenuParent = "." + opt.subMenuParent + ' > a';
+      var subMenuParent = "." + opt.subMenuParent;
       $(subMenuParent).each(function () {
           $(this).on("click", function (e) {
               e.preventDefault();
-              toggleDropDown($(this).parent());
+              toggleDropDown($(this));
           });
       });
 
@@ -104,7 +104,8 @@
 };
 
 
-$('.ot-menu-wrapper').otmobilemenu();
+  $('.ot-menu-wrapper').otmobilemenu();
+
 
   /*---------- 02. Sticky fix ----------*/
   var lastScrollTop = '';
