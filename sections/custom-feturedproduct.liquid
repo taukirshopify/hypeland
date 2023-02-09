@@ -1,316 +1,311 @@
 <section class="space-bottom">
-    <div class="container splide" id="image-carousel-{{section.id}}">
-        <div class="row align-items-centera">
-            <div class="col-8">
-                <h2 class="sec-title">{{  section.settings.h1 }}</h2>
-            </div>
-            <div class="col-4">
-                {%- if section.settings.Arrows == 'top' -%}
-                <div class="splide__arrows splide__arrows--ltr d-flex justify-content-end position-relative slick-arrow-reset">
-                    <button
-                    class="splide__arrow splide__arrow--prev"
-                    type="button"
-                    aria-label="Previous slide"
-                    aria-controls="splide01-track"
-                    >
-                    <div class="svg-arrow">
-                        <i class="far fa-chevron-left"></i>
-                    </div>
+  <div class="container splide" id="image-carousel-{{section.id}}">
+    <div class="row align-items-centera">
+      <div class="col-8">
+        <h2 class="sec-title">{{ section.settings.h1 }}</h2>
+      </div>
+      <div class="col-4">
+        {%- if section.settings.Arrows == 'top' -%}
+          <div class="splide__arrows splide__arrows--ltr d-flex justify-content-end position-relative slick-arrow-reset">
+            <button
+              class="splide__arrow splide__arrow--prev"
+              type="button"
+              aria-label="Previous slide"
+              aria-controls="splide01-track">
+              <div class="svg-arrow">
+                <i class="far fa-chevron-left"></i>
+              </div>
 
-                    </button>
-                    <button
-                    class="splide__arrow splide__arrow--next "
-                    type="button"
-                    aria-label="Next slide"
-                    aria-controls="splide01-track"
-                    >
-                        <div class="svg-arrow-right">
-                            <i class="far fa-chevron-right"></i>
-                    </div>
-                    </button>
+            </button>
+            <button
+              class="splide__arrow splide__arrow--next "
+              type="button"
+              aria-label="Next slide"
+              aria-controls="splide01-track">
+              <div class="svg-arrow-right">
+                <i class="far fa-chevron-right"></i>
+              </div>
+            </button>
+          </div>
+        {% endif %}
+
+      </div>
+    </div>
+
+    {% comment %} {% if section.settings.check %}
+    id="productSlide1"
+    {% endif %} {% endcomment %}
+    <div class="row">
+      {% assign collection = collections[section.settings.image] %}
+
+      <!-- single-product start -->
+      <div class="splide__track">
+        <ul class="splide__list">
+
+          {% for product in collection.products limit: section.settings.p_limit %}
+            <div class="col-lg-4 col-6 splide__slide">
+              <div class="ot-product   {% if product.metafields.custom.coming_soon_product == true %} upcoming  {% endif %}">
+                <div class="product-img">
+
+
+
+                  {% if product.metafields.custom.coming_soon_product == true %}
+
+                    <span class="badge__text tag ot-btn badge__text badge tagtwo">Coming  Soon</span>
+
+                  {% elsif product.available == false %}
+                    <span class="badge__text tag ot-btn badge__text badge tagtwo">Sold Out</span>
+                  {% elsif product.compare_at_price > product.price %}
+                    <span class="badge__text tag ot-btn badge__text badge tagtwo">on Sale</span>
+                  {% endif %}
+
+
+
+                  {% for image in product.images limit: 2 %}
+                    {% if forloop.index == 1 %}
+                      <a href="{{product.url }}">
+                        {{ image | image_url: width: 750 | image_tag:
+                         loading: "lazy",
+                         height: height,
+                         sizes: "10vw",
+                         widths: '375, 550, 750' }}
+                      </a>
+
+                    {% else %}
+                      <a href="{{product.url }}" class="img_swap {% if product.metafields.custom.coming_soon_product == true %}d-none {% endif %}">
+
+                        {{ image | image_url: width: 750 | image_tag:
+                         loading: "lazy",
+                         height: height,
+                         sizes: "10vw",
+                         widths: '375, 550, 750' }}
+                      </a>
+                    {% endif %}
+                  {% endfor %}
                 </div>
-            {% endif %}
-
-            </div>
-        </div>
-      
-        {% comment %} {% if section.settings.check %}
-            id="productSlide1"
-        {% endif %} {% endcomment %}
-        <div class="row">
-         {% assign collection = collections[section.settings.image] %}
-        
-            <!-- single-product start -->
-            <div class="splide__track">
-                <ul class="splide__list">
-
-                {% for product in collection.products limit: section.settings.p_limit %}
-                    <div class="col-lg-4 col-6 splide__slide">
-                        <div class="ot-product   {% if product.metafields.custom.coming_soon_product == true %} upcoming  {% endif %}">
-                            <div class="product-img">
-
-                           
+                <div class="product-content">
+                  <h3 class="product-title style2">
+                    <a href="{{product.url}}">{{ product.title }}</a>
+                  </h3>
+                  <div class="pricw-rapper d-flex justify-content-center">
+                    {% if product.compare_at_price > product.price %}
+                      <span class="price del">
+                        {{ product.compare_at_price_min | money_without_trailing_zeros }}</span>
+                    {% endif %}
+                    <span class="price2 price ">{{ product.price | money_without_trailing_zeros }}</span>
 
 
-                       
-                                      {% if product.metafields.custom.coming_soon_product == true %}
-                               
-                                          <span class="badge__text tag ot-btn badge__text badge tagtwo">Coming  Soon</span>
-                                           
-                                      {% elsif  product.available == false  %}
-                                          <span class="badge__text tag ot-btn badge__text badge tagtwo">Sold Out</span>
-                                          {% elsif  product.compare_at_price > product.price  %}
-                                          <span class="badge__text tag ot-btn badge__text badge tagtwo">on Sale</span>
-                                      {% endif %}
-                   
-               
+                  </div>
 
-
-
-                                {% for image in product.images limit:2 %}
-                                    {% if forloop.index  == 1 %}
-                                        <a href="{{product.url }}">               {{ image | image_url: width: 750 | image_tag:
-                                            loading:"lazy",
-                                            height: height,
-                                            sizes: "10vw",
-                                            widths: '375, 550, 750'
-                                        }} </a>
-                                
-                                {% else %}
-                                    <a href="{{product.url }}" class="img_swap {% if product.metafields.custom.coming_soon_product == true %}d-none {% endif %}">   
-                                    
-                                    {{ image | image_url: width: 750 | image_tag:
-                                        loading:"lazy",
-                                        height: height,
-                                        sizes: "10vw",
-                                        widths: '375, 550, 750'
-                                    }} 
-                                    </a>
-                                    {% endif %}
-                                {% endfor %}
-                            </div>
-                            <div class="product-content">
-                                <h3 class="product-title style2"><a href="{{product.url}}">{{product.title}}</a></h3>
-                                <div class="pricw-rapper d-flex justify-content-center">
-                    {% if  product.compare_at_price > product.price %}
-                                    <span class="price del">  {{ product.compare_at_price_min  | money_without_trailing_zeros }}</span>
-                        {% endif %}
-                                    <span class="price2 price ">{{ product.price  | money_without_trailing_zeros }}</span>
-                                    
-                                
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                {% endfor %}
-                </ul>
-            </div>
-
-        </div>
-        <div class="row remomended-pagination-space ">
-            {%- if section.settings.Arrows == 'bottom' -%}
-            <div class="splide__arrows arrows-bottom  d-flex justify-content-between align-items-center ">
-                <button
-                class=" arrow-bottom splide__arrow--prev"
-                type="button"
-                aria-label="Previous slide"
-                aria-controls="splide01-track"
-                >
-                <div class="svg-arrow">
-                    <i class="far fa-chevron-left"></i>
                 </div>
+              </div>
+            </div>
+          {% endfor %}
+        </ul>
+      </div>
 
-                </button>
-
-
-                <ul class="splide__pagination position-static"></ul>
-
-                <button
-                class=" arrow-bottom splide__arrow--next "
-                type="button"
-                aria-label="Next slide"
-                aria-controls="splide01-track"
-                >
-                    <div class="svg-arrow-right">
-                        <i class="far fa-chevron-right"></i>
-                </div>
-                </button>
+    </div>
+    <div class="row remomended-pagination-space ">
+      {%- if section.settings.Arrows == 'bottom' -%}
+        <div class="splide__arrows arrows-bottom  d-flex justify-content-between align-items-center ">
+          <button
+            class=" arrow-bottom splide__arrow--prev"
+            type="button"
+            aria-label="Previous slide"
+            aria-controls="splide01-track">
+            <div class="svg-arrow">
+              <i class="far fa-chevron-left"></i>
             </div>
 
-
-          {% endif %}
-
+          </button>
 
 
+          <ul class="splide__pagination position-static"></ul>
+
+          <button
+            class=" arrow-bottom splide__arrow--next "
+            type="button"
+            aria-label="Next slide"
+            aria-controls="splide01-track">
+            <div class="svg-arrow-right">
+              <i class="far fa-chevron-right"></i>
+            </div>
+          </button>
         </div>
+
+
+      {% endif %}
+
 
 
     </div>
+
+
+  </div>
 </section>
 <script>
 
-    document.addEventListener("DOMContentLoaded", () => {
- Website.foo(); 
+  document.addEventListener("DOMContentLoaded", () => {
+    Website.foo();
 
- let splide = new Splide( '#image-carousel-{{section.id}}', {
-            pagination :   {%- if section.settings.Arrows == 'bottom' -%} true {%- else -%}  false {%- endif -%},
-            paginationKeyboard:{%- if section.settings.Arrows == 'bottom' -%} true {%- else -%}  false {%- endif -%},
-            type   : 'loop',
-            drag   : 'free',
-            perPage: 4,
-            perMove: 3,
-            rewindSpeed: 100,
-            rewindByDrag:true,
+    let splide = new Splide('#image-carousel-{{section.id}}', {
+      pagination:{%- if section.settings.Arrows == 'bottom' -%}true
+      {%- else -%}
+        false
+      {%- endif -%},
+      paginationKeyboard:{%- if section.settings.Arrows == 'bottom' -%}true
+      {%- else -%}
+        false
+      {%- endif -%},
+      type: 'loop',
+      drag: 'free',
+      perPage: 4,
+      perMove: 3,
+      rewindSpeed: 100,
+      rewindByDrag: true,
 
-            breakpoints: {
-                1020: {
-                    perPage: 3,
-                    perMove: 2,
-                },
-                640: {
-                    perPage: 2,
-                    perMove: 1,
-                }
-              }
-          } );
+      breakpoints: {
+        1024: {
+          perPage: 3,
+          perMove: 2
+        },
+        640: {
+          perPage: 2,
+          perMove: 1
+        }
+      }
+    });
 
 
 
-          splide.mount(); 
+    splide.mount();
 
 
-          
-      });
-    
+
+  });
 </script>
 <style>
 
 
 
-
-
-    #image-carousel .splide__arrow {
-        background: transparent;
-    }
-    #image-carousel .splide__arrow {
+  #image-carousel .splide__arrow {
+    background: transparent;
+  }
+  #image-carousel .splide__arrow {
     width: 40px;
-    height:40px;
-    }
+    height: 40px;
+  }
 
-    #image-carousel .splide__arrow  img {
-        border: none;
-        max-width: 100%;
-        width: 100%;
-        height: 100% !important;
-        object-fit: contain;
-    }
-    button.splide__pagination__page {
-        text-indent: -5000px;
-    }
-    .image-carousel-{{section.id}} .splide__arrow {
-        position: unset;
-    }
-    .splide__arrow {
+  #image-carousel .splide__arrow img {
+    border: none;
+    max-width: 100%;
+    width: 100%;
+    height: 100% !important;
+    object-fit: contain;
+  }
+  button.splide__pagination__page {
+    text-indent: -5000px;
+  }
+  .image-carousel-{{ section.id}}.splide__arrow {
+    position: unset;
+  }
+  .splide__arrow {
 
-        transform: translateY(0%);
-    
-    }
-    .splide__arrow svg {
-        fill: #000;
-        height: 25px;
-        width: 25px;
-    }
-    button.splide__arrow.splide__arrow--prev {
-        margin-right: 14px;
-    }
+    transform: translateY(0%);
 
-    .splide__pagination li {
-        height: 13px;
-    }
+  }
+  .splide__arrow svg {
+    fill: #000;
+    height: 25px;
+    width: 25px;
+  }
+  button.splide__arrow.splide__arrow--prev {
+    margin-right: 14px;
+  }
 
-     {% comment %} arrow  bottom css  {% endcomment %}
-     .remomended-pagination-space{
-        padding: 30px 0 10px 0;
-     }
-     button.splide__arrow.arrow-bottom {
-        width: 100%;
-    }
-    button.splide__pagination__page.is-active {
-        background: #000;
-    }
-    button.arrow-bottom {
-        border: none;
-        background: transparent;
-    }
-    .image-carousel-{{section.id}}  .bottom-pagination{
-         position: unset;
-    }
-    .splide__pagination__page {
-        background: transparent;
-        border: 1px solid #000;
-        transform: scale(1.4);
-      
-    }
-     {% comment %} arrow  bottom css  {% endcomment %}
+  .splide__pagination li {
+    height: 13px;
+  }
+
+  {% comment %}
+    arrow bottom css{% endcomment %}
+  .remomended-pagination-space {
+    padding: 30px 0 10px;
+  }
+  button.splide__arrow.arrow-bottom {
+    width: 100%;
+  }
+  button.splide__pagination__page.is-active {
+    background: #000;
+  }
+  button.arrow-bottom {
+    border: none;
+    background: transparent;
+  }
+  .image-carousel-{{ section.id}}.bottom-pagination {
+    position: unset;
+  }
+  .splide__pagination__page {
+    background: transparent;
+    border: 1px solid #000;
+    transform: scale(1.4);
+
+  }
+  {% comment %}
+    arrow bottom css{% endcomment %}
 </style>
 {% schema %}
-    {
-        "name": "FETURED PRODUCT",
-        "class": "Featured",
-        "settings": [
-            {
-                "type": "text",
-                "id": "h1",
-                "label": "Section title",
-                "default": "Featured proudct"
-            },
-     {
+  {
+    "name": "FETURED PRODUCT",
+    "class": "Featured",
+    "settings": [
+      {
+        "type": "text",
+        "id": "h1",
+        "label": "Section title",
+        "default": "Featured proudct"
+      },
+      {
         "type": "collection",
         "id": "image",
         "label": "Please Select your Collection"
 
-     },
-     {
+      },
+      {
         "type": "text",
         "id": "p_limit",
         "label": "How meany proudct you want to show",
         "default": "12",
 
         "placeholder": "12"
-     },
-     {
+      },
+      {
         "type": "checkbox",
         "id": "check",
         "label": "Slider active",
         "default": true
-     },
-
-     {
+      }, {
         "type": "select",
         "id": "Arrows",
         "label": "Arrow position",
         "options": [
-            {
-              "value": "top",
-              "label": "Top"
-            },
-            {
-              "value": "bottom",
-              "label": "Bottom"
-            }
-          ],
-          "default": "bottom"
-
-
-     }
+          {
+            "value": "top",
+            "label": "Top"
+          }, {
+            "value": "bottom",
+            "label": "Bottom"
+          }
         ],
-        "presets": [
-            {
-              "name": "G  FETURED PRODUCT"
-            }
-            ]
-    }
+        "default": "bottom"
+
+
+      }
+    ],
+    "presets": [
+      {
+        "name": "G  FETURED PRODUCT"
+      }
+    ]
+  }
 {% endschema %}
-
-

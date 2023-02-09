@@ -206,6 +206,20 @@ span a {
 	line-height: inherit
 }
 
+span{
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 130%;
+	color: var(--theme-color);
+	 
+	text-transform: uppercase;
+  
+   
+  }
+
 .h1,
 .h2,
 .h3,
@@ -272,17 +286,22 @@ h6 {
 
 	.h2,
 	h2 {
-		font-size: 30px
+		font-size: 24px
 	}
 
 	.h3,
 	h3 {
-		font-size: 24px
+		font-size: 22px
 	}
 
 	.h4,
 	h4 {
-		font-size: 22px
+		font-size: 20px
+	}
+
+	span{
+
+		font-size: 14px;
 	}
 }
 
@@ -790,16 +809,6 @@ h6 {
 	.ot-menu-wrapper .mobile-logo,
 	.ot-menu-wrapper .subscribe-wrap {
 		padding: 35px 25px
-	}
-
-	.ot-menu-wrapper .social-box {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-webkit-box-align: start;
-		-ms-flex-align: start;
-		align-items: flex-start
 	}
 
 	.ot-menu-wrapper .ot-menu-toggle {
@@ -1783,13 +1792,13 @@ a.text-body:hover {
 	}
 
 	.footer-menu li {
-		display: block;
-		margin-bottom: 27px;
-		margin-right: 0
+		display: inline-block;
+
+		margin:  10px ;
 	}
 
-	.footer-menu a {
-		font-size: 16px
+	.footer-menu li a {
+		font-size: 15px
 	}
 
 	.payment-methods {
@@ -3396,11 +3405,25 @@ button.hello.slick-arrow img {
 	}
 }
 
-@media only screen and (min-width:200px) and (max-width:499px) {
+@media only screen and (min-width:400px) and (max-width:499px) {
 	.ot-product .product-img {
 		margin-bottom: 26px;
 		position: relative;
-		min-height: 210px
+		min-height: 200px
+	}
+}
+@media only screen and (min-width:300px) and (max-width:399px) {
+	.ot-product .product-img {
+		margin-bottom: 26px;
+		position: relative;
+		min-height: 184px;
+	}
+}
+@media only screen and (min-width:200px) and (max-width:299px) {
+	.ot-product .product-img {
+		margin-bottom: 26px;
+		position: relative;
+		min-height: 175px
 	}
 }
 
@@ -4353,3 +4376,33 @@ a.img_swap img {
 .svg-arrow i {
     color: #000;
 }
+
+
+.product-img a {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+select#SortBy {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+  }
+
+
+
+  @media only screen and (max-width: 1199px) and (min-width: 800px) {
+    select#SortBy {
+      font-size: 14px;
+    }
+
+  }
