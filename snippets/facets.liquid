@@ -28,14 +28,14 @@
 <div class="container">
   <div class="row">
 
-    <div class="col-md-4 col-11">
+    <div class="col-md-3 col-11">
   
   
       <h2> {{- collection.title | escape -}}</h2>
   
     </div>
   
-    <div class="col-md-8 small-hide">
+    <div class="col-md-9 small-hide">
   
   
     <div class="facets-container{% if filter_type == 'drawer' %} facets-container-drawer{% endif %}">
@@ -536,6 +536,15 @@
     font-size: 16px;
     text-transform: uppercase;
     color: #000000;
+  }
+
+  @media only screen and (max-width: 1199px) and (min-width: 800px)  {
+
+
+  .facets__form h2{
+    font-size: 16px;
+  }
+
   }
   .facet-filters {
     padding-left: 0;
