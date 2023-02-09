@@ -21,90 +21,91 @@
   */
   
   /*---------- 01. Mobile Menu Active ----------*/
-    $.fn.otmobilemenu = function (options) {
-        var opt = $.extend(
-          {
-              menuToggleBtn: ".ot-menu-toggle",
-              bodyToggleClass: "ot-body-visible",
-              subMenuClass: "ot-submenu",
-              subMenuParent: "ot-item-has-children",
-              subMenuParentToggle: "ot-active",
-              meanExpandClass: "ot-mean-expand",
-              appendElement: '<span class="ot-mean-expand"></span>',
-              subMenuToggleClass: "ot-open",
-              toggleSpeed: 400,
-          },
-          options
-      );
-    
-      return this.each(function () {
-          var menu = $(this); // Select menu
-    
-          // Menu Show & Hide
-          function menuToggle() {
-              menu.toggleClass(opt.bodyToggleClass);
-    
-              // collapse submenu on menu hide or show
-              var subMenu = "." + opt.subMenuClass;
-              $(subMenu).each(function () {
-                  if ($(this).hasClass(opt.subMenuToggleClass)) {
-                      $(this).removeClass(opt.subMenuToggleClass);
-                      $(this).css("display", "none");
-                      $(this).parent().removeClass(opt.subMenuParentToggle);
-                  }
-              });
-          }
-    
-          // Class Set Up for every submenu
-          menu.find("li").each(function () {
-              var submenu = $(this).find("ul");
-              submenu.addClass(opt.subMenuClass);
-              submenu.css("display", "none");
-              submenu.parent().addClass(opt.subMenuParent);
-              submenu.prev("a").append(opt.appendElement);
-              submenu.next("a").append(opt.appendElement);
+  $.fn.otmobilemenu = function (options) {
+    var opt = $.extend(
+      {
+          menuToggleBtn: ".ot-menu-toggle",
+          bodyToggleClass: "ot-body-visible",
+          subMenuClass: "ot-submenu",
+          subMenuParent: "ot-item-has-children",
+          subMenuParentToggle: "ot-active",
+          meanExpandClass: "ot-mean-expand",
+          appendElement: '<span class="ot-mean-expand"></span>',
+          subMenuToggleClass: "ot-open",
+          toggleSpeed: 400,
+      },
+      options
+  );
+
+  return this.each(function () {
+      var menu = $(this); // Select menu
+
+      // Menu Show & Hide
+      function menuToggle() {
+          menu.toggleClass(opt.bodyToggleClass);
+
+          // collapse submenu on menu hide or show
+          var subMenu = "." + opt.subMenuClass;
+          $(subMenu).each(function () {
+              if ($(this).hasClass(opt.subMenuToggleClass)) {
+                  $(this).removeClass(opt.subMenuToggleClass);
+                  $(this).css("display", "none");
+                  $(this).parent().removeClass(opt.subMenuParentToggle);
+              }
           });
-    
-          // Toggle Submenu
-          function toggleDropDown($element) {
-              if ($($element).find("ul").length > 0) {
-                  $($element).toggleClass(opt.subMenuParentToggle);
-                  $($element).find("ul").slideToggle(opt.toggleSpeed);
-                  $($element).find("ul").toggleClass(opt.subMenuToggleClass);
-              } 
-          }
-    
-          // Submenu toggle Button
-          var subMenuParent = "." + opt.subMenuParent + ' > a';
-          $(subMenuParent).each(function () {
-              $(this).on("click", function (e) {
-                  e.preventDefault();
-                  toggleDropDown($(this).parent());
-              });
-          });
-    
-          // Menu Show & Hide On Toggle Btn click
-          $(opt.menuToggleBtn).each(function () {
-              $(this).on("click", function () {
-                  menuToggle();
-              });
-          });
-    
-          // Hide Menu On out side click
-          menu.on("click", function (e) {
-              e.stopPropagation();
-              menuToggle();
-          });
-    
-          // Stop Hide full menu on menu click
-          menu.find("div").on("click", function (e) {
-              e.stopPropagation();
+      }
+
+      // Class Set Up for every submenu
+      menu.find("li").each(function () {
+          var submenu = $(this).find("ul");
+          submenu.addClass(opt.subMenuClass);
+          submenu.css("display", "none");
+          submenu.parent().addClass(opt.subMenuParent);
+          submenu.prev("a").append(opt.appendElement);
+          submenu.next("a").append(opt.appendElement);
+      });
+
+      // Toggle Submenu
+      function toggleDropDown($element) {
+          if ($($element).find("ul").length > 0) {
+              $($element).toggleClass(opt.subMenuParentToggle);
+              $($element).find("ul").slideToggle(opt.toggleSpeed);
+              $($element).find("ul").toggleClass(opt.subMenuToggleClass);
+          } 
+      }
+
+      // Submenu toggle Button
+      var subMenuParent = "." + opt.subMenuParent;
+      $(subMenuParent).each(function () {
+          $(this).on("click", function (e) {
+              e.preventDefault();
+              toggleDropDown($(this));
           });
       });
-    };
-    
-    
-    $('.ot-menu-wrapper').otmobilemenu();
+
+      // Menu Show & Hide On Toggle Btn click
+      $(opt.menuToggleBtn).each(function () {
+          $(this).on("click", function () {
+              menuToggle();
+          });
+      });
+
+      // Hide Menu On out side click
+      menu.on("click", function (e) {
+          e.stopPropagation();
+          menuToggle();
+      });
+
+      // Stop Hide full menu on menu click
+      menu.find("div").on("click", function (e) {
+          e.stopPropagation();
+      });
+  });
+};
+
+
+  $('.ot-menu-wrapper').otmobilemenu();
+
 
   /*---------- 02. Sticky fix ----------*/
   var lastScrollTop = '';
