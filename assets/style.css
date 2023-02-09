@@ -811,15 +811,6 @@ h6 {
 		padding: 35px 25px
 	}
 
-	.ot-menu-wrapper .social-box {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-webkit-box-align: start;
-		-ms-flex-align: start;
-		align-items: flex-start
-	}
 
 	.ot-menu-wrapper .ot-menu-toggle {
 		right: 25px;
