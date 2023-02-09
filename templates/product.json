@@ -93,15 +93,6 @@
         "padding_bottom": 12
       }
     },
-    "c8f521a5-b416-4705-8543-e57dd8dac061": {
-      "type": "custom-feturedproduct",
-      "settings": {
-        "h1": "Featured proudcts",
-        "image": "a-b-best-sellers",
-        "p_limit": "20",
-        "check": true
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -116,13 +107,24 @@
         "show_rating": false,
         "columns_mobile": "2",
         "padding_top": 36,
-        "padding_bottom": 28
+        "padding_bottom": 28,
+        "Arrows": "bottom"
+      }
+    },
+    "c8f521a5-b416-4705-8543-e57dd8dac061": {
+      "type": "custom-feturedproduct",
+      "settings": {
+        "h1": "Featured proudcts",
+        "image": "a-b-best-sellers",
+        "p_limit": "20",
+        "check": true,
+        "Arrows": "bottom"
       }
     }
   },
   "order": [
     "main",
-    "c8f521a5-b416-4705-8543-e57dd8dac061",
-    "product-recommendations"
+    "product-recommendations",
+    "c8f521a5-b416-4705-8543-e57dd8dac061"
   ]
 }
