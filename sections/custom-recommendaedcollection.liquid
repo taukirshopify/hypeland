@@ -36,7 +36,7 @@
             <div class="col-6">
                 <div class="recommend-product">
                     <div class="product-img">
-                        {% render 'lazy' %}
+                       
                         {% if product.settings.url01 != blank %}
                                 <a href="{{ product.settings.url01 }}">           
            
@@ -242,9 +242,9 @@
 
 
     });
-    $('img[data-lazy]').one('load', function(e) {
+    {% comment %} $('img[data-lazy]').one('load', function(e) {
         if (this.complete) {
             $(this).parent().siblings('.ajax-loader').remove();
         }
-      });
+      }); {% endcomment %}
 </script>

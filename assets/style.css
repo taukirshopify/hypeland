@@ -3072,7 +3072,9 @@ h2#predictive-search-products {
 }
 
 .recommend-product .product-img a {
-	width: 50%
+
+	width: 50%;
+	position: unset;
 }
 
 .recommend-product .product-img img {
