@@ -6,9 +6,30 @@
         "title": "Aka blog",
         "p": ""
       }
+    },
+    "f6aea647-0d48-4988-b381-e4e403aabeb9": {
+      "type": "custom-blog",
+      "blocks": {
+        "9e1687cc-d7fe-4236-8eba-f36cb2ca9f54": {
+          "type": "blog",
+          "settings": {
+            "h1": "ALL",
+            "blog": "news",
+            "button": "View More",
+            "blogurl": "shopify:\/\/blogs\/news"
+          }
+        }
+      },
+      "block_order": [
+        "9e1687cc-d7fe-4236-8eba-f36cb2ca9f54"
+      ],
+      "settings": {
+        "h1": "Aka NEWS"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f6aea647-0d48-4988-b381-e4e403aabeb9"
   ]
 }
