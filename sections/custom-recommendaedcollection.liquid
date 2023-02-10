@@ -36,12 +36,12 @@
             <div class="col-6">
                 <div class="recommend-product">
                     <div class="product-img">
-                       
+                        {% render 'lazy' %}
                         {% if product.settings.url01 != blank %}
                                 <a href="{{ product.settings.url01 }}">           
            
                                 
-                                  <img src=" {{ product.settings.image |  img_url:'' }}" style="">
+                                  <img data-lazy=" {{ product.settings.image |  img_url:'' }}" style="">
                                 
                                 
                                 </a>
@@ -51,7 +51,7 @@
                               
                                <a href="{{ product.settings.url02 }}">   
                               
-                            <img src=" {{ product.settings.image |  img_url:'' }}" style="">
+                            <img data-lazy=" {{ product.settings.image |  img_url:'' }}" style="">
                             </a>
                         {% endif %}
          
@@ -195,6 +195,7 @@
         display: none;
     }
  }
+
 </style>
 
 <script>
@@ -242,9 +243,9 @@
 
 
     });
-    {% comment %} $('img[data-lazy]').one('load', function(e) {
+    $('img[data-lazy]').one('load', function(e) {
         if (this.complete) {
             $(this).parent().siblings('.ajax-loader').remove();
         }
-      }); {% endcomment %}
+      });
 </script>
