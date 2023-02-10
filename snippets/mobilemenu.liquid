@@ -133,7 +133,7 @@
                   </a>
                 {% endif %}
                 {% if settings.twitter != blank %}
-                  <a target="_blank" href="https://twitter.com/">
+                  <a target="_blank" href="{{settings.twitter}}">
 
                     {% render 'twitter' %}
                   
@@ -142,7 +142,7 @@
             {% endif %}
 
             {% if settings.ticktok != blank %}
-                  <a target="_blank" href="https://ticktok.com/">
+                  <a target="_blank" href="{{settings.ticktok}}">
                     
                  {% render 'tiktok' %}
                 

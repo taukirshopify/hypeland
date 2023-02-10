@@ -2996,20 +2996,20 @@ h2#predictive-search-products {
 .ot-product .product-img .tag {
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
+	left: 10px;
+	/* -webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); */
 	white-space: nowrap
 }
 
 .ot-product .product-img .tagtwo {
 	position: absolute;
 	top: 103%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
+	left: 10px;
+	/* -webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); */
 	white-space: nowrap
 }
 
