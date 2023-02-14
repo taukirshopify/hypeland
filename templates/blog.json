@@ -1,7 +1,15 @@
 {
   "sections": {
+    "03b0b5e1-f086-4c1a-ad50-7e8ca4dacc58": {
+      "type": "faq",
+      "settings": {
+        "h1": "FREQUENTLY ASKED QUESTIONS",
+        "h2": "HAVE QUESTIONS? WE’RE HERE TO HELP"
+      }
+    },
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "settings": {
         "title": "Aka blog",
         "p": ""
@@ -29,6 +37,7 @@
     }
   },
   "order": [
+    "03b0b5e1-f086-4c1a-ad50-7e8ca4dacc58",
     "main",
     "f6aea647-0d48-4988-b381-e4e403aabeb9"
   ]
