@@ -22,11 +22,19 @@
 
 <div class="page-width page-width--narrow section-{{ section.id }}-padding   ">
   <h1 class="main-page-title page-title h0">
-    {{ page.title | escape }}
+ 
+
+    {% if blog.title != blank %}
+      {{ blog.title }}
+      {% elsif page.title != blank %}
+          {{  page.title | escape  }}
+      {% endif %}
   </h1>
+  {% if section.settings.p != blank %}
   <div class="rte">
     {{ section.settings.p }}
   </div>
+{% endif %}
 </div>
 
 </div>
@@ -67,7 +75,12 @@
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
     }
-  ]
+  ],
+  "presets": [
+    {
+      "name": "G page banner"
+    }
+    ]
 }
 {% endschema %}
 
