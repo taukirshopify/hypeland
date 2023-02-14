@@ -21,7 +21,7 @@
 
 
 <div class="page-width page-width--narrow section-{{ section.id }}-padding   ">
-  <h1 class="main-page-title page-title h0">
+  <h1 class="main-page-title page-title h0 {% if section.settings.p == blank %} text-center {% endif %}">
  
 
     {% if blog.title != blank %}
