@@ -1,10 +1,11 @@
 {
   "sections": {
-    "03b0b5e1-f086-4c1a-ad50-7e8ca4dacc58": {
-      "type": "faq",
+    "01944ea1-9a30-4569-b5f4-c79799a494f6": {
+      "type": "main-pagecontact",
       "settings": {
-        "h1": "FREQUENTLY ASKED QUESTIONS",
-        "h2": "HAVE QUESTIONS? WE’RE HERE TO HELP"
+        "p": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "main": {
@@ -37,7 +38,7 @@
     }
   },
   "order": [
-    "03b0b5e1-f086-4c1a-ad50-7e8ca4dacc58",
+    "01944ea1-9a30-4569-b5f4-c79799a494f6",
     "main",
     "f6aea647-0d48-4988-b381-e4e403aabeb9"
   ]
