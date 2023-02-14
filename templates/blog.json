@@ -1,5 +1,13 @@
 {
   "sections": {
+    "01944ea1-9a30-4569-b5f4-c79799a494f6": {
+      "type": "main-pagecontact",
+      "settings": {
+        "p": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-blog",
       "disabled": true,
@@ -27,19 +35,11 @@
       "settings": {
         "h1": "Aka NEWS"
       }
-    },
-    "01944ea1-9a30-4569-b5f4-c79799a494f6": {
-      "type": "main-pagecontact",
-      "settings": {
-        "p": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
+    "01944ea1-9a30-4569-b5f4-c79799a494f6",
     "main",
-    "f6aea647-0d48-4988-b381-e4e403aabeb9",
-    "01944ea1-9a30-4569-b5f4-c79799a494f6"
+    "f6aea647-0d48-4988-b381-e4e403aabeb9"
   ]
 }
