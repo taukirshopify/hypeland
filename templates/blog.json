@@ -1,12 +1,5 @@
 {
   "sections": {
-    "03b0b5e1-f086-4c1a-ad50-7e8ca4dacc58": {
-      "type": "faq",
-      "settings": {
-        "h1": "FREQUENTLY ASKED QUESTIONS",
-        "h2": "HAVE QUESTIONS? WE’RE HERE TO HELP"
-      }
-    },
     "main": {
       "type": "main-blog",
       "disabled": true,
@@ -34,11 +27,19 @@
       "settings": {
         "h1": "Aka NEWS"
       }
+    },
+    "01944ea1-9a30-4569-b5f4-c79799a494f6": {
+      "type": "main-pagecontact",
+      "settings": {
+        "p": "Here are answers to the commonly asked questions",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "03b0b5e1-f086-4c1a-ad50-7e8ca4dacc58",
     "main",
-    "f6aea647-0d48-4988-b381-e4e403aabeb9"
+    "f6aea647-0d48-4988-b381-e4e403aabeb9",
+    "01944ea1-9a30-4569-b5f4-c79799a494f6"
   ]
 }
