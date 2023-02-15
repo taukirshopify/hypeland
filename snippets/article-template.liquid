@@ -73,25 +73,6 @@
     }  
   </style>
   
-  <div class="section-header text-center">
-    <h1 class="article__title">{{ article.title }}</h1>
-  
-    {% if article.image != blank %}
-      <div class="article_featured_image">
-        <img alt="" src="{{ article.image | img_url: 'master' }}">
-      </div>  
-    {% endif %}
-  
-    {% if section.settings.blog_show_author %}
-      <span class="article__author">{{ 'blogs.article.by_author' | t: author: article.author }}</span>
-    {% endif %}
-  
-    {% if section.settings.blog_show_date %}
-      <span class="article__date">
-        {{ article.published_at | time_tag: format: 'month_day_year' }}
-      </span>
-    {% endif %}
-  </div>
   
   {% if article.metafields.accentuate.article_media != blank %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>

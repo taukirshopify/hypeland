@@ -117,12 +117,8 @@
   </div>
 
   {%- if collection.products_count > 0 -%}
-    <div class="page-width">
-      <ul class="grid grid--uniform{% if collection.products_count > 0 %} grid--view-items{% endif %}">
 
-    </ul>
-  </div>
-  <li class="container {{ grid_item_width }}">
+  <div class="container ">
     <div class="row">
         {%- for product in collection.products limit: 20 -%}
           {%- comment %}<locksmith:28e0>{% endcomment -%} 
@@ -134,7 +130,7 @@
    
         {%- endfor -%}
       </div>
-    </li>
+    </div>
   {%- endif -%}
 
   {%- if collection.products_count > 20 -%}
