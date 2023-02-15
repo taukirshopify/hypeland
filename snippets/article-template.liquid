@@ -75,11 +75,7 @@
   
   
   {% if article.metafields.accentuate.article_media != blank %}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-  
+
     <div class="article-template__slidehow-container">            
       <div class="article-slider">
   
@@ -90,8 +86,25 @@
               </div>
             {% endfor %}
           {% endfor %}
-  
-      </div>                       
+          
+      </div>     
+      
+      <div class="slider-nav-wrap d-none d-lg-block ">
+        <div class="slider-nav">
+          <button id="#next-arrow" class="nav-btn slick-arrow default right-arrow">
+
+            <i class="far fa-chevron-left"></i>
+          </button>
+          <div class="custom-dots"></div>
+          <button id="#prev" class="nav-btn slick-arrow default left-arrow">
+            <i class="far fa-chevron-right"></i>
+
+
+          </button>
+        </div>
+      </div>
+
+      
     </div>
   
     <script type="text/javascript">
@@ -100,9 +113,14 @@
         if(articleSlidehow > 1) {
           $(this).slick({
             infinite: true,
+            arrows: false,
             slidesToShow: 1,
             slidesToScroll: 1,
             swipeToSlide: true,
+            dots: true,
+            {% comment %} prevArrow: $('#prev'),
+            nextArrow: $('#next'), {% endcomment %}
+            appendDots: $('.slider-nav-wrap').find('.custom-dots'),
             responsive: [
               {
                 breakpoint: 992,
@@ -114,6 +132,16 @@
             ]
           });
         }
+      });
+
+      $(".right-arrow").click(function () {
+        $(".article-slider").slick("slickPrev");
+        console.log("this is working");
+      });
+    
+      $(".left-arrow").click(function () {
+        $(".article-slider").slick("slickNext");
+        
       });
     </script>
   {% endif %}
@@ -149,6 +177,11 @@
   </div>
   
   <style type="text/css">
+
+    .slick-dots li {
+      display: inline-block;
+      margin-right: 2px;
+  }
     .article-text-columns-wrapper .feature-row{
       margin-bottom: 30px;
     }
@@ -160,7 +193,37 @@
       height: auto;
       min-height: 350px;
     }
+
+    button.nav-btn.slick-arrow.default {
+      border: none !important;
+      background: transparent !important;
+      width: auto;
+  }
+  button.nav-btn.slick-arrow.default:hover {
+    border: none;
+    background: transparent;
+    color:#fff;
+}
+.slick-arrow i {
+  font-size: 23px;
+  line-height: 40px;
+  color: #000;
+}
+.slider-nav-wrap.d-none.d-lg-block {
+  margin-top: 8px;
+}
+h2.article-template__title {
+  margin: 0;
+}
+.space-bottom-2 {
+  margin-bottom: 14px;
+  display: inline-block;
+}
     @media only screen and (max-width: 749px){
+      .space-bottom-2 {
+        margin-bottom: 14px;
+        display: inline-block;
+      }
       .article-text-columns-wrapper .feature-row__text{
         order: 1;
         padding-bottom: 30px;
