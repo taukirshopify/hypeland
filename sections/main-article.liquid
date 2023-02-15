@@ -36,6 +36,8 @@
           </div>
           <div class="blog-content">
             {{ article.content }}
+
+            {% render 'article-template' %}
           </div>
           <div class="text-center space-extra-top">
               <div class="icon-group">
@@ -98,6 +100,50 @@
   </div>
 </section>
 
+
+
+
+
+
+{% comment %} new incrted code  {% endcomment %}
+
+{%- if article.metafields.accentuate.article_collection != blank -%}
+  {%- assign collection = collections[article.metafields.accentuate.article_collection] -%} 
+  {%- assign max_height = 530 -%}
+  {%- assign grid_item_width = 'small--one-half medium-up--one-quarter' -%}
+
+  <div class="section-header text-center">
+    <h2>{{ collection.title | prepend: 'Shop ' }}</h2>
+  </div>
+
+  {%- if collection.products_count > 0 -%}
+    <div class="page-width">
+      <ul class="grid grid--uniform{% if collection.products_count > 0 %} grid--view-items{% endif %}">
+
+    </ul>
+  </div>
+  <li class="container {{ grid_item_width }}">
+    <div class="row">
+        {%- for product in collection.products limit: 20 -%}
+          {%- comment %}<locksmith:28e0>{% endcomment -%} 
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%} 
+        {%- comment %}</locksmith:28e0>{% endcomment -%}
+ 
+          
+            {% include 'product-card-grid', max_height: max_height %}
+   
+        {%- endfor -%}
+      </div>
+    </li>
+  {%- endif -%}
+
+  {%- if collection.products_count > 20 -%}
+	<div class="text-center" style="margin-top: 30px;">
+      <a class="btn" href="{{ collection.url }}">View all</a>
+	</div>
+  {%- endif -%}
+{%- endif -%}
+{% comment %} new incrted code end {% endcomment %}
 
 <script type="application/ld+json">
   {

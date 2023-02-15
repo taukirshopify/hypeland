@@ -1,0 +1,191 @@
+<style type="text/css">
+    .main-article-wrapper{
+      max-width: 1300px!important;
+    }
+    .article_featured_image{
+      margin-bottom: 10px;
+    }
+    .article-template__slidehow-container{
+      margin-bottom: 30px;
+    }
+    .article-slider .slick-next, .article-slider .slick-prev{
+      width: 40px;
+      height: 40px;
+      z-index: 2;
+    }
+    .article-slider .slick-next:before, .article-slider .slick-prev:before{
+      font-size: 40px;
+      opacity: 1;
+      color: #000000;
+    }
+    .slick-prev:before{
+      content: ""!important;
+      display: table;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url("{{ 'arrow-left.png' | asset_url }}");
+    }
+    .slick-next:before{
+      content: ""!important;
+      display: table;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url("{{ 'arrow-right.png' | asset_url }}");
+    }  
+    @media only screen and (min-width: 768px){
+      .article-slider .slick-prev{
+        left: -50px;
+      }
+      .article-slider .slick-next{
+        right: -50px;
+      }
+      .slick-next:before, .slick-prev:before{
+        width: 40px;
+        height: 40px;
+      }
+    }  
+    @media only screen and (max-width: 767px){
+      .article-slider .slick-prev{
+        left: -18px;
+        outline: initial;
+        background: #ffffff!important;
+        border: 1px solid #000;
+        border-radius: 50%;
+        padding: 5px;
+      }
+      .article-slider .slick-next{
+        right: -18px;
+        outline: initial;
+        background: #ffffff!important;
+        border: 1px solid #000;
+        border-radius: 50%;
+        padding: 5px;
+      }
+      .slick-next:before, .slick-prev:before{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 8px;
+        right: 10px;
+      }    
+    }  
+  </style>
+  
+  <div class="section-header text-center">
+    <h1 class="article__title">{{ article.title }}</h1>
+  
+    {% if article.image != blank %}
+      <div class="article_featured_image">
+        <img alt="" src="{{ article.image | img_url: 'master' }}">
+      </div>  
+    {% endif %}
+  
+    {% if section.settings.blog_show_author %}
+      <span class="article__author">{{ 'blogs.article.by_author' | t: author: article.author }}</span>
+    {% endif %}
+  
+    {% if section.settings.blog_show_date %}
+      <span class="article__date">
+        {{ article.published_at | time_tag: format: 'month_day_year' }}
+      </span>
+    {% endif %}
+  </div>
+  
+  {% if article.metafields.accentuate.article_media != blank %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  
+    <div class="article-template__slidehow-container">            
+      <div class="article-slider">
+  
+          {% for multi_images in article.metafields.accentuate.article_media %}
+            {% for image in multi_images %} 
+              <div class="slidehow-cell">
+                <img src="{{ image.src }}" alt="" width="{{ image.width }}" height="{{ image.height }}" style="width:auto;height:auto">          
+              </div>
+            {% endfor %}
+          {% endfor %}
+  
+      </div>                       
+    </div>
+  
+    <script type="text/javascript">
+      $('.article-slider').each(function(){
+        var articleSlidehow = $(this).find('.slidehow-cell').length;
+        if(articleSlidehow > 1) {
+          $(this).slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            swipeToSlide: true,
+            responsive: [
+              {
+                breakpoint: 992,
+                settings: {
+                  slidesToShow: 1,
+                  swipeToSlide: true
+                }
+              }
+            ]
+          });
+        }
+      });
+    </script>
+  {% endif %}
+  
+
+  <div class="page-width article-text-columns-wrapper">
+    {% assign counts = article.metafields.accentuate.article_texts.size %}
+    {%- for i in (1.. counts) -%}
+  
+      <div class="feature-row">
+        {% if article.metafields.accentuate.text_block_position[forloop.index0] == 'Right' %}
+          <div class="feature-row__item feature-row__embed">
+            <div class="article_embed">{{ article.metafields.accentuate.article_embed[forloop.index0] }}</div>
+          </div>
+          <div class="feature-row__item feature-row__text feature-row__text--left">
+            <div class="rte">
+              {{ article.metafields.accentuate.article_texts[forloop.index0].html }}
+            </div>
+          </div>
+        {% else %}
+          <div class="feature-row__item feature-row__text feature-row__text--right">
+            <div class="rte">
+                {{ article.metafields.accentuate.article_texts[forloop.index0].html }}            
+            </div>
+          </div>
+          <div class="feature-row__item feature-row__embed">
+            <div class="article_embed">{{ article.metafields.accentuate.article_embed[forloop.index0] }}</div>
+          </div>
+        {% endif %}
+      </div>
+  
+    {%- endfor -%}
+  </div>
+  
+  <style type="text/css">
+    .article-text-columns-wrapper .feature-row{
+      margin-bottom: 30px;
+    }
+    .article-text-columns-wrapper .feature-row:last-child{
+      margin-bottom: 0px;
+    }
+    .article_embed iframe{
+      width: 100%;
+      height: auto;
+      min-height: 350px;
+    }
+    @media only screen and (max-width: 749px){
+      .article-text-columns-wrapper .feature-row__text{
+        order: 1;
+        padding-bottom: 30px;
+      }
+      .article-text-columns-wrapper .feature-row__embed{
+        order: 2;
+      }
+    }
+  </style>

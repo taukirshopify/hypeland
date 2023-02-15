@@ -1,0 +1,76 @@
+<div class="col-xl-3 col-lg-4 col-6">
+    <div class="ot-product   {% if product.metafields.custom.coming_soon_product == true %} upcoming  {% endif %} ">
+    {% comment %} <div class="ot-product  {% unless product.available %}upcoming{% endunless %}"> {% endcomment %}
+        <div class="product-img">
+
+            {% comment %} {% unless product.available %}
+
+                {% if product.metafields.custom.coming_soon_product == true %}
+         
+                    <span class="tag ot-btn badge__text">Coming <br> Soon</span>
+                     
+                {% else %}
+                    <span class="badge__text tag ot-btn badge__text">Sold Out</span>
+                {% endif %}
+
+          {% endunless %} {% endcomment %}
+          {% if product.metafields.custom.coming_soon_product == true %}
+
+            <span class="badge__text tag ot-btn badge__text badge tagtwo">Coming  Soon</span>
+             
+            {% elsif  product.available == false  %}
+            <span class="badge__text tag ot-btn badge__text badge tagtwo">Sold Out</span>
+            {% elsif  product.compare_at_price > product.price  %}
+            <span class="badge__text tag ot-btn badge__text badge tagtwo">on Sale</span>
+
+        {% endif %}
+
+
+            <a href="{{ product.url}} " class="auto-height">   
+         
+            {% for image in product.images limit:2 %}
+                {% if forloop.index  == 1 %}
+                    <a href="{{product.url }}">        
+                           {% comment %} {{ image | image_url: width: 3840 | image_tag:
+                        loading:"lazy",
+                        height: height,
+                        sizes: "100vw",
+                        widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                      }}  {% endcomment %}
+                    
+                      <img src=" {{ image |  img_url:'' }}" style="">
+
+
+                      
+                    </a>
+              
+             {% else %}
+                <a href="{{product.url }}" class="img_swap {% if product.metafields.custom.coming_soon_product == true %}d-none {% endif %}   ">   
+                  
+                {% comment %} {{ image | image_url: width: 3840 | image_tag:
+                    loading:"lazy",
+                    height: height,
+                    sizes: "100vw",
+                    widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                  }}  {% endcomment %}
+                  <img src=" {{ image |  img_url:'' }}">
+
+                </a>
+                {% endif %}
+            {% endfor %}
+        </a>
+        </div>
+        <div class="product-content">
+            <h3 class="product-title"><a href="{{ product.url}} ">{{ product.title }}</a></h3>
+            <div class="pricw-rapper d-flex justify-content-center">
+ {% if  product.compare_at_price > product.price %}
+                <span class="price del">  {{ product.compare_at_price_min  | money_without_trailing_zeros }}</span>
+   {% endif %}
+                <span class="price2 price">{{ product.price  | money_without_trailing_zeros }}</span>
+                
+            
+            </div>
+        </div>
+
+    </div>
+</div>
