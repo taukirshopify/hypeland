@@ -5,3 +5,12 @@
     transform: translateX(150%);
     transition: 0.8s all ease-in-out;
 }
+
+.drawer {
+
+    transition: 0.6s all;
+}
+.drawer.active {
+  
+    opacity: 1;
+}
