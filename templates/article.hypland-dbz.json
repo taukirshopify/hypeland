@@ -275,6 +275,12 @@
             "image": "shopify:\/\/shop_images\/Black_Dragon_Ball_Z_Hoodie_1.jpg"
           }
         },
+        "a658152b-9dfb-4d90-a54b-53dd2cd42b1f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HOODIE-5_B_1.jpg"
+          }
+        },
         "4dab3892-b9a7-411f-bcb9-f2f913b059dd": {
           "type": "image",
           "settings": {
@@ -442,11 +448,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TEE-5-F.jpg"
           }
-        },
-        "a658152b-9dfb-4d90-a54b-53dd2cd42b1f": {
-          "type": "image",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -471,6 +472,7 @@
         "64556e88-fa27-4489-9298-5abfa3ee8684",
         "07ea898c-73ba-45b7-b293-ab2a94f229f5",
         "438bb952-152e-4c51-bc97-79b0fd1a036e",
+        "a658152b-9dfb-4d90-a54b-53dd2cd42b1f",
         "4dab3892-b9a7-411f-bcb9-f2f913b059dd",
         "858b3d07-523d-430c-aa5d-ca0ca49b8d0c",
         "400c1b8c-1cb3-4920-a423-dd9220280716",
@@ -498,8 +500,7 @@
         "1398aae2-a636-466e-904c-1737d8f0eabf",
         "cda691dc-3956-4265-9469-bb941d38fa28",
         "d9321731-a239-4d0b-a52e-67b6388339b4",
-        "09e26721-ecbb-46fa-8852-ae3ee63dd3e2",
-        "a658152b-9dfb-4d90-a54b-53dd2cd42b1f"
+        "09e26721-ecbb-46fa-8852-ae3ee63dd3e2"
       ],
       "settings": {
       }
