@@ -13,16 +13,6 @@
             "shop": "SHOP NOW"
           }
         },
-        "8699bf90-86ce-4414-adaa-83c27674a8f3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SHERPA.jpg",
-            "h1": "HYPLAND X NARUTO IS NOW AVAILABLE",
-            "p": "",
-            "url": "shopify:\/\/collections\/naruto",
-            "shop": "SHOP NOW"
-          }
-        },
         "63064412-3937-4675-9535-e74953bfe564": {
           "type": "image",
           "settings": {
@@ -33,8 +23,29 @@
             "shop": "SHOP NOW"
           }
         },
+        "8699bf90-86ce-4414-adaa-83c27674a8f3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SHERPA.jpg",
+            "h1": "HYPLAND X NARUTO IS NOW AVAILABLE",
+            "p": "",
+            "url": "shopify:\/\/collections\/naruto",
+            "shop": "SHOP NOW"
+          }
+        },
+        "26bad4ed-79f5-46be-aea7-d86a802ec99d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/inline1.jpg",
+            "h1": "HYPLAND WINDBREAKERS ARE NOW AVAILABLE",
+            "p": "",
+            "url": "shopify:\/\/collections\/outerwear",
+            "shop": "SHOP NOW"
+          }
+        },
         "ec0c63f4-3a07-497d-b767-8d1a9544a78d": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "http:\/\/media.w3.org\/2010\/05\/sintel\/trailer.mp4",
             "h1": "FULL HYPLAND X YU YU HAKUSHO COLLECTION NOW AVAILABLE",
@@ -46,8 +57,9 @@
       },
       "block_order": [
         "0c2f350f-4608-45b7-a894-4a3493eb1d0b",
-        "8699bf90-86ce-4414-adaa-83c27674a8f3",
         "63064412-3937-4675-9535-e74953bfe564",
+        "8699bf90-86ce-4414-adaa-83c27674a8f3",
+        "26bad4ed-79f5-46be-aea7-d86a802ec99d",
         "ec0c63f4-3a07-497d-b767-8d1a9544a78d"
       ],
       "settings": {
