@@ -88,10 +88,38 @@
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "13175ac1-616a-43c2-a2a0-5ae34bf4ce26": {
+      "type": "gallery",
+      "blocks": {
+        "template--16224677757091__13175ac1-616a-43c2-a2a0-5ae34bf4ce26-16789927279680a08c-0": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "template--16224677757091__13175ac1-616a-43c2-a2a0-5ae34bf4ce26-16789927279680a08c-1": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "template--16224677757091__13175ac1-616a-43c2-a2a0-5ae34bf4ce26-16789927279680a08c-2": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16224677757091__13175ac1-616a-43c2-a2a0-5ae34bf4ce26-16789927279680a08c-0",
+        "template--16224677757091__13175ac1-616a-43c2-a2a0-5ae34bf4ce26-16789927279680a08c-1",
+        "template--16224677757091__13175ac1-616a-43c2-a2a0-5ae34bf4ce26-16789927279680a08c-2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "0776ee64-4bbf-4b82-ac72-e94623861a80"
+    "0776ee64-4bbf-4b82-ac72-e94623861a80",
+    "13175ac1-616a-43c2-a2a0-5ae34bf4ce26"
   ]
 }
