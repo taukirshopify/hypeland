@@ -160,8 +160,8 @@
         "7a2686f6-64dd-4f12-8d38-b25260159f22": {
           "type": "slide",
           "settings": {
-            "collectionname": "SALE",
-            "collection": "sale",
+            "collectionname": "HATS",
+            "collection": "caps-hats",
             "p_limit": "12",
             "shop": "Show More"
           }
