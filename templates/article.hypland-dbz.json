@@ -127,23 +127,6 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "49c5f0c5-ee53-405d-bd64-f23b885bface": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
@@ -151,8 +134,7 @@
         "template--16224677757091__0776ee64-4bbf-4b82-ac72-e94623861a80-16789916476fa7adfb-1",
         "7a7de1a4-05e9-445b-96c9-513c0c7d4598",
         "266e4ddc-95aa-405d-8e73-638b66a04049",
-        "ef9121f5-bd36-4719-9302-a9438395abb4",
-        "49c5f0c5-ee53-405d-bd64-f23b885bface"
+        "ef9121f5-bd36-4719-9302-a9438395abb4"
       ],
       "settings": {
         "layout": "full_bleed",
