@@ -104,6 +104,7 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
+    "favicon": "shopify:\/\/shop_images\/LOGO_LOCK_UP_2c4f7535-3b12-4a9c-91a8-6dace5b27bba.png",
     "cart_type": "drawer",
     "themecolor": "#87e63e",
     "facebook": "https:\/\/www.facebook.com\/hypland",
@@ -267,6 +268,17 @@
           "a1": "#ff00ff",
           "menu02": "footer",
           "copy": "All rights reserved"
+        }
+      },
+      "sezzle-widget": {
+        "type": "sezzle-widget",
+        "settings": {
+          "show-sezzle-widget": true,
+          "color": "inherit",
+          "font-size": 14,
+          "font-family": "inherit",
+          "product-page-alignment": "auto",
+          "cart-page-alignment": "auto"
         }
       }
     },
