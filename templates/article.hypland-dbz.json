@@ -64,6 +64,7 @@
         "template--16224677757091__0776ee64-4bbf-4b82-ac72-e94623861a80-16789916476fa7adfb-1": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2_0afae1b4-3948-4ed7-b68b-29b2172daa47.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -81,6 +82,7 @@
         "7a7de1a4-05e9-445b-96c9-513c0c7d4598": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/3_aae251dd-b251-45bf-bd52-2c3355b4c188.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
