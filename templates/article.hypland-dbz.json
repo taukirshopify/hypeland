@@ -417,6 +417,15 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "537f82a0-d159-4a0d-9cc1-4fa48b40a964": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-XDLsmX\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "13175ac1-616a-43c2-a2a0-5ae34bf4ce26": {
       "type": "gallery",
       "blocks": {
@@ -780,6 +789,7 @@
   "order": [
     "main",
     "0776ee64-4bbf-4b82-ac72-e94623861a80",
+    "537f82a0-d159-4a0d-9cc1-4fa48b40a964",
     "13175ac1-616a-43c2-a2a0-5ae34bf4ce26"
   ]
 }
