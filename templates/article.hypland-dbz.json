@@ -329,46 +329,55 @@
         "a8ae08da-c8da-47f2-b281-bf2c4ce2887d": {
           "type": "image",
           "settings": {
-          }
-        },
-        "78d4f0ca-2aab-43b4-bdb1-bf2493cfc41b": {
-          "type": "image",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/Brown_Dragon_Ball_Tee_1.jpg"
           }
         },
         "1c8dc97b-1422-41ed-b8df-27cd5c906a47": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/BUU2.jpg"
           }
         },
-        "7fe29525-a1cd-4e41-ae9b-c0c1ac6415a7": {
+        "78d4f0ca-2aab-43b4-bdb1-bf2493cfc41b": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/BUU-FRONT.jpg"
           }
         },
         "4e03b82d-2d29-4e85-8f56-d091763d4a2b": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/TEE-1_B.jpg"
+          }
+        },
+        "7fe29525-a1cd-4e41-ae9b-c0c1ac6415a7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TEE-1_F.jpg"
           }
         },
         "bb6076eb-a8e9-4a94-81d2-62d2fbad843f": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/TEE-1-B.jpg"
           }
         },
         "3a53a1ff-732f-4a3b-a9c4-b7f3db224f46": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/TEE-1-F.jpg"
           }
         },
         "5a2cb2a6-f57e-48fa-943c-74222054e7ba": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/TEE-2-B.jpg"
           }
         },
         "ed912089-2ed2-4931-9194-bb93d2496a79": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/TEE-2-F.jpg"
           }
         },
         "766b9956-0e44-4a7a-b650-29a61f884a29": {
@@ -459,10 +468,10 @@
         "ddf0104e-c0a3-4479-98b0-8bb5a13ee8fa",
         "aeb9ea22-c445-45bb-8e84-e0e0a8640678",
         "a8ae08da-c8da-47f2-b281-bf2c4ce2887d",
-        "78d4f0ca-2aab-43b4-bdb1-bf2493cfc41b",
         "1c8dc97b-1422-41ed-b8df-27cd5c906a47",
-        "7fe29525-a1cd-4e41-ae9b-c0c1ac6415a7",
+        "78d4f0ca-2aab-43b4-bdb1-bf2493cfc41b",
         "4e03b82d-2d29-4e85-8f56-d091763d4a2b",
+        "7fe29525-a1cd-4e41-ae9b-c0c1ac6415a7",
         "bb6076eb-a8e9-4a94-81d2-62d2fbad843f",
         "3a53a1ff-732f-4a3b-a9c4-b7f3db224f46",
         "5a2cb2a6-f57e-48fa-943c-74222054e7ba",
