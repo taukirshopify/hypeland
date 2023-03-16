@@ -17,7 +17,7 @@
              
           </div>
       <h2 class="article-template__title center" itemprop="headline">{{ article.title | escape }}</h2>
-          <a href="#" class="space-bottom-2">{{ article.published_at | time_tag: format: 'date' }}</a>
+          <a href="#" class="center">{{ article.published_at | time_tag: format: 'date' }}</a>
         
           <div class="blog-content">
             {{ article.content }}
