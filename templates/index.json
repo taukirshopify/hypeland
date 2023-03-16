@@ -27,10 +27,10 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/BUNNY.jpg",
-            "h1": "",
-            "p": "FULL COLLECTION NOW AVAILABLE!",
-            "url": "",
-            "shop": "shop now"
+            "h1": "HYPLAND BUNNY BEANIES ARE NOW AVAILABLE",
+            "p": "",
+            "url": "shopify:\/\/collections\/beanies",
+            "shop": "SHOP NOW"
           }
         },
         "ec0c63f4-3a07-497d-b767-8d1a9544a78d": {
