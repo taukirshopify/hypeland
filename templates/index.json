@@ -108,13 +108,14 @@
             "image": "shopify:\/\/shop_images\/NS6.jpg",
             "url02": "",
             "urlmain": "",
-            "title": "Hypland x dragon ball",
+            "title": "HYPLAND X NARUTO",
             "shoptext": "shop now",
             "Arrows": "bottom"
           }
         },
         "4cffadf7-1af6-4d91-9090-37fb8bad13b5": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "url01": "#",
             "image": "shopify:\/\/shop_images\/NS4.jpg",
