@@ -6,7 +6,7 @@
         "0c2f350f-4608-45b7-a894-4a3493eb1d0b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/yyh10.jpg",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2023-03-06_at_2.02.24_PM_81d3ea0e-b90d-4a2f-bf08-7f87f300db00.png",
             "h1": "HYPLAND X HELLO KITTY COLLABORATION",
             "p": "",
             "url": "shopify:\/\/collections",
@@ -59,7 +59,8 @@
         "h1": "New Products",
         "image": "all",
         "p_limit": "20",
-        "check": true
+        "check": true,
+        "Arrows": "bottom"
       }
     },
     "2ae0f858-269f-427e-a038-ae7647e65555": {
@@ -73,7 +74,8 @@
             "url02": "#",
             "urlmain": "",
             "title": "Hypland x dragon ball",
-            "shoptext": "shop now"
+            "shoptext": "shop now",
+            "Arrows": "bottom"
           }
         },
         "07f1291e-b3d6-4c66-8c54-db63676f5857": {
@@ -84,7 +86,8 @@
             "url02": "",
             "urlmain": "",
             "title": "Hypland x dragon ball",
-            "shoptext": "shop now"
+            "shoptext": "shop now",
+            "Arrows": "bottom"
           }
         },
         "4cffadf7-1af6-4d91-9090-37fb8bad13b5": {
@@ -95,7 +98,8 @@
             "url02": "",
             "urlmain": "",
             "title": "Hypland x dragon ball",
-            "shoptext": "shop now"
+            "shoptext": "shop now",
+            "Arrows": "bottom"
           }
         }
       },
