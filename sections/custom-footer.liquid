@@ -48,6 +48,9 @@
                             <div class="footer-menu">
                                 {% assign footer_menu_2 = section.settings.menu02 %}
                                 {% for link in linklists[footer_menu_2].links %}
+                                {%- comment %}<locksmith:34c1>{% endcomment -%}
+                                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: linklists[footer_menu_2], variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                {%- comment %}</locksmith:34c1>{% endcomment -%}
                                 <li><a href="{{link.url}}">{{ link.title }}</a></li>
                                 {% endfor %}
                             </div>
@@ -55,6 +58,9 @@
                                 <ul>
                                     {% assign footer_menu_4 = section.settings.menu01 %}
                                     {% for link in linklists[footer_menu_4].links %}
+                                    {%- comment %}<locksmith:5382>{% endcomment -%}
+                                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: linklists[footer_menu_4], variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                    {%- comment %}</locksmith:5382>{% endcomment -%}
                                     <li><a href="{{link.url}}">{{ link.title }}</a></li>
                                     {% endfor %}
                                 </ul>

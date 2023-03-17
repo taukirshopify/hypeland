@@ -1,5 +1,3 @@
-
-
 <section class="space-bottom">
     <div class="container">
         <div class="row align-items-center justify-content-between">
@@ -57,7 +55,13 @@
                         <div>
                             <div class="row gy-50">
 
+                                {%- comment %}<locksmith:2ff3>{% endcomment -%}
+                                  {%- assign locksmith_d5a1_forloop__size = 0 %}{% for product in collection.products limit: item.settings.p_limit %}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_d5a1_forloop__size = locksmith_d5a1_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_d5a1_forloop__index = nil -%}
+                                {%- comment %}</locksmith:2ff3>{% endcomment -%}
                                 {% for product in collection.products limit: item.settings.p_limit %}
+                                    {%- comment %}<locksmith:c778>{% endcomment -%}
+                                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_d5a1_forloop__index == nil %}{% assign locksmith_d5a1_forloop__index = 1 %}{% assign locksmith_d5a1_forloop__index0 = 0 %}{% else %}{% assign locksmith_d5a1_forloop__index = locksmith_d5a1_forloop__index | plus: 1 %}{% assign locksmith_d5a1_forloop__index0 = locksmith_d5a1_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_d5a1_forloop__index == 1 %}{% assign locksmith_d5a1_forloop__first = true %}{% else %}{% assign locksmith_d5a1_forloop__first = false %}{% endif %}{% if locksmith_d5a1_forloop__index == locksmith_d5a1_forloop__size %}{% assign locksmith_d5a1_forloop__last = true %}{% else %}{% assign locksmith_d5a1_forloop__last = false %}{% endif %}{% assign locksmith_d5a1_forloop__rindex = locksmith_d5a1_forloop__size | minus: locksmith_d5a1_forloop__index | minus: 1 %}{% assign locksmith_d5a1_forloop__rindex0 = locksmith_d5a1_forloop__size | minus: locksmith_d5a1_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+                                    {%- comment %}</locksmith:c778>{% endcomment -%}
                                     <div class="col-xl-3 col-lg-4 col-6">
                                         <div class="ot-product   {% if product.metafields.custom.coming_soon_product == true %} upcoming  {% endif %} ">
                                         {% comment %} <div class="ot-product  {% unless product.available %}upcoming{% endunless %}"> {% endcomment %}
