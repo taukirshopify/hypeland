@@ -1,0 +1,132 @@
+<div class= "custom-timer text-center">
+    <p>{{ section.settings.title }}</p>
+    <div id="timer"></div>
+  </div>
+
+
+{% schema %}
+  {
+    "name": "countdown timer",
+    "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section title",
+      "default": "HOLIDAY SALE",
+      "placeholder": "HOLIDAY SALE"
+    },
+          {
+      "type": "text",
+      "id": "month",
+      "label": "Month Name [use first 3 word of month]",
+      "default": "Jan",
+      "placeholder": "Jan"
+    },
+                {
+      "type": "text",
+      "id": "year",
+      "label": "Year",
+      "default": "23",
+      "placeholder": "23"
+    },
+          {
+      "type": "text",
+      "id": "day",
+      "label": "Date",
+      "default": "12",
+      "placeholder": "12"
+    },
+          {
+      "type": "text",
+      "id": "hour",
+      "label": "Finish hour  24h formate",
+      "default": "00:30:00",
+      "placeholder": "00:30:00"
+    }
+
+      
+    ],
+     "presets": [
+    {
+      "name": "new countdown timer"
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
+<script type="text/javascript">
+function updateTimer() {
+    future = Date.parse("{{ section.settings.month }} {{ section.settings.day }}, {{ section.settings.year }} {{ section.settings.hour }}");
+    now = new Date();
+    diff = future - now;
+
+    days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    hours = Math.floor(diff / (1000 * 60 * 60));
+    mins = Math.floor(diff / (1000 * 60));
+    secs = Math.floor(diff / 1000);
+
+    d = days;
+    h = hours - days * 24;
+    m = mins - hours * 60;
+    s = secs - mins * 60;
+
+    document.getElementById("timer")
+        .innerHTML =
+        '<div>' + d + '<span>Days</span></div>' +
+        '<div>' + h + '<span>Hours</span></div>' +
+        '<div>' + m + '<span>Minutes</span></div>' +
+        '<div>' + s + '<span>Seconds</span></div>';
+}
+setInterval('updateTimer()', 1000);
+</script>
+
+
+
+  <style>
+
+.custom-timer
+{
+  background: #000;
+  {% if template != 'index' %}
+   padding: 0 0 20px 0;
+ {% endif %}
+}
+.custom-timer p
+{
+padding: 15px 0 5px 0;
+  color: white;
+  margin:0;
+  font-weight:bold;
+}
+#timer {
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+
+    
+}
+
+#timer div {
+    display: inline-block;
+   
+
+    background: #494949;
+    border-radius: 3px;
+   border: 2px solid #494949; 
+     margin: 0 4px;
+        padding: 6px 12px;
+}
+
+#timer div span {
+    color: #ffffff;
+    display: block;
+    font-size: .35em;
+    font-weight: 400;
+}
+    
+  </style>
