@@ -36,6 +36,9 @@
     {%- endif -%}
     <ul id="predictive-search-results-list" class="predictive-search__results-list" role="listbox" aria-labelledby="predictive-search-products">
       {%- for product in predictive_search.resources.products -%}
+        {%- comment %}<locksmith:22e7>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: predictive_search.resources, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:22e7>{% endcomment -%}
         <li class="predictive-search__list-item" role="option">
           <a href="{{ product.url }}" class="predictive-search__item" tabindex="-1">
             {%- if product.featured_media != blank -%}
