@@ -134,7 +134,7 @@
         {% elsif card_product.available == false  %}
         <span 
           id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
-          class="badge badge--bottom-left "
+          class="badge badge--bottom-left soldout-badge"
         >
           {{- 'products.product.sold_out' | t -}}
         </span>
