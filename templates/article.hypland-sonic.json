@@ -429,6 +429,7 @@
     },
     "13175ac1-616a-43c2-a2a0-5ae34bf4ce26": {
       "type": "gallery",
+      "disabled": true,
       "blocks": {
         "template--16224677757091__13175ac1-616a-43c2-a2a0-5ae34bf4ce26-16789927279680a08c-0": {
           "type": "image",
@@ -785,12 +786,65 @@
       ],
       "settings": {
       }
+    },
+    "b31888c4-3d9d-41d6-8e9f-7ddb9e724d8b": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16308660371619__b31888c4-3d9d-41d6-8e9f-7ddb9e724d8b-1687472260c8d76001-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16308660371619__b31888c4-3d9d-41d6-8e9f-7ddb9e724d8b-1687472260c8d76001-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16308660371619__b31888c4-3d9d-41d6-8e9f-7ddb9e724d8b-1687472260c8d76001-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16308660371619__b31888c4-3d9d-41d6-8e9f-7ddb9e724d8b-1687472260c8d76001-0",
+        "template--16308660371619__b31888c4-3d9d-41d6-8e9f-7ddb9e724d8b-1687472260c8d76001-1",
+        "template--16308660371619__b31888c4-3d9d-41d6-8e9f-7ddb9e724d8b-1687472260c8d76001-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_6361.jpg",
+        "image_2": "shopify:\/\/shop_images\/IMG_6361.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
     "0776ee64-4bbf-4b82-ac72-e94623861a80",
     "537f82a0-d159-4a0d-9cc1-4fa48b40a964",
-    "13175ac1-616a-43c2-a2a0-5ae34bf4ce26"
+    "13175ac1-616a-43c2-a2a0-5ae34bf4ce26",
+    "b31888c4-3d9d-41d6-8e9f-7ddb9e724d8b"
   ]
 }
