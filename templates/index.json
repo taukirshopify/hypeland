@@ -3,6 +3,17 @@
     "ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245": {
       "type": "custom-bannar",
       "blocks": {
+        "0c2f350f-4608-45b7-a894-4a3493eb1d0b": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b9.jpg",
+            "h1": "HYPLAND X SONIC IS NOW AVAILABLE",
+            "p": "",
+            "url": "shopify:\/\/collections\/sonic",
+            "shop": "SHOP NOW"
+          }
+        },
         "5c51233d-de4b-4255-8616-8a1eb6defdfe": {
           "type": "image",
           "settings": {
@@ -10,16 +21,6 @@
             "h1": "HYPLAND X DRAGON BALL Z IS NOW AVAILABLE",
             "p": "",
             "url": "shopify:\/\/collections\/dragon-ball-1",
-            "shop": "SHOP NOW"
-          }
-        },
-        "0c2f350f-4608-45b7-a894-4a3493eb1d0b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/b9.jpg",
-            "h1": "HYPLAND X SONIC IS NOW AVAILABLE",
-            "p": "",
-            "url": "shopify:\/\/collections\/sonic",
             "shop": "SHOP NOW"
           }
         },
@@ -76,8 +77,8 @@
         }
       },
       "block_order": [
-        "5c51233d-de4b-4255-8616-8a1eb6defdfe",
         "0c2f350f-4608-45b7-a894-4a3493eb1d0b",
+        "5c51233d-de4b-4255-8616-8a1eb6defdfe",
         "69a0875d-ff8a-462a-9ccd-fce4176ed2b6",
         "63064412-3937-4675-9535-e74953bfe564",
         "8699bf90-86ce-4414-adaa-83c27674a8f3",
@@ -102,6 +103,7 @@
       "blocks": {
         "4cffadf7-1af6-4d91-9090-37fb8bad13b5": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "url01": "#",
             "image": "shopify:\/\/shop_images\/b9.jpg",
@@ -160,6 +162,7 @@
         },
         "7a2686f6-64dd-4f12-8d38-b25260159f22": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "collectionname": "SONIC",
             "collection": "sonic",
