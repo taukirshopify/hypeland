@@ -100,6 +100,18 @@
     "2ae0f858-269f-427e-a038-ae7647e65555": {
       "type": "custom-recommendaedcollection",
       "blocks": {
+        "4cffadf7-1af6-4d91-9090-37fb8bad13b5": {
+          "type": "collection",
+          "settings": {
+            "url01": "#",
+            "image": "shopify:\/\/shop_images\/b9.jpg",
+            "url02": "",
+            "urlmain": "",
+            "title": "Hypland x Sonic The Hedgehog",
+            "shoptext": "shop now",
+            "Arrows": "bottom"
+          }
+        },
         "545c4af7-5894-4822-837e-66403dce1ec1": {
           "type": "collection",
           "settings": {
@@ -123,25 +135,12 @@
             "shoptext": "shop now",
             "Arrows": "bottom"
           }
-        },
-        "4cffadf7-1af6-4d91-9090-37fb8bad13b5": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "url01": "#",
-            "image": "shopify:\/\/shop_images\/NS4.jpg",
-            "url02": "",
-            "urlmain": "",
-            "title": "Hypland x dragon ball",
-            "shoptext": "shop now",
-            "Arrows": "bottom"
-          }
         }
       },
       "block_order": [
+        "4cffadf7-1af6-4d91-9090-37fb8bad13b5",
         "545c4af7-5894-4822-837e-66403dce1ec1",
-        "07f1291e-b3d6-4c66-8c54-db63676f5857",
-        "4cffadf7-1af6-4d91-9090-37fb8bad13b5"
+        "07f1291e-b3d6-4c66-8c54-db63676f5857"
       ],
       "settings": {
         "title": "recommended Collection"
