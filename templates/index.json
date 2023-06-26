@@ -5,7 +5,6 @@
       "blocks": {
         "0c2f350f-4608-45b7-a894-4a3493eb1d0b": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/b9.jpg",
             "h1": "HYPLAND X SONIC IS NOW AVAILABLE",
@@ -103,7 +102,6 @@
       "blocks": {
         "4cffadf7-1af6-4d91-9090-37fb8bad13b5": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "url01": "#",
             "image": "shopify:\/\/shop_images\/b9.jpg",
@@ -151,18 +149,8 @@
     "adc9f98d-48a4-4de9-9879-a60a05ae00e6": {
       "type": "custom-shop",
       "blocks": {
-        "96786eca-c88e-4827-a5a0-8b0b4bd9dd87": {
-          "type": "slide",
-          "settings": {
-            "collectionname": "all",
-            "collection": "all",
-            "p_limit": "12",
-            "shop": "Show More"
-          }
-        },
         "7a2686f6-64dd-4f12-8d38-b25260159f22": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "collectionname": "SONIC",
             "collection": "sonic",
@@ -187,13 +175,22 @@
             "p_limit": "12",
             "shop": "Show More"
           }
+        },
+        "96786eca-c88e-4827-a5a0-8b0b4bd9dd87": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "all",
+            "collection": "all",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
         }
       },
       "block_order": [
-        "96786eca-c88e-4827-a5a0-8b0b4bd9dd87",
         "7a2686f6-64dd-4f12-8d38-b25260159f22",
         "7c58ec12-8abe-4d28-b523-c41501a2be2c",
-        "b1dc0d78-4c35-4084-9f6e-2ce267220327"
+        "b1dc0d78-4c35-4084-9f6e-2ce267220327",
+        "96786eca-c88e-4827-a5a0-8b0b4bd9dd87"
       ],
       "settings": {
         "title": "shop"
