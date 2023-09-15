@@ -318,7 +318,8 @@
       {%- endif -%}
   
       {% if settings.show-countdown %}
-        {% section 'countdowntime' %}
+        <script>console.log("count down")</script>
+        {% comment %}{% section 'countdowntime' %}{% endcomment %}
       {% endif %}
       
       {% section 'header' %}
