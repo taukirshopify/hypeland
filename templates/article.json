@@ -3,11 +3,12 @@
     "e2adfcc7-7bba-4350-931a-dbb1c6717476": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-09-17_at_10.23.24_AM.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
@@ -30,11 +31,19 @@
           "settings": {
             "text": "<p>Hypland x Mortal Kombat releases online on September 30th at 9am PST!<\/p><p>Join us for our Los Angeles pop-up on September 23rd & 24th!<\/p><p><strong>200 S SAN PEDRO STREET, LOS ANGELES CA 90012<\/strong><\/p><p><strong>11AM-6PM DAILY<\/strong><\/p>"
           }
+        },
+        "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2><strong>TEXT 'KOMBAT' TO 97868 FOR EARLY ACCESS<\/strong><\/h2>",
+            "heading_size": "h0"
+          }
         }
       },
       "block_order": [
         "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1",
-        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1"
+        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1",
+        "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481"
       ],
       "settings": {
         "desktop_content_position": "center",
