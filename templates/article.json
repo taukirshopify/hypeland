@@ -1,1 +1,76 @@
-{"sections":{"main":{"type":"main-article","blocks":{"featured_image":{"type":"featured_image","settings":{}},"title":{"type":"title","settings":{}},"content":{"type":"content","settings":{}},"share":{"type":"share","settings":{}}},"block_order":["featured_image","title","share","content"],"settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "0ee52e29-326d-4768-91e5-0d45a15ad1e3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1><strong>HYPLAND X MORTAL KOMBAT<\/strong><\/h1>",
+            "heading_size": "hxl"
+          }
+        },
+        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hypland x Mortal Kombat releases online on September 30th at 9am PST!<\/p><p>Join us for our Los Angeles pop-up on September 23rd & 24th!<\/p><p><strong>200 S SAN PEDRO STREET, LOS ANGELES CA 90012<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1",
+        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "0ee52e29-326d-4768-91e5-0d45a15ad1e3",
+    "main"
+  ]
+}
