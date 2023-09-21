@@ -76,7 +76,7 @@
         "3991745e-27e6-413b-9fd6-146cf50f1a46": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mk11.jpg",
+            "image": "shopify:\/\/shop_images\/mk12.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -219,6 +219,7 @@
         },
         "8e8d74c5-07bf-45fd-9259-35bb89f98e97": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/MK6.jpg",
             "heading": "",
