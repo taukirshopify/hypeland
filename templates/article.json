@@ -378,6 +378,42 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "74b046fa-52ca-41b7-8d5d-aa97fc8c1a80": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MKSELECTS-26.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "cb0f174d-d0bf-44e4-8a00-34676c4bdce5": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HYPLND-MK-95.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
@@ -400,7 +436,9 @@
         "efbd88d8-6425-4612-a0b6-950a4b2ac964",
         "8b117a51-22e2-4a01-90b4-ecc2da282050",
         "544ee24e-75f7-4d79-8dde-509c7538fe67",
-        "17664f15-97ea-4cd9-94ff-11d5187c7ba8"
+        "17664f15-97ea-4cd9-94ff-11d5187c7ba8",
+        "74b046fa-52ca-41b7-8d5d-aa97fc8c1a80",
+        "cb0f174d-d0bf-44e4-8a00-34676c4bdce5"
       ],
       "settings": {
         "layout": "full_bleed",
