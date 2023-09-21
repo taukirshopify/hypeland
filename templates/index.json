@@ -3,6 +3,16 @@
     "ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245": {
       "type": "custom-bannar",
       "blocks": {
+        "63064412-3937-4675-9535-e74953bfe564": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MK6.jpg",
+            "h1": "HYPLAND x MORTAL KOMBAT LOOKBOOK IS NOW LIVE",
+            "p": "modeled by artist SOFAYGO",
+            "url": "shopify:\/\/blogs\/news\/hypland-x-mortal-kombat",
+            "shop": "MORE INFO"
+          }
+        },
         "0c2f350f-4608-45b7-a894-4a3493eb1d0b": {
           "type": "image",
           "settings": {
@@ -31,16 +41,6 @@
             "p": "",
             "url": "shopify:\/\/collections\/nba",
             "shop": "SHOP NOW"
-          }
-        },
-        "63064412-3937-4675-9535-e74953bfe564": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MK6.jpg",
-            "h1": "HYPLAND x MORTAL KOMBAT LOOKBOOK IS NOW LIVE",
-            "p": "modeled by artist SOFAYGO",
-            "url": "shopify:\/\/blogs\/news\/hypland-x-mortal-kombat",
-            "shop": "MORE INFO"
           }
         },
         "8699bf90-86ce-4414-adaa-83c27674a8f3": {
@@ -76,10 +76,10 @@
         }
       },
       "block_order": [
+        "63064412-3937-4675-9535-e74953bfe564",
         "0c2f350f-4608-45b7-a894-4a3493eb1d0b",
         "5c51233d-de4b-4255-8616-8a1eb6defdfe",
         "69a0875d-ff8a-462a-9ccd-fce4176ed2b6",
-        "63064412-3937-4675-9535-e74953bfe564",
         "8699bf90-86ce-4414-adaa-83c27674a8f3",
         "26bad4ed-79f5-46be-aea7-d86a802ec99d",
         "ec0c63f4-3a07-497d-b767-8d1a9544a78d"
