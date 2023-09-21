@@ -73,6 +73,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "3991745e-27e6-413b-9fd6-146cf50f1a46": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mk11.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "dce82903-1a04-427c-a79d-d5da24a50a92": {
           "type": "slide",
           "settings": {
@@ -222,6 +240,7 @@
         "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-1",
         "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-2",
         "a12963b1-b573-417a-8cd8-df22e086d91e",
+        "3991745e-27e6-413b-9fd6-146cf50f1a46",
         "dce82903-1a04-427c-a79d-d5da24a50a92",
         "91786e0b-2dd1-4a33-b33d-38ae71351bbe",
         "36d47908-745a-4bb0-8bcb-d08e4ccf0c7f",
