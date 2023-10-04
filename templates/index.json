@@ -117,7 +117,7 @@
           "settings": {
             "url01": "",
             "image": "shopify:\/\/shop_images\/b9.jpg",
-            "url02": "",
+            "url02": "shopify:\/\/collections\/sonic",
             "urlmain": "",
             "title": "Hypland x Sonic The Hedgehog",
             "shoptext": "shop now",
@@ -129,7 +129,7 @@
           "settings": {
             "url01": "",
             "image": "shopify:\/\/shop_images\/2_0afae1b4-3948-4ed7-b68b-29b2172daa47.jpg",
-            "url02": "#",
+            "url02": "shopify:\/\/collections\/dragon-ball-1",
             "urlmain": "",
             "title": "Hypland x dragon ball Z",
             "shoptext": "shop now",
@@ -141,7 +141,7 @@
           "settings": {
             "url01": "",
             "image": "shopify:\/\/shop_images\/NS6.jpg",
-            "url02": "",
+            "url02": "shopify:\/\/collections\/naruto",
             "urlmain": "",
             "title": "HYPLAND X NARUTO",
             "shoptext": "shop now",
