@@ -145,12 +145,11 @@
             "type": "Announce",
             "settings": {
               "url": "",
-              "text": "HYPLAND X MORTAL KOMBAT DROP 9\/30 AT 9AM PST"
+              "text": "AKATSUKI SHERPA RELEASE - 10\/7 AT 9AM PST"
             }
           },
           "fa60b5b1-82dc-4de8-93ec-ad2b96d4f5f8": {
             "type": "Announce",
-            "disabled": true,
             "settings": {
               "url": "",
               "text": "FREE SHIPPING ON DOMESTIC ORDERS $150+"
