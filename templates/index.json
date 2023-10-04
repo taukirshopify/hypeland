@@ -139,7 +139,7 @@
         "07f1291e-b3d6-4c66-8c54-db63676f5857": {
           "type": "collection",
           "settings": {
-            "url01": "#",
+            "url01": "shopify:\/\/collections\/naruto",
             "image": "shopify:\/\/shop_images\/NS6.jpg",
             "url02": "",
             "urlmain": "shopify:\/\/collections\/naruto",
