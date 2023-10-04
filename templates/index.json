@@ -103,7 +103,7 @@
         "4df5944c-a6db-41d0-b7a8-c185aa3f8a6a": {
           "type": "collection",
           "settings": {
-            "url01": "shopify:\/\/collections\/mortal-kombat",
+            "url01": "",
             "image": "shopify:\/\/shop_images\/MK6.jpg",
             "url02": "",
             "urlmain": "",
@@ -115,7 +115,7 @@
         "4cffadf7-1af6-4d91-9090-37fb8bad13b5": {
           "type": "collection",
           "settings": {
-            "url01": "shopify:\/\/collections\/sonic",
+            "url01": "",
             "image": "shopify:\/\/shop_images\/b9.jpg",
             "url02": "",
             "urlmain": "",
@@ -127,7 +127,7 @@
         "545c4af7-5894-4822-837e-66403dce1ec1": {
           "type": "collection",
           "settings": {
-            "url01": "shopify:\/\/collections\/dragon-ball-1",
+            "url01": "",
             "image": "shopify:\/\/shop_images\/2_0afae1b4-3948-4ed7-b68b-29b2172daa47.jpg",
             "url02": "#",
             "urlmain": "",
@@ -139,7 +139,7 @@
         "07f1291e-b3d6-4c66-8c54-db63676f5857": {
           "type": "collection",
           "settings": {
-            "url01": "shopify:\/\/collections\/naruto",
+            "url01": "",
             "image": "shopify:\/\/shop_images\/NS6.jpg",
             "url02": "",
             "urlmain": "",
