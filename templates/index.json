@@ -103,9 +103,9 @@
         "4df5944c-a6db-41d0-b7a8-c185aa3f8a6a": {
           "type": "collection",
           "settings": {
-            "url01": "",
+            "url01": "shopify:\/\/collections\/mortal-kombat",
             "image": "shopify:\/\/shop_images\/MK6.jpg",
-            "url02": "shopify:\/\/collections\/mortal-kombat",
+            "url02": "",
             "urlmain": "",
             "title": "Hypland x MORTAL KOMBAT",
             "shoptext": "shop now",
