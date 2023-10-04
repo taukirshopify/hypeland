@@ -106,7 +106,7 @@
             "url01": "shopify:\/\/collections\/mortal-kombat",
             "image": "shopify:\/\/shop_images\/MK6.jpg",
             "url02": "",
-            "urlmain": "shopify:\/\/collections\/mortal-kombat",
+            "urlmain": "",
             "title": "Hypland x MORTAL KOMBAT",
             "shoptext": "SHOP NOW",
             "Arrows": "bottom"
@@ -118,7 +118,7 @@
             "url01": "shopify:\/\/collections\/sonic",
             "image": "shopify:\/\/shop_images\/b9.jpg",
             "url02": "",
-            "urlmain": "shopify:\/\/collections\/sonic",
+            "urlmain": "",
             "title": "Hypland x Sonic The Hedgehog",
             "shoptext": "shop now",
             "Arrows": "bottom"
@@ -130,7 +130,7 @@
             "url01": "shopify:\/\/collections\/dragon-ball-1",
             "image": "shopify:\/\/shop_images\/2_0afae1b4-3948-4ed7-b68b-29b2172daa47.jpg",
             "url02": "#",
-            "urlmain": "shopify:\/\/collections\/dragon-ball-1",
+            "urlmain": "",
             "title": "Hypland x dragon ball Z",
             "shoptext": "shop now",
             "Arrows": "bottom"
@@ -142,7 +142,7 @@
             "url01": "shopify:\/\/collections\/naruto",
             "image": "shopify:\/\/shop_images\/NS6.jpg",
             "url02": "",
-            "urlmain": "shopify:\/\/collections\/naruto",
+            "urlmain": "",
             "title": "HYPLAND X NARUTO",
             "shoptext": "shop now",
             "Arrows": "bottom"
