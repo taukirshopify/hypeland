@@ -106,9 +106,9 @@
             "url01": "shopify:\/\/collections\/mortal-kombat",
             "image": "shopify:\/\/shop_images\/MK6.jpg",
             "url02": "",
-            "urlmain": "",
+            "urlmain": "shopify:\/\/collections\/mortal-kombat",
             "title": "Hypland x MORTAL KOMBAT",
-            "shoptext": "",
+            "shoptext": "SHOP NOW",
             "Arrows": "bottom"
           }
         },
