@@ -3,6 +3,16 @@
     "ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245": {
       "type": "custom-bannar",
       "blocks": {
+        "c9452307-a542-4376-8887-b3e75314f62a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SHERPA2.jpg",
+            "h1": "AKATSUKI SHERPA RELEASE - 10\/7 AT 9AM PST",
+            "p": "",
+            "url": "shopify:\/\/collections\/naruto",
+            "shop": ""
+          }
+        },
         "63064412-3937-4675-9535-e74953bfe564": {
           "type": "image",
           "settings": {
@@ -76,6 +86,7 @@
         }
       },
       "block_order": [
+        "c9452307-a542-4376-8887-b3e75314f62a",
         "63064412-3937-4675-9535-e74953bfe564",
         "0c2f350f-4608-45b7-a894-4a3493eb1d0b",
         "5c51233d-de4b-4255-8616-8a1eb6defdfe",
