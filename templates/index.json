@@ -115,9 +115,9 @@
         "4cffadf7-1af6-4d91-9090-37fb8bad13b5": {
           "type": "collection",
           "settings": {
-            "url01": "#",
+            "url01": "shopify:\/\/collections\/sonic",
             "image": "shopify:\/\/shop_images\/b9.jpg",
-            "url02": "shopify:\/\/collections\/sonic",
+            "url02": "",
             "urlmain": "",
             "title": "Hypland x Sonic The Hedgehog",
             "shoptext": "shop now",
