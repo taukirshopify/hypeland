@@ -30,11 +30,33 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "68c6fcf1-c1ed-4f41-a012-35155ff3bc95": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hyplnd-25.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "04e83596-717f-4d21-b11c-ab88522274ac": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hyp-3.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16151345692835__6aa0fdfc-36a7-413b-a1b5-9885eb7971f0-column-1",
-        "template--16151345692835__6aa0fdfc-36a7-413b-a1b5-9885eb7971f0-column-2"
+        "template--16151345692835__6aa0fdfc-36a7-413b-a1b5-9885eb7971f0-column-2",
+        "68c6fcf1-c1ed-4f41-a012-35155ff3bc95",
+        "04e83596-717f-4d21-b11c-ab88522274ac"
       ],
       "settings": {
         "title": "CURSE MARK SHERPA FLEECE JACKET",
