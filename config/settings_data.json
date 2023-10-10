@@ -150,26 +150,23 @@
           },
           "fa60b5b1-82dc-4de8-93ec-ad2b96d4f5f8": {
             "type": "Announce",
-            "disabled": true,
             "settings": {
               "url": "",
-              "text": "FREE SHIPPING ON DOMESTIC ORDERS $150+"
+              "text": ""
             }
           },
           "9c991c19-54f6-4d0f-bf8e-020c38ea1b10": {
             "type": "Announce",
-            "disabled": true,
             "settings": {
               "url": "",
-              "text": "CURSE MARK SHERPA RELEASE - 10\/14 AT 9AM PST"
+              "text": ""
             }
           },
           "270e851e-5a6d-4ba6-b360-612f4dd46a0b": {
             "type": "Announce",
-            "disabled": true,
             "settings": {
               "url": "",
-              "text": "FREE SHIPPING ON DOMESTIC ORDERS $150+"
+              "text": ""
             }
           },
           "48b6cc36-6d9d-4870-a0d0-d0f472a3824f": {
@@ -177,7 +174,7 @@
             "disabled": true,
             "settings": {
               "url": "",
-              "text": "CURSE MARK SHERPA RELEASE - 10\/14 AT 9AM PST"
+              "text": ""
             }
           },
           "c57b0f78-9d9b-4940-9872-3664e527005a": {
@@ -185,7 +182,7 @@
             "disabled": true,
             "settings": {
               "url": "",
-              "text": "FREE SHIPPING ON DOMESTIC ORDERS $150+"
+              "text": ""
             }
           }
         },
