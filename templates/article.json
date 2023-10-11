@@ -451,109 +451,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "0ee52e29-326d-4768-91e5-0d45a15ad1e3": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h1><strong>HYPLAND X SONIC THE HEDGEHOG @ NEW YORK COMIC CON!<\/strong><\/h1>",
-            "heading_size": "hxl"
-          }
-        },
-        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Hypland x Sonic the Hedgehog releases at NYCC on October 12th at 9am PST!<\/p><p>Join us at our booth #1535 for new exclusive items!<\/p>"
-          }
-        },
-        "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h2><strong>TEXT 'SONIC' TO 97868 FOR UPDATES<\/strong><\/h2>",
-            "heading_size": "h0"
-          }
-        }
-      },
-      "block_order": [
-        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1",
-        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1",
-        "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "main": {
-      "type": "main-article",
-      "blocks": {
-        "featured_image": {
-          "type": "featured_image",
-          "settings": {
-            "image_height": "adapt"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "blog_show_date": true,
-            "blog_show_author": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "content": {
-          "type": "content",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "featured_image",
-        "title",
-        "share",
-        "content"
-      ],
-      "disabled": true,
-      "settings": {
-      }
-    },
-    "b1cfcae7-62fc-416a-9d01-afdaf25e2fd2": {
-      "type": "newsletter",
-      "blocks": {
-        "template--16151345561763__b1cfcae7-62fc-416a-9d01-afdaf25e2fd2-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "SIGN UP FOR FUTURE COLLECTION DETAILS",
-            "heading_size": "h2"
-          }
-        },
-        "template--16151345561763__b1cfcae7-62fc-416a-9d01-afdaf25e2fd2-email_form-1": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--16151345561763__b1cfcae7-62fc-416a-9d01-afdaf25e2fd2-heading-1",
-        "template--16151345561763__b1cfcae7-62fc-416a-9d01-afdaf25e2fd2-email_form-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52
-      }
-    },
     "32500cea-9a7d-4167-8580-633f6f2dfd2b": {
       "type": "slideshow",
       "blocks": {
@@ -816,14 +713,117 @@
         "show_text_below": false,
         "accessibility_info": ""
       }
+    },
+    "0ee52e29-326d-4768-91e5-0d45a15ad1e3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1><strong>HYPLAND X SONIC THE HEDGEHOG @ NEW YORK COMIC CON!<\/strong><\/h1>",
+            "heading_size": "hxl"
+          }
+        },
+        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hypland x Sonic the Hedgehog releases at NYCC on October 12th at 9am PST!<\/p><p>Join us at our booth #1535 for new exclusive items!<\/p>"
+          }
+        },
+        "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2><strong>TEXT 'SONIC' TO 97868 FOR UPDATES<\/strong><\/h2>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1",
+        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1",
+        "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "b1cfcae7-62fc-416a-9d01-afdaf25e2fd2": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16151345561763__b1cfcae7-62fc-416a-9d01-afdaf25e2fd2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "SIGN UP FOR FUTURE COLLECTION DETAILS",
+            "heading_size": "h2"
+          }
+        },
+        "template--16151345561763__b1cfcae7-62fc-416a-9d01-afdaf25e2fd2-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16151345561763__b1cfcae7-62fc-416a-9d01-afdaf25e2fd2-heading-1",
+        "template--16151345561763__b1cfcae7-62fc-416a-9d01-afdaf25e2fd2-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "e2adfcc7-7bba-4350-931a-dbb1c6717476",
     "0e9a9b40-1fbb-491d-a00f-013a5cd18a05",
+    "32500cea-9a7d-4167-8580-633f6f2dfd2b",
     "0ee52e29-326d-4768-91e5-0d45a15ad1e3",
     "main",
-    "b1cfcae7-62fc-416a-9d01-afdaf25e2fd2",
-    "32500cea-9a7d-4167-8580-633f6f2dfd2b"
+    "b1cfcae7-62fc-416a-9d01-afdaf25e2fd2"
   ]
 }
