@@ -3,7 +3,7 @@
     "e2adfcc7-7bba-4350-931a-dbb1c6717476": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-09-17_at_10.23.24_AM.png",
+        "image": "shopify:\/\/shop_images\/SONIC-BANNER_28341149-720e-4c65-a9b8-44097bbbc5d9.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -440,6 +440,7 @@
         "74b046fa-52ca-41b7-8d5d-aa97fc8c1a80",
         "cb0f174d-d0bf-44e4-8a00-34676c4bdce5"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -456,20 +457,20 @@
         "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<h1><strong>HYPLAND X MORTAL KOMBAT<\/strong><\/h1>",
+            "heading": "<h1><strong>HYPLAND X SONIC THE HEDGEHOG @ NEW YORK COMIC CON!<\/strong><\/h1>",
             "heading_size": "hxl"
           }
         },
         "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Hypland x Mortal Kombat releases online on September 30th at 9am PST!<\/p><p>Join us for our Los Angeles pop-up on September 23rd & 24th!<\/p><p><strong>200 S SAN PEDRO STREET, LOS ANGELES CA 90012<\/strong><\/p><p><strong>11AM-6PM DAILY<\/strong><\/p>"
+            "text": "<p>Hypland x Sonic the Hedgehog releases at NYCC on October 12th at 9am PST!<\/p><p>Join us at our booth #1535 for new exclusive items!<\/p>"
           }
         },
         "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481": {
           "type": "heading",
           "settings": {
-            "heading": "<h2><strong>TEXT 'KOMBAT' TO 97868 FOR EARLY ACCESS<\/strong><\/h2>",
+            "heading": "<h2><strong>TEXT 'SONIC' TO 97868 FOR UPDATES<\/strong><\/h2>",
             "heading_size": "h0"
           }
         }
@@ -532,7 +533,7 @@
         "template--16151345561763__b1cfcae7-62fc-416a-9d01-afdaf25e2fd2-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "SIGN UP FOR EARLY ACCESS",
+            "heading": "SIGN UP FOR FUTURE COLLECTION DETAILS",
             "heading_size": "h2"
           }
         },
@@ -553,243 +554,15 @@
         "padding_bottom": 52
       }
     },
-    "21be6bec-da19-4c79-9672-4f62042a100e": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--16151345561763__21be6bec-da19-4c79-9672-4f62042a100e-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HOODIE-RAIDEN-NAVY_2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16151345561763__21be6bec-da19-4c79-9672-4f62042a100e-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HOODIE-RAIDEN-NAVY_2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16151345561763__21be6bec-da19-4c79-9672-4f62042a100e-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LS-TEE-SCORPION-GREY_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "9c84383e-1100-4436-8e4c-5d16925a586c": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LS-TEE-SCORPION-GREY_2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "9c31a57a-97a0-4653-bc6e-a2d90a61d3c8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-LIU-KANG-GREY_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "7bbf5312-3e72-4096-a55a-58c5a709ed94": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-LIU-KANG-GREY_2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "602c859c-ddd3-423a-afa5-380e828a98ee": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-RAIDEN-BLACK_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "71876d5b-154c-43dc-9123-3932cc0310ce": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-RAIDEN-BLACK_2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "a65338cb-4daa-4e63-ac5b-3723bf1b4804": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-REPTILE-BLACK_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "be24bf86-8c16-4fad-b43e-99ca2891231f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-SUBZERO-NAVY_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "f8b210c4-ff8c-483f-a4fc-5109b45f54e4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-GORO-BROWN_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "69d7773c-5ad8-4e82-8f9f-c30d01bea612": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-SCORPION-BLACK_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "e3e60b77-e41f-4c4c-8ec6-6fbdebb1b53f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-CHOOSE-FIGHTER-BROWN_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "ae22a638-d9b8-4269-bab6-c64f81413c24": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-GORO-RED_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "00004039-b419-433c-bac8-95ed6d1b4b71": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-GORO-RED_2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "ac85346d-c87f-4856-9f53-d1a95e4aef57": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-KITANA-NAVY_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "57564492-7797-4205-81ac-32f22d5be1c5": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-KITANA-NAVY_2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16151345561763__21be6bec-da19-4c79-9672-4f62042a100e-column-2",
-        "template--16151345561763__21be6bec-da19-4c79-9672-4f62042a100e-column-1",
-        "template--16151345561763__21be6bec-da19-4c79-9672-4f62042a100e-column-3",
-        "9c84383e-1100-4436-8e4c-5d16925a586c",
-        "9c31a57a-97a0-4653-bc6e-a2d90a61d3c8",
-        "7bbf5312-3e72-4096-a55a-58c5a709ed94",
-        "602c859c-ddd3-423a-afa5-380e828a98ee",
-        "71876d5b-154c-43dc-9123-3932cc0310ce",
-        "a65338cb-4daa-4e63-ac5b-3723bf1b4804",
-        "be24bf86-8c16-4fad-b43e-99ca2891231f",
-        "f8b210c4-ff8c-483f-a4fc-5109b45f54e4",
-        "69d7773c-5ad8-4e82-8f9f-c30d01bea612",
-        "e3e60b77-e41f-4c4c-8ec6-6fbdebb1b53f",
-        "ae22a638-d9b8-4269-bab6-c64f81413c24",
-        "00004039-b419-433c-bac8-95ed6d1b4b71",
-        "ac85346d-c87f-4856-9f53-d1a95e4aef57",
-        "57564492-7797-4205-81ac-32f22d5be1c5"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "32500cea-9a7d-4167-8580-633f6f2dfd2b": {
       "type": "slideshow",
       "blocks": {
         "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MK3.jpg",
+            "image": "shopify:\/\/shop_images\/HYP-1.jpg",
             "heading": "",
             "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HYPLND-MK-24.jpg",
-            "heading": "",
-            "heading_size": "h1",
             "subheading": "",
             "button_label": "",
             "link": "",
@@ -805,7 +578,25 @@
         "a12963b1-b573-417a-8cd8-df22e086d91e": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MK5.jpg",
+            "image": "shopify:\/\/shop_images\/HYP-3_7b738586-e664-41ec-ab0e-90ebe127b598.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HYP-2.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -823,7 +614,7 @@
         "3991745e-27e6-413b-9fd6-146cf50f1a46": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mk12.jpg",
+            "image": "shopify:\/\/shop_images\/HYP-4.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -841,7 +632,7 @@
         "dce82903-1a04-427c-a79d-d5da24a50a92": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MK8.jpg",
+            "image": "shopify:\/\/shop_images\/HYP-5.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -849,7 +640,7 @@
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
@@ -859,43 +650,7 @@
         "91786e0b-2dd1-4a33-b33d-38ae71351bbe": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MK2.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "36d47908-745a-4bb0-8bcb-d08e4ccf0c7f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MK1.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "dd636430-a380-45c0-9406-35d6f515bd3f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MK4.jpg",
+            "image": "shopify:\/\/shop_images\/HYP-6.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -913,7 +668,7 @@
         "cdcb6411-1a64-473a-8846-02a5f9f15a9f": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MK7.jpg",
+            "image": "shopify:\/\/shop_images\/HYP-9.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -921,7 +676,43 @@
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "dd636430-a380-45c0-9406-35d6f515bd3f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HYP-8.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "36d47908-745a-4bb0-8bcb-d08e4ccf0c7f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HYP-7.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
@@ -931,7 +722,7 @@
         "0bf76364-1e3a-4100-83e9-a4d4f8b0319f": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MK10.jpg",
+            "image": "shopify:\/\/shop_images\/HYP-10.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -949,7 +740,7 @@
         "8ed5a643-f4b4-4ca3-a537-d202b9209687": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MK9.jpg",
+            "image": "shopify:\/\/shop_images\/HYP-11.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -966,9 +757,26 @@
         },
         "8e8d74c5-07bf-45fd-9259-35bb89f98e97": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/MK6.jpg",
+            "image": "shopify:\/\/shop_images\/HYP-12.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "73a14c61-954a-457f-9aed-2c68163b049d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HYP-13.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -986,17 +794,18 @@
       },
       "block_order": [
         "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-1",
-        "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-2",
         "a12963b1-b573-417a-8cd8-df22e086d91e",
+        "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-2",
         "3991745e-27e6-413b-9fd6-146cf50f1a46",
         "dce82903-1a04-427c-a79d-d5da24a50a92",
         "91786e0b-2dd1-4a33-b33d-38ae71351bbe",
-        "36d47908-745a-4bb0-8bcb-d08e4ccf0c7f",
-        "dd636430-a380-45c0-9406-35d6f515bd3f",
         "cdcb6411-1a64-473a-8846-02a5f9f15a9f",
+        "dd636430-a380-45c0-9406-35d6f515bd3f",
+        "36d47908-745a-4bb0-8bcb-d08e4ccf0c7f",
         "0bf76364-1e3a-4100-83e9-a4d4f8b0319f",
         "8ed5a643-f4b4-4ca3-a537-d202b9209687",
-        "8e8d74c5-07bf-45fd-9259-35bb89f98e97"
+        "8e8d74c5-07bf-45fd-9259-35bb89f98e97",
+        "73a14c61-954a-457f-9aed-2c68163b049d"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -1015,7 +824,6 @@
     "0ee52e29-326d-4768-91e5-0d45a15ad1e3",
     "main",
     "b1cfcae7-62fc-416a-9d01-afdaf25e2fd2",
-    "21be6bec-da19-4c79-9672-4f62042a100e",
     "32500cea-9a7d-4167-8580-633f6f2dfd2b"
   ]
 }
