@@ -2,6 +2,7 @@
   "sections": {
     "e2adfcc7-7bba-4350-931a-dbb1c6717476": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/SONIC-BANNER_28341149-720e-4c65-a9b8-44097bbbc5d9.jpg",
         "image_overlay_opacity": 0,
@@ -16,448 +17,13 @@
         "show_text_below": true
       }
     },
-    "0e9a9b40-1fbb-491d-a00f-013a5cd18a05": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16151345561763__0e9a9b40-1fbb-491d-a00f-013a5cd18a05-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MKSELECTS-8.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16151345561763__0e9a9b40-1fbb-491d-a00f-013a5cd18a05-slide-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HYPLND-MK-37.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "0c477907-f941-45fa-90fb-21b9947f8de7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HYPLND-MK-24_e028837d-f4ae-4245-b75b-b583ac0424b1.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "9d323ce6-db1d-459d-b8d6-0c266f51f0f3": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MKSELECTS-4.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "33bd6f5e-1539-401a-b086-d3f3ff8a6da3": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image00003.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "a2903d0b-54fb-4ac0-9398-2d96660cc501": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image00001.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "7a1c8d32-cdcb-4b30-b191-cc2af9cf7cde": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HYPLND-MK-48.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "202a79ac-2cc5-4a76-87e3-11ad8a2659be": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MKSELECTS-14.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "ad5a5563-f448-4f3b-882b-0daebe969712": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MKSELECTS-24.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "9535fb54-e6b6-403d-8a6d-0ca207b5b28b": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MKSELECTS-25.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "1bb70778-9ac5-441c-a7dd-171be886665c": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HYPLND-MK-141.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "6e900ca7-6b50-4b06-936e-1aeed731481b": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MKSELECTS-35.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "d1b87925-b2ef-4001-a9e4-de72854d1a90": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HYPLND-MK-112.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "896df145-2d0e-4635-8e91-655eaa6efcff": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HYPLND-MK-121.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "0c548183-76fa-452d-b5b6-0dabfca2a5a5": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HYPLND-MK-79.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "8dd7970d-affb-42d0-a869-d0d263ef831d": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MKSELECTS-19.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "efbd88d8-6425-4612-a0b6-950a4b2ac964": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HYPLND-MK-135.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "8b117a51-22e2-4a01-90b4-ecc2da282050": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MKSELECTS-33.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "544ee24e-75f7-4d79-8dde-509c7538fe67": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HYPLND-MK-67.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "17664f15-97ea-4cd9-94ff-11d5187c7ba8": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MKSELECTS-16.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "74b046fa-52ca-41b7-8d5d-aa97fc8c1a80": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MKSELECTS-26.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "cb0f174d-d0bf-44e4-8a00-34676c4bdce5": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HYPLND-MK-95.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16151345561763__0e9a9b40-1fbb-491d-a00f-013a5cd18a05-slide-1",
-        "template--16151345561763__0e9a9b40-1fbb-491d-a00f-013a5cd18a05-slide-2",
-        "0c477907-f941-45fa-90fb-21b9947f8de7",
-        "9d323ce6-db1d-459d-b8d6-0c266f51f0f3",
-        "33bd6f5e-1539-401a-b086-d3f3ff8a6da3",
-        "a2903d0b-54fb-4ac0-9398-2d96660cc501",
-        "7a1c8d32-cdcb-4b30-b191-cc2af9cf7cde",
-        "202a79ac-2cc5-4a76-87e3-11ad8a2659be",
-        "ad5a5563-f448-4f3b-882b-0daebe969712",
-        "9535fb54-e6b6-403d-8a6d-0ca207b5b28b",
-        "1bb70778-9ac5-441c-a7dd-171be886665c",
-        "6e900ca7-6b50-4b06-936e-1aeed731481b",
-        "d1b87925-b2ef-4001-a9e4-de72854d1a90",
-        "896df145-2d0e-4635-8e91-655eaa6efcff",
-        "0c548183-76fa-452d-b5b6-0dabfca2a5a5",
-        "8dd7970d-affb-42d0-a869-d0d263ef831d",
-        "efbd88d8-6425-4612-a0b6-950a4b2ac964",
-        "8b117a51-22e2-4a01-90b4-ecc2da282050",
-        "544ee24e-75f7-4d79-8dde-509c7538fe67",
-        "17664f15-97ea-4cd9-94ff-11d5187c7ba8",
-        "74b046fa-52ca-41b7-8d5d-aa97fc8c1a80",
-        "cb0f174d-d0bf-44e4-8a00-34676c4bdce5"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "32500cea-9a7d-4167-8580-633f6f2dfd2b": {
       "type": "slideshow",
       "blocks": {
         "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-1.jpg",
+            "image": "shopify:\/\/shop_images\/ZILLA-01.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -475,7 +41,7 @@
         "a12963b1-b573-417a-8cd8-df22e086d91e": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-3_7b738586-e664-41ec-ab0e-90ebe127b598.jpg",
+            "image": "shopify:\/\/shop_images\/ZILLA-02.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -493,7 +59,7 @@
         "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-2.jpg",
+            "image": "shopify:\/\/shop_images\/ZILLA-03.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -511,7 +77,7 @@
         "3991745e-27e6-413b-9fd6-146cf50f1a46": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-4.jpg",
+            "image": "shopify:\/\/shop_images\/ZILLA-04.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -529,7 +95,7 @@
         "dce82903-1a04-427c-a79d-d5da24a50a92": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-5.jpg",
+            "image": "shopify:\/\/shop_images\/ZILLA-06.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -547,7 +113,7 @@
         "91786e0b-2dd1-4a33-b33d-38ae71351bbe": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-6.jpg",
+            "image": "shopify:\/\/shop_images\/ZILLA-07.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -565,7 +131,7 @@
         "cdcb6411-1a64-473a-8846-02a5f9f15a9f": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-9.jpg",
+            "image": "shopify:\/\/shop_images\/ZILLA-08.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -583,7 +149,7 @@
         "dd636430-a380-45c0-9406-35d6f515bd3f": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-8.jpg",
+            "image": "shopify:\/\/shop_images\/ZILLA-09.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -601,7 +167,7 @@
         "36d47908-745a-4bb0-8bcb-d08e4ccf0c7f": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-7.jpg",
+            "image": "shopify:\/\/shop_images\/ZILLA-10.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -619,7 +185,7 @@
         "0bf76364-1e3a-4100-83e9-a4d4f8b0319f": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-10.jpg",
+            "image": "shopify:\/\/shop_images\/ZILLA-11.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -637,7 +203,7 @@
         "8ed5a643-f4b4-4ca3-a537-d202b9209687": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-11.jpg",
+            "image": "shopify:\/\/shop_images\/ZILLA-12.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -655,25 +221,7 @@
         "8e8d74c5-07bf-45fd-9259-35bb89f98e97": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-12.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "73a14c61-954a-457f-9aed-2c68163b049d": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HYP-13.jpg",
+            "image": "shopify:\/\/shop_images\/ZILLA-13.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -701,8 +249,7 @@
         "36d47908-745a-4bb0-8bcb-d08e4ccf0c7f",
         "0bf76364-1e3a-4100-83e9-a4d4f8b0319f",
         "8ed5a643-f4b4-4ca3-a537-d202b9209687",
-        "8e8d74c5-07bf-45fd-9259-35bb89f98e97",
-        "73a14c61-954a-457f-9aed-2c68163b049d"
+        "8e8d74c5-07bf-45fd-9259-35bb89f98e97"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -720,28 +267,28 @@
         "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<h1><strong>HYPLAND X SONIC THE HEDGEHOG @ NEW YORK COMIC CON!<\/strong><\/h1>",
+            "heading": "<h1><strong>HYPLAND X GODZILLA!<\/strong><\/h1>",
             "heading_size": "hxl"
-          }
-        },
-        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Hypland x Sonic the Hedgehog releases at NYCC on October 12th at 9am PST!<\/p><p>Join us at our booth #1535 for new exclusive items!<\/p>"
           }
         },
         "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481": {
           "type": "heading",
           "settings": {
-            "heading": "<h2><strong>TEXT 'SONIC' TO 97868 FOR UPDATES<\/strong><\/h2>",
+            "heading": "<h4><strong>Hypland x GODZILLA releases ONLINE on November 13th at 9am PST!<\/strong><\/h4>",
             "heading_size": "h0"
+          }
+        },
+        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To celebrate the release of Godzilla Minus 1, we will have an exclusive collection available, movie screening , music, food, movie, after party!<br\/><br\/>FREE ADMISSION<br\/><br\/>Location:<br\/>Japanese American Cultural & Community Center<br\/>244 San Pedro St, Los Angeles, CA 90012<br\/>Event: 12-7pm -- Party: 7-10pm<br\/><br\/>See y'all soon!<\/p>"
           }
         }
       },
       "block_order": [
         "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1",
-        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1",
-        "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481"
+        "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481",
+        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -796,7 +343,7 @@
         "template--16151345561763__b1cfcae7-62fc-416a-9d01-afdaf25e2fd2-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "SIGN UP FOR FUTURE COLLECTION DETAILS",
+            "heading": "SIGN UP FOR RELEASE ALERTS & EARLY ACCESS!",
             "heading_size": "h2"
           }
         },
@@ -816,14 +363,76 @@
         "padding_top": 0,
         "padding_bottom": 52
       }
+    },
+    "02bc36c1-75ad-4e00-8a37-20ce63204a67": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-10_at_12.29.37_PM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-10_at_12.29.51_PM.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-1",
+        "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ce0f85b7-84b4-4b1b-97b8-15e02860cdfb": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hypland_X_Godzilla_After_Party_Flyer_5x5_02b89067-29f2-475f-aa34-a1b1fe984720.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
     }
   },
   "order": [
     "e2adfcc7-7bba-4350-931a-dbb1c6717476",
-    "0e9a9b40-1fbb-491d-a00f-013a5cd18a05",
     "32500cea-9a7d-4167-8580-633f6f2dfd2b",
     "0ee52e29-326d-4768-91e5-0d45a15ad1e3",
     "main",
-    "b1cfcae7-62fc-416a-9d01-afdaf25e2fd2"
+    "b1cfcae7-62fc-416a-9d01-afdaf25e2fd2",
+    "02bc36c1-75ad-4e00-8a37-20ce63204a67",
+    "ce0f85b7-84b4-4b1b-97b8-15e02860cdfb"
   ]
 }
