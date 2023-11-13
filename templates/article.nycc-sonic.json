@@ -23,7 +23,7 @@
         "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-01.jpg",
+            "image": "shopify:\/\/shop_images\/HYP-7.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -41,7 +41,7 @@
         "a12963b1-b573-417a-8cd8-df22e086d91e": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-02.jpg",
+            "image": "shopify:\/\/shop_images\/HYP-5.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -267,19 +267,20 @@
         "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<h1><strong>HYPLAND X GODZILLA!<\/strong><\/h1>",
+            "heading": "<h1><strong>HYPLAND X SONIC PART 2!<\/strong><\/h1>",
             "heading_size": "hxl"
           }
         },
         "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481": {
           "type": "heading",
           "settings": {
-            "heading": "<h4><strong>Hypland x GODZILLA releases ONLINE on November 13th at 9am PST!<\/strong><\/h4>",
+            "heading": "<h4><strong>Hypland x SONIC PART 2 releases ONLINE on November 18th at 9am PST!<\/strong><\/h4>",
             "heading_size": "h0"
           }
         },
         "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>To celebrate the release of Godzilla Minus 1, we will have an exclusive collection available, movie screening , music, food, movie, after party!<br\/><br\/>FREE ADMISSION<br\/><br\/>Location:<br\/>Japanese American Cultural & Community Center<br\/>244 San Pedro St, Los Angeles, CA 90012<br\/>Event: 12-7pm -- Party: 7-10pm<br\/><br\/>See y'all soon!<\/p>"
           }
@@ -392,6 +393,7 @@
         "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-1",
         "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -411,6 +413,7 @@
     },
     "ce0f85b7-84b4-4b1b-97b8-15e02860cdfb": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Hypland_X_Godzilla_After_Party_Flyer_5x5_02b89067-29f2-475f-aa34-a1b1fe984720.jpg",
         "image_overlay_opacity": 0,
