@@ -83,6 +83,16 @@
             "url": "",
             "shop": "shop now"
           }
+        },
+        "6204e2c5-1681-458a-bdb5-f4d94976eb45": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ZILLA-13_7ed89e03-bc2f-4e56-a4cd-0ccc9090a860.jpg",
+            "h1": "",
+            "p": "",
+            "url": "",
+            "shop": ""
+          }
         }
       },
       "block_order": [
@@ -93,7 +103,8 @@
         "5c51233d-de4b-4255-8616-8a1eb6defdfe",
         "69a0875d-ff8a-462a-9ccd-fce4176ed2b6",
         "8699bf90-86ce-4414-adaa-83c27674a8f3",
-        "ec0c63f4-3a07-497d-b767-8d1a9544a78d"
+        "ec0c63f4-3a07-497d-b767-8d1a9544a78d",
+        "6204e2c5-1681-458a-bdb5-f4d94976eb45"
       ],
       "settings": {
       }
