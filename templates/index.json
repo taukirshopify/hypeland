@@ -169,13 +169,26 @@
             "shoptext": "shop now",
             "Arrows": "bottom"
           }
+        },
+        "12fac412-16a6-4dfd-80dc-0a7350d5760d": {
+          "type": "collection",
+          "settings": {
+            "url01": "",
+            "image": "shopify:\/\/shop_images\/ZILLA-13_7ed89e03-bc2f-4e56-a4cd-0ccc9090a860.jpg",
+            "url02": "",
+            "urlmain": "shopify:\/\/collections\/godzilla",
+            "title": "Hypland x godzilla",
+            "shoptext": "shop now",
+            "Arrows": "bottom"
+          }
         }
       },
       "block_order": [
         "4df5944c-a6db-41d0-b7a8-c185aa3f8a6a",
         "4cffadf7-1af6-4d91-9090-37fb8bad13b5",
         "545c4af7-5894-4822-837e-66403dce1ec1",
-        "07f1291e-b3d6-4c66-8c54-db63676f5857"
+        "07f1291e-b3d6-4c66-8c54-db63676f5857",
+        "12fac412-16a6-4dfd-80dc-0a7350d5760d"
       ],
       "settings": {
         "title": "recommended Collection"
