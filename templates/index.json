@@ -3,6 +3,16 @@
     "ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245": {
       "type": "custom-bannar",
       "blocks": {
+        "0c2f350f-4608-45b7-a894-4a3493eb1d0b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HYP-3_7b738586-e664-41ec-ab0e-90ebe127b598.jpg",
+            "h1": "HYPLAND X SONIC IS NOW AVAILABLE",
+            "p": "",
+            "url": "shopify:\/\/collections\/sonic",
+            "shop": "SHOP NOW"
+          }
+        },
         "6204e2c5-1681-458a-bdb5-f4d94976eb45": {
           "type": "image",
           "settings": {
@@ -40,16 +50,6 @@
             "h1": "HYPLAND x MORTAL KOMBAT IS NOW LIVE",
             "p": "",
             "url": "shopify:\/\/collections\/mortal-kombat",
-            "shop": "SHOP NOW"
-          }
-        },
-        "0c2f350f-4608-45b7-a894-4a3493eb1d0b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/b9.jpg",
-            "h1": "HYPLAND X SONIC IS NOW AVAILABLE",
-            "p": "",
-            "url": "shopify:\/\/collections\/sonic",
             "shop": "SHOP NOW"
           }
         },
@@ -96,11 +96,11 @@
         }
       },
       "block_order": [
+        "0c2f350f-4608-45b7-a894-4a3493eb1d0b",
         "6204e2c5-1681-458a-bdb5-f4d94976eb45",
         "26bad4ed-79f5-46be-aea7-d86a802ec99d",
         "c9452307-a542-4376-8887-b3e75314f62a",
         "63064412-3937-4675-9535-e74953bfe564",
-        "0c2f350f-4608-45b7-a894-4a3493eb1d0b",
         "5c51233d-de4b-4255-8616-8a1eb6defdfe",
         "69a0875d-ff8a-462a-9ccd-fce4176ed2b6",
         "8699bf90-86ce-4414-adaa-83c27674a8f3",
@@ -122,18 +122,6 @@
     "2ae0f858-269f-427e-a038-ae7647e65555": {
       "type": "custom-recommendaedcollection",
       "blocks": {
-        "4df5944c-a6db-41d0-b7a8-c185aa3f8a6a": {
-          "type": "collection",
-          "settings": {
-            "url01": "",
-            "image": "shopify:\/\/shop_images\/MK6.jpg",
-            "url02": "shopify:\/\/collections\/mortal-kombat",
-            "urlmain": "",
-            "title": "Hypland x MORTAL KOMBAT",
-            "shoptext": "SHOP NOW",
-            "Arrows": "bottom"
-          }
-        },
         "4cffadf7-1af6-4d91-9090-37fb8bad13b5": {
           "type": "collection",
           "settings": {
@@ -143,6 +131,18 @@
             "urlmain": "",
             "title": "Hypland x Sonic The Hedgehog",
             "shoptext": "shop now",
+            "Arrows": "bottom"
+          }
+        },
+        "4df5944c-a6db-41d0-b7a8-c185aa3f8a6a": {
+          "type": "collection",
+          "settings": {
+            "url01": "",
+            "image": "shopify:\/\/shop_images\/MK6.jpg",
+            "url02": "shopify:\/\/collections\/mortal-kombat",
+            "urlmain": "",
+            "title": "Hypland x MORTAL KOMBAT",
+            "shoptext": "SHOP NOW",
             "Arrows": "bottom"
           }
         },
@@ -184,8 +184,8 @@
         }
       },
       "block_order": [
-        "4df5944c-a6db-41d0-b7a8-c185aa3f8a6a",
         "4cffadf7-1af6-4d91-9090-37fb8bad13b5",
+        "4df5944c-a6db-41d0-b7a8-c185aa3f8a6a",
         "545c4af7-5894-4822-837e-66403dce1ec1",
         "07f1291e-b3d6-4c66-8c54-db63676f5857",
         "12fac412-16a6-4dfd-80dc-0a7350d5760d"
