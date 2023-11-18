@@ -197,6 +197,15 @@
     "adc9f98d-48a4-4de9-9879-a60a05ae00e6": {
       "type": "custom-shop",
       "blocks": {
+        "7a2686f6-64dd-4f12-8d38-b25260159f22": {
+          "type": "slide",
+          "settings": {
+            "collectionname": "SONIC",
+            "collection": "sonic",
+            "p_limit": "12",
+            "shop": "Show More"
+          }
+        },
         "7c58ec12-8abe-4d28-b523-c41501a2be2c": {
           "type": "slide",
           "settings": {
@@ -209,17 +218,8 @@
         "b1dc0d78-4c35-4084-9f6e-2ce267220327": {
           "type": "slide",
           "settings": {
-            "collectionname": "SONIC",
-            "collection": "sonic",
-            "p_limit": "12",
-            "shop": "Show More"
-          }
-        },
-        "7a2686f6-64dd-4f12-8d38-b25260159f22": {
-          "type": "slide",
-          "settings": {
-            "collectionname": "SONIC",
-            "collection": "sonic",
+            "collectionname": "NARUTO",
+            "collection": "naruto",
             "p_limit": "12",
             "shop": "Show More"
           }
@@ -235,9 +235,9 @@
         }
       },
       "block_order": [
+        "7a2686f6-64dd-4f12-8d38-b25260159f22",
         "7c58ec12-8abe-4d28-b523-c41501a2be2c",
         "b1dc0d78-4c35-4084-9f6e-2ce267220327",
-        "7a2686f6-64dd-4f12-8d38-b25260159f22",
         "96786eca-c88e-4827-a5a0-8b0b4bd9dd87"
       ],
       "settings": {
