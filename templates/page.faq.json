@@ -57,7 +57,7 @@
           "type": "faq",
           "settings": {
             "question": "I RECEIVED MY TRACKING NUMBER BUT IT’S NOT UPDATING, COULD YOU LOOK INTO IT?",
-            "ans": "<p>TRACKING NUMBERS CAN TAKE UP TO 48 HOURS BEFORE UPDATING. IF AN UNUSUAL AMOUNT OF TIME PASSES BEFORE SHOWING AN UPDATE, PLEASE <a href=\"https:\/\/hypland.com\/pages\/contact\" title=\"CONTACT US\">CONTACT US HERE<\/a><\/p>"
+            "ans": "<p>TRACKING NUMBERS CAN TAKE UP TO 48 HOURS BEFORE UPDATING. IF AN UNUSUAL AMOUNT OF TIME PASSES BEFORE SHOWING AN UPDATE, PLEASE <a href=\"\/pages\/contact\" title=\"CONTACT\">CONTACT US HERE<\/a><\/p>"
           }
         },
         "25afcd5d-4b49-4e24-a299-ffff682c4d91": {
