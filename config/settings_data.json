@@ -143,6 +143,7 @@
         "blocks": {
           "bcd2d1aa-39f1-4349-b842-fb96ab05ad37": {
             "type": "Announce",
+            "disabled": true,
             "settings": {
               "url": "",
               "text": "HYPLAND X SONIC PART 2 RELEASES 11\/18 AT 9AM PST"
@@ -150,6 +151,7 @@
           },
           "9c991c19-54f6-4d0f-bf8e-020c38ea1b10": {
             "type": "Announce",
+            "disabled": true,
             "settings": {
               "url": "",
               "text": "HYPLAND X SONIC PART 2 RELEASES AT 11\/18 AT 9AM PST"
@@ -157,6 +159,7 @@
           },
           "fa60b5b1-82dc-4de8-93ec-ad2b96d4f5f8": {
             "type": "Announce",
+            "disabled": true,
             "settings": {
               "url": "",
               "text": "HYPLAND X SONIC PART 2 RELEASES 11\/18 AT 9AM PST"
