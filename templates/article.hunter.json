@@ -1,264 +1,48 @@
 {
   "sections": {
-    "e2adfcc7-7bba-4350-931a-dbb1c6717476": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/SONIC-BANNER_28341149-720e-4c65-a9b8-44097bbbc5d9.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "32500cea-9a7d-4167-8580-633f6f2dfd2b": {
-      "type": "slideshow",
+    "02bc36c1-75ad-4e00-8a37-20ce63204a67": {
+      "type": "multicolumn",
       "blocks": {
-        "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-1": {
-          "type": "slide",
+        "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-1": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-01.jpg",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "image": "shopify:\/\/shop_images\/IMG_2546.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         },
-        "a12963b1-b573-417a-8cd8-df22e086d91e": {
-          "type": "slide",
+        "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-2": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-02.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-03.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "3991745e-27e6-413b-9fd6-146cf50f1a46": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-04.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "dce82903-1a04-427c-a79d-d5da24a50a92": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-06.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "91786e0b-2dd1-4a33-b33d-38ae71351bbe": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-07.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "cdcb6411-1a64-473a-8846-02a5f9f15a9f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-08.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "dd636430-a380-45c0-9406-35d6f515bd3f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-09.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "36d47908-745a-4bb0-8bcb-d08e4ccf0c7f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-10.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "0bf76364-1e3a-4100-83e9-a4d4f8b0319f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-11.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "8ed5a643-f4b4-4ca3-a537-d202b9209687": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-12.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "8e8d74c5-07bf-45fd-9259-35bb89f98e97": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ZILLA-13.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "image": "shopify:\/\/shop_images\/IMG_25462.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-1",
-        "a12963b1-b573-417a-8cd8-df22e086d91e",
-        "template--16151345561763__32500cea-9a7d-4167-8580-633f6f2dfd2b-slide-2",
-        "3991745e-27e6-413b-9fd6-146cf50f1a46",
-        "dce82903-1a04-427c-a79d-d5da24a50a92",
-        "91786e0b-2dd1-4a33-b33d-38ae71351bbe",
-        "cdcb6411-1a64-473a-8846-02a5f9f15a9f",
-        "dd636430-a380-45c0-9406-35d6f515bd3f",
-        "36d47908-745a-4bb0-8bcb-d08e4ccf0c7f",
-        "0bf76364-1e3a-4100-83e9-a4d4f8b0319f",
-        "8ed5a643-f4b4-4ca3-a537-d202b9209687",
-        "8e8d74c5-07bf-45fd-9259-35bb89f98e97"
+        "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-1",
+        "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-2"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": false,
-        "accessibility_info": ""
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "0ee52e29-326d-4768-91e5-0d45a15ad1e3": {
@@ -267,28 +51,21 @@
         "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<h1><strong>HYPLAND X GODZILLA!<\/strong><\/h1>",
+            "heading": "<h1><strong>HYPLAND X HUNTER X HUNTER!<\/strong><\/h1>",
             "heading_size": "hxl"
           }
         },
         "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481": {
           "type": "heading",
           "settings": {
-            "heading": "<h4><strong>Hypland x GODZILLA releases ONLINE on November 13th at 9am PST!<\/strong><\/h4>",
+            "heading": "<h4><strong>Hypland x HXH Sherpas release ONLINE on January 13th at 9am PST!<\/strong><\/h4>",
             "heading_size": "h0"
-          }
-        },
-        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>To celebrate the release of Godzilla Minus 1, we will have an exclusive collection available, movie screening , music, food, movie, after party!<br\/><br\/>FREE ADMISSION<br\/><br\/>Location:<br\/>Japanese American Cultural & Community Center<br\/>244 San Pedro St, Los Angeles, CA 90012<br\/>Event: 12-7pm -- Party: 7-10pm<br\/><br\/>See y'all soon!<\/p>"
           }
         }
       },
       "block_order": [
         "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1",
-        "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481",
-        "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-text-1"
+        "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -363,76 +140,12 @@
         "padding_top": 0,
         "padding_bottom": 52
       }
-    },
-    "02bc36c1-75ad-4e00-8a37-20ce63204a67": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-10_at_12.29.37_PM.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-10_at_12.29.51_PM.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-1",
-        "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "ce0f85b7-84b4-4b1b-97b8-15e02860cdfb": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Hypland_X_Godzilla_After_Party_Flyer_5x5_02b89067-29f2-475f-aa34-a1b1fe984720.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
     }
   },
   "order": [
-    "e2adfcc7-7bba-4350-931a-dbb1c6717476",
-    "32500cea-9a7d-4167-8580-633f6f2dfd2b",
+    "02bc36c1-75ad-4e00-8a37-20ce63204a67",
     "0ee52e29-326d-4768-91e5-0d45a15ad1e3",
     "main",
-    "b1cfcae7-62fc-416a-9d01-afdaf25e2fd2",
-    "02bc36c1-75ad-4e00-8a37-20ce63204a67",
-    "ce0f85b7-84b4-4b1b-97b8-15e02860cdfb"
+    "b1cfcae7-62fc-416a-9d01-afdaf25e2fd2"
   ]
 }
