@@ -6,7 +6,7 @@
         "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_2546.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_2808.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -16,7 +16,7 @@
         "template--16151345561763__02bc36c1-75ad-4e00-8a37-20ce63204a67-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_25462.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_2812.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -51,14 +51,14 @@
         "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<h1><strong>HYPLAND X HUNTER X HUNTER!<\/strong><\/h1>",
+            "heading": "<h1><strong>HYPLAND SHERPA FLEECE!<\/strong><\/h1>",
             "heading_size": "hxl"
           }
         },
         "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481": {
           "type": "heading",
           "settings": {
-            "heading": "<h4><strong>Hypland x HXH Sherpas release ONLINE on January 13th at 9am PST!<\/strong><\/h4>",
+            "heading": "<h4><strong>Hypland x INUYASHA & YU-GI-OH! Sherpas release ONLINE on January 27th at 9am PST!<\/strong><\/h4>",
             "heading_size": "h0"
           }
         }
