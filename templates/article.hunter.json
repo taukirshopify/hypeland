@@ -662,6 +662,33 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_wxEGeK": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4EGRrh": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YfDn3q": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -669,7 +696,10 @@
         "column_4rMeix",
         "column_4NttFY",
         "column_VA8tFR",
-        "column_3ncWxm"
+        "column_3ncWxm",
+        "column_wxEGeK",
+        "column_4EGRrh",
+        "column_YfDn3q"
       ],
       "settings": {
         "title": "",
