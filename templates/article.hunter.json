@@ -773,6 +773,46 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_VN4pX3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HOODIE-BLACK_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VJaY4U": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HOODIE-RUST_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_r39miw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TEE-CANDLES_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6NkwrY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TEE-BLACK-WHITE_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -791,7 +831,11 @@
         "column_jGR3UX",
         "column_cXPaQe",
         "column_fa8CEK",
-        "column_FiFqHf"
+        "column_FiFqHf",
+        "column_VN4pX3",
+        "column_VJaY4U",
+        "column_r39miw",
+        "column_6NkwrY"
       ],
       "settings": {
         "title": "",
