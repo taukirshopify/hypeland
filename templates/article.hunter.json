@@ -653,13 +653,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_3ncWxm": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_Lx9fpQ",
         "column_4rMeix",
         "column_4NttFY",
-        "column_VA8tFR"
+        "column_VA8tFR",
+        "column_3ncWxm"
       ],
       "settings": {
         "title": "",
