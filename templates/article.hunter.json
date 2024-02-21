@@ -693,6 +693,55 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_YH3U6D": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SHERPA_BLACK-WHITE_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pTAyib": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SHERPA_BLACK-WHITE_2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gACNkT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SWEATER-NATURAL_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3QVqJC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SWEATER-NATURAL_2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jGR3UX": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -703,7 +752,12 @@
         "column_4EGRrh",
         "column_YfDn3q",
         "column_3ncWxm",
-        "column_wxEGeK"
+        "column_wxEGeK",
+        "column_YH3U6D",
+        "column_pTAyib",
+        "column_gACNkT",
+        "column_3QVqJC",
+        "column_jGR3UX"
       ],
       "settings": {
         "title": "",
