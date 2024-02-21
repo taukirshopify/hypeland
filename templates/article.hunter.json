@@ -654,27 +654,10 @@
             "link": ""
           }
         },
-        "column_3ncWxm": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_wxEGeK": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_4EGRrh": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/TRUCKER-JACKET_1.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -684,6 +667,27 @@
         "column_YfDn3q": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/TRUCKER-JACKET_2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3ncWxm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAMP_SHIRT_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wxEGeK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAMP_SHIRT_2.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -696,10 +700,10 @@
         "column_4rMeix",
         "column_4NttFY",
         "column_VA8tFR",
-        "column_3ncWxm",
-        "column_wxEGeK",
         "column_4EGRrh",
-        "column_YfDn3q"
+        "column_YfDn3q",
+        "column_3ncWxm",
+        "column_wxEGeK"
       ],
       "settings": {
         "title": "",
