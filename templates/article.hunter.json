@@ -624,6 +624,16 @@
             "link": ""
           }
         },
+        "column_4rMeix": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BLANKET-BLACK-WHITE_2-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_4NttFY": {
           "type": "column",
           "settings": {
@@ -637,8 +647,9 @@
         "column_VA8tFR": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/BLANKET-BLACK-WHITE_1-1.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -646,6 +657,7 @@
       },
       "block_order": [
         "column_Lx9fpQ",
+        "column_4rMeix",
         "column_4NttFY",
         "column_VA8tFR"
       ],
