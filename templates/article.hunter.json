@@ -737,8 +737,39 @@
         "column_jGR3UX": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/SWEATER-GREY_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cXPaQe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SWEATER-GREY_2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fa8CEK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PANTS-BLACK_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FiFqHf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PANTS-BLACK_2.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -757,7 +788,10 @@
         "column_pTAyib",
         "column_gACNkT",
         "column_3QVqJC",
-        "column_jGR3UX"
+        "column_jGR3UX",
+        "column_cXPaQe",
+        "column_fa8CEK",
+        "column_FiFqHf"
       ],
       "settings": {
         "title": "",
