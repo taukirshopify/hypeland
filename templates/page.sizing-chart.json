@@ -15,22 +15,6 @@
         "h2": "PLEASE CHECK BELOW FOR SIZING & MEASUREMENTS"
       }
     },
-    "image_banner_bjYQTA": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot-2024-02-21-at-8.50.38_PM.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "image_banner_6pGhi3": {
       "type": "image-banner",
       "settings": {
@@ -78,14 +62,30 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "image_banner_bjYQTA": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot-2024-02-21-at-8.50.38_PM.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
     }
   },
   "order": [
     "main",
     "8b484243-39c6-4780-92af-ca472c5a57ab",
-    "image_banner_bjYQTA",
     "image_banner_6pGhi3",
     "image_banner_WJUHT8",
-    "image_banner_z4Xdq3"
+    "image_banner_z4Xdq3",
+    "image_banner_bjYQTA"
   ]
 }
