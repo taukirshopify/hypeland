@@ -174,15 +174,14 @@
             "type": "Announce",
             "settings": {
               "url": "",
-              "text": "HYPLAND SHERPA FLEECE RELEASE SATURDAY 1\/27 AT 9AM PST"
+              "text": "HYPLAND X JUNJI ITO RELEASE ON 2\/24 AT 9AM PST!"
             }
           },
           "c57b0f78-9d9b-4940-9872-3664e527005a": {
             "type": "Announce",
-            "disabled": true,
             "settings": {
               "url": "",
-              "text": ""
+              "text": "HYPLAND X JUNJI ITO RELEASE ON 2\/24 AT 9AM PST!"
             }
           }
         },
