@@ -3,6 +3,16 @@
     "ed6e5eea-4e23-4a2c-b12d-4bb38d4fc245": {
       "type": "custom-bannar",
       "blocks": {
+        "26bad4ed-79f5-46be-aea7-d86a802ec99d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/junji16.jpg",
+            "h1": "HYPLAND X JUNJI ITO RELEASES SATURDAY!",
+            "p": "",
+            "url": "shopify:\/\/blogs\/news\/junji-ito",
+            "shop": "MORE INFO"
+          }
+        },
         "0c2f350f-4608-45b7-a894-4a3493eb1d0b": {
           "type": "image",
           "settings": {
@@ -21,16 +31,6 @@
             "p": "",
             "url": "shopify:\/\/collections\/godzilla",
             "shop": "SHOP NOW"
-          }
-        },
-        "26bad4ed-79f5-46be-aea7-d86a802ec99d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/junji16.jpg",
-            "h1": "HYPLAND X JUNJI ITO RELEASES SATURDAY!",
-            "p": "",
-            "url": "shopify:\/\/blogs\/news\/junji-ito",
-            "shop": "MORE INFO"
           }
         },
         "c9452307-a542-4376-8887-b3e75314f62a": {
@@ -96,9 +96,9 @@
         }
       },
       "block_order": [
+        "26bad4ed-79f5-46be-aea7-d86a802ec99d",
         "0c2f350f-4608-45b7-a894-4a3493eb1d0b",
         "6204e2c5-1681-458a-bdb5-f4d94976eb45",
-        "26bad4ed-79f5-46be-aea7-d86a802ec99d",
         "c9452307-a542-4376-8887-b3e75314f62a",
         "63064412-3937-4675-9535-e74953bfe564",
         "5c51233d-de4b-4255-8616-8a1eb6defdfe",
