@@ -524,18 +524,17 @@
             "heading_size": "h0"
           }
         },
-        "heading_P6A786": {
-          "type": "heading",
+        "text_tfDYkb": {
+          "type": "text",
           "settings": {
-            "heading": "<p>COLLECTION CONSISITS OF OVER 30 PIECES INSPIRED BY DIFFERENT MANGA IN THE JUNJI-ITO COLLECTION!<\/p>",
-            "heading_size": "h1"
+            "text": "<p><strong>Horror Manga Maestro Junji Ito Teams Up with Hypland for Haunting Streetwear Collection<\/strong><\/p><p>Renowned horror manga artist Junji Ito joins forces with streetwear brand Hypland to unveil a spine-chilling collaboration. The collection, boasting 30 eerie items, spans shirts, jackets, accessories, pants, and beyond. Blending Ito's iconic imagery with Hypland's urban flair. Drawing inspiration from Ito's captivating narratives, the collection immerses fans in a world of macabre fashion. <\/p><p>Available Saturday 2\/24 at 9am pst, this collaboration marks a fusion of two distinct worlds, offering enthusiasts a chance to wear their love for horror on their sleeves – quite literally.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16151345561763__0ee52e29-326d-4768-91e5-0d45a15ad1e3-heading-1",
         "8eb7acf8-0ee0-4cb8-822c-cf6eabb5f481",
-        "heading_P6A786"
+        "text_tfDYkb"
       ],
       "settings": {
         "desktop_content_position": "center",
