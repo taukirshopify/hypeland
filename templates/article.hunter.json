@@ -713,26 +713,6 @@
             "link": ""
           }
         },
-        "column_3ncWxm": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CAMP_SHIRT_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_wxEGeK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CAMP_SHIRT_2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_YH3U6D": {
           "type": "column",
           "settings": {
@@ -827,6 +807,26 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/PANTS-BLACK_2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3ncWxm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAMP_SHIRT_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wxEGeK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAMP_SHIRT_2.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -1085,8 +1085,6 @@
         "column_rUwJQq",
         "column_4EGRrh",
         "column_YfDn3q",
-        "column_3ncWxm",
-        "column_wxEGeK",
         "column_YH3U6D",
         "column_pTAyib",
         "column_gACNkT",
@@ -1097,6 +1095,8 @@
         "column_CkafNg",
         "column_fa8CEK",
         "column_FiFqHf",
+        "column_3ncWxm",
+        "column_wxEGeK",
         "column_VN4pX3",
         "column_VJaY4U",
         "column_WR3CRV",
