@@ -923,6 +923,16 @@
             "link": ""
           }
         },
+        "column_YhW8nc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TEE-BLACK-GOD-SAVE_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_fAwTCa": {
           "type": "column",
           "settings": {
@@ -1062,34 +1072,6 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_YhW8nc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TEE-BLACK-GOD-SAVE_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_rERNqr": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_MC9YkM": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -1124,6 +1106,7 @@
         "column_JXM6An",
         "column_HeHBmk",
         "column_fr8y3b",
+        "column_YhW8nc",
         "column_fAwTCa",
         "column_jceEQ3",
         "column_Q9g7XT",
@@ -1137,10 +1120,7 @@
         "column_rUwJQq",
         "column_UnpXfL",
         "column_XQ3QQF",
-        "column_mhbYjY",
-        "column_YhW8nc",
-        "column_rERNqr",
-        "column_MC9YkM"
+        "column_mhbYjY"
       ],
       "settings": {
         "title": "",
