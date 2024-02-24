@@ -753,6 +753,26 @@
             "link": ""
           }
         },
+        "column_8aWyHy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JACKET-BLACK_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CkafNg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JACKET-BLACK_2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_fa8CEK": {
           "type": "column",
           "settings": {
@@ -933,31 +953,12 @@
             "link": ""
           }
         },
-        "column_8aWyHy": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JACKET-BLACK_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_CkafNg": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JACKET-BLACK_2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_BmNKYT": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/LS-TEE-BLACK-BLUE_1.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -965,8 +966,9 @@
         "column_UTyPEX": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/LS-TEE-BLACK-BLUE_2.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -974,8 +976,9 @@
         "column_XddLmM": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/LS-TEE-BLACK-PINK_1.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -983,8 +986,9 @@
         "column_qPfgMd": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/LS-TEE-BLACK-PINK_2.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -992,8 +996,9 @@
         "column_6r8nhb": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/HAT-BLACK_1.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -1001,8 +1006,9 @@
         "column_wfJywb": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/HAT-BLACK_2.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -1023,6 +1029,8 @@
         "column_3QVqJC",
         "column_jGR3UX",
         "column_cXPaQe",
+        "column_8aWyHy",
+        "column_CkafNg",
         "column_fa8CEK",
         "column_FiFqHf",
         "column_VN4pX3",
@@ -1041,8 +1049,6 @@
         "column_fAwTCa",
         "column_jceEQ3",
         "column_Q9g7XT",
-        "column_8aWyHy",
-        "column_CkafNg",
         "column_BmNKYT",
         "column_UTyPEX",
         "column_XddLmM",
